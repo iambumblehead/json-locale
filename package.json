@@ -15,7 +15,8 @@
       "cldr"
   ],
   "devDependencies" : {
-      "optimist" : "0.4.0"
+      "optimist" : "0.4.0",
+      "node-fs" : ">=0.1.5"
   },
   "readmeFilename": "README.md",
   "description": "Unicode Consortion JSON locale files."

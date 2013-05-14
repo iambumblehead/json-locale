@@ -17,28 +17,31 @@ var converter = {
       if (err) return fn(err);
 
       filenameArr = filenameArr.filter(function (filename) {
-        return filename.match(/^\w\w\.xml/) ? true : false;
+        return filename.match(/\.json$/) ? true : false;
       });      
 
+
+      console.log(opts, opts.inputDir, opts.outputDir);
       fileObjArr = filenameArr.map(function (filename) {
         return FileObj.getNew({
           filename : filename,
           inputDir : opts.inputDir,
-          outputDIr : opts.outputDir
+          outputDir : opts.outputDir
         });
       });
 
       (function next(x, fileObj) {
         if (!x--) return fn(null, '[...] done.'); 
         fileObj = fileObjArr[x];
-        fileObj.getFiltered(fileObj, opts, function (err, assocContentObj) {
+        fileObj.getFiltered(fileObj, opts, function (err, filteredObj) {
           if (err) return fn(err);
-          fileObj.writeObjJSON(assocContentObj, function (err, res) {
+          fileObj.writeObjJSON(filteredObj, function (err, res) {
             if (err) return fn(err);
             next(x);
           });
         });
       }(fileObjArr.length));      
+
     });
   }
 };
