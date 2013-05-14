@@ -1,0 +1,218 @@
+{
+  "version": {
+    "@number": "$Revision: 7610 $"
+  },
+  "generation": {
+    "@date": "$Date: 2012-08-21 01:49:42 -0500 (Tue, 21 Aug 2012) $"
+  },
+  "numberingSystems": {
+    "armn": {
+      "@type": "algorithmic",
+      "@rules": "armenian-upper"
+    },
+    "armnlow": {
+      "@type": "algorithmic",
+      "@rules": "armenian-lower"
+    },
+    "ethi": {
+      "@type": "algorithmic",
+      "@rules": "ethiopic"
+    },
+    "geor": {
+      "@type": "algorithmic",
+      "@rules": "georgian"
+    },
+    "grek": {
+      "@type": "algorithmic",
+      "@rules": "greek-upper"
+    },
+    "greklow": {
+      "@type": "algorithmic",
+      "@rules": "greek-lower"
+    },
+    "hans": {
+      "@type": "algorithmic",
+      "@rules": "zh/SpelloutRules/spellout-cardinal"
+    },
+    "hansfin": {
+      "@type": "algorithmic",
+      "@rules": "zh/SpelloutRules/spellout-cardinal-financial"
+    },
+    "hant": {
+      "@type": "algorithmic",
+      "@rules": "zh_Hant/SpelloutRules/spellout-cardinal"
+    },
+    "hantfin": {
+      "@type": "algorithmic",
+      "@rules": "zh_Hant/SpelloutRules/spellout-cardinal-financial"
+    },
+    "hebr": {
+      "@type": "algorithmic",
+      "@rules": "hebrew"
+    },
+    "jpan": {
+      "@type": "algorithmic",
+      "@rules": "ja/SpelloutRules/spellout-cardinal"
+    },
+    "jpanfin": {
+      "@type": "algorithmic",
+      "@rules": "ja/SpelloutRules/spellout-cardinal-financial"
+    },
+    "roman": {
+      "@type": "algorithmic",
+      "@rules": "roman-upper"
+    },
+    "romanlow": {
+      "@type": "algorithmic",
+      "@rules": "roman-lower"
+    },
+    "taml": {
+      "@type": "algorithmic",
+      "@rules": "tamil"
+    },
+    "arab": {
+      "@digits": "٠١٢٣٤٥٦٧٨٩",
+      "@type": "numeric"
+    },
+    "arabext": {
+      "@digits": "۰۱۲۳۴۵۶۷۸۹",
+      "@type": "numeric"
+    },
+    "bali": {
+      "@digits": "᭐᭑᭒᭓᭔᭕᭖᭗᭘᭙",
+      "@type": "numeric"
+    },
+    "beng": {
+      "@digits": "০১২৩৪৫৬৭৮৯",
+      "@type": "numeric"
+    },
+    "cham": {
+      "@digits": "꩐꩑꩒꩓꩔꩕꩖꩗꩘꩙",
+      "@type": "numeric"
+    },
+    "deva": {
+      "@digits": "०१२३४५६७८९",
+      "@type": "numeric"
+    },
+    "fullwide": {
+      "@digits": "０１２３４５６７８９",
+      "@type": "numeric"
+    },
+    "gujr": {
+      "@digits": "૦૧૨૩૪૫૬૭૮૯",
+      "@type": "numeric"
+    },
+    "guru": {
+      "@digits": "੦੧੨੩੪੫੬੭੮੯",
+      "@type": "numeric"
+    },
+    "hanidec": {
+      "@digits": "〇一二三四五六七八九",
+      "@type": "numeric"
+    },
+    "java": {
+      "@digits": "꧐꧑꧒꧓꧔꧕꧖꧗꧘꧙",
+      "@type": "numeric"
+    },
+    "kali": {
+      "@digits": "꤀꤁꤂꤃꤄꤅꤆꤇꤈꤉",
+      "@type": "numeric"
+    },
+    "khmr": {
+      "@digits": "០១២៣៤៥៦៧៨៩",
+      "@type": "numeric"
+    },
+    "knda": {
+      "@digits": "೦೧೨೩೪೫೬೭೮೯",
+      "@type": "numeric"
+    },
+    "lana": {
+      "@digits": "᪀᪁᪂᪃᪄᪅᪆᪇᪈᪉",
+      "@type": "numeric"
+    },
+    "lanatham": {
+      "@digits": "᪐᪑᪒᪓᪔᪕᪖᪗᪘᪙",
+      "@type": "numeric"
+    },
+    "laoo": {
+      "@digits": "໐໑໒໓໔໕໖໗໘໙",
+      "@type": "numeric"
+    },
+    "latn": {
+      "@digits": "0123456789",
+      "@type": "numeric"
+    },
+    "lepc": {
+      "@digits": "᱀᱁᱂᱃᱄᱅᱆᱇᱈᱉",
+      "@type": "numeric"
+    },
+    "limb": {
+      "@digits": "᥆᥇᥈᥉᥊᥋᥌᥍᥎᥏",
+      "@type": "numeric"
+    },
+    "mlym": {
+      "@digits": "൦൧൨൩൪൫൬൭൮൯",
+      "@type": "numeric"
+    },
+    "mong": {
+      "@digits": "᠐᠑᠒᠓᠔᠕᠖᠗᠘᠙",
+      "@type": "numeric"
+    },
+    "mtei": {
+      "@digits": "꯰꯱꯲꯳꯴꯵꯶꯷꯸꯹",
+      "@type": "numeric"
+    },
+    "mymr": {
+      "@digits": "၀၁၂၃၄၅၆၇၈၉",
+      "@type": "numeric"
+    },
+    "mymrshan": {
+      "@digits": "႐႑႒႓႔႕႖႗႘႙",
+      "@type": "numeric"
+    },
+    "nkoo": {
+      "@digits": "߉߈߇߆߅߄߃߂߁߀",
+      "@type": "numeric"
+    },
+    "olck": {
+      "@digits": "᱐᱑᱒᱓᱔᱕᱖᱗᱘᱙",
+      "@type": "numeric"
+    },
+    "orya": {
+      "@digits": "୦୧୨୩୪୫୬୭୮୯",
+      "@type": "numeric"
+    },
+    "saur": {
+      "@digits": "꣐꣑꣒꣓꣔꣕꣖꣗꣘꣙",
+      "@type": "numeric"
+    },
+    "sund": {
+      "@digits": "᮰᮱᮲᮳᮴᮵᮶᮷᮸᮹",
+      "@type": "numeric"
+    },
+    "talu": {
+      "@digits": "᧐᧑᧒᧓᧔᧕᧖᧗᧘᧙",
+      "@type": "numeric"
+    },
+    "tamldec": {
+      "@digits": "௦௧௨௩௪௫௬௭௮௯",
+      "@type": "numeric"
+    },
+    "telu": {
+      "@digits": "౦౧౨౩౪౫౬౭౮౯",
+      "@type": "numeric"
+    },
+    "thai": {
+      "@digits": "๐๑๒๓๔๕๖๗๘๙",
+      "@type": "numeric"
+    },
+    "tibt": {
+      "@digits": "༠༡༢༣༤༥༦༧༨༩",
+      "@type": "numeric"
+    },
+    "vaii": {
+      "@digits": "꘠꘡꘢꘣꘤꘥꘦꘧꘨꘩",
+      "@type": "numeric"
+    }
+  }
+}

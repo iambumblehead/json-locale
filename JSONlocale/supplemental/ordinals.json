@@ -1,0 +1,38 @@
+{
+  "version": {
+    "@number": "$Revision$"
+  },
+  "generation": {
+    "@date": "$Date$"
+  },
+  "ordinal": {
+    "pluralRules": {
+      "@locales": "af am ar bg cs da de el es et eu fa fi gl hr id is iw ja kn ko lt lv ml nl no pl pt ru sk sl sr sw ta te th tr uk ur zh"
+    }
+      "pluralRule": "n mod 10 is 3 and n mod 100 is not 13",
+      "pluralRule": "n is 4",
+      "pluralRule": "n is 4",
+      "pluralRule": "n is 4",
+      "pluralRule": "n is 4",
+      "pluralRule": "n in 2..9",
+      "pluralRule": "n in 11,8,80,800",
+      "pluralRule": "n is 6",
+      "pluralRule": "n is 6",
+      "pluralRule": "n in 10..19,100..199,1000..1999",
+      "pluralRule": "n is 1",
+      "pluralRule": "n in 1,5",
+      "pluralRule": "n mod 10 in 1,2 and n mod 100 not in 11,12",
+      "pluralRule": "n mod 10 is 1 and n mod 100 is not 11",
+      "pluralRule": "n in 1,3",
+      "pluralRule": "n is 1",
+      "pluralRule": "n is 1",
+      "pluralRule": "n in 1,5,7,8,9,10",
+      "pluralRule": "n is 1",
+      "pluralRule": "n mod 10 is 2 and n mod 100 is not 12",
+      "pluralRule": "n is 2",
+      "pluralRule": "n in 2,3",
+      "pluralRule": "n in 2,3",
+      "pluralRule": "n in 2,3"
+    }
+  }
+}

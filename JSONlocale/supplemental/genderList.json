@@ -1,0 +1,19 @@
+{
+  "version": {
+    "@number": "$Revision$"
+  },
+  "generation": {
+    "@date": "$Date$"
+  },
+  "gender": {
+    "maleTaints": {
+      "@locales": "ar ca cs hr es fr he hi it lt lv mr nl pl pt ro ru sk sl sr uk ur zh zh_Hant"
+    },
+    "mixedNeutral": {
+      "@locales": "el is"
+    },
+    "neutral": {
+      "@locales": "af bn bg da de en et eu fa fil fi gu hu id ja kn ko ml ms no sv sw ta te th tr vi zu"
+    }
+  }
+}

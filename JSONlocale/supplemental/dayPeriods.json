@@ -1,0 +1,616 @@
+{
+  "version": {
+    "@number": "$Revision: 7722 $"
+  },
+  "generation": {
+    "@date": "$Date: 2012-09-12 13:41:52 -0500 (Wed, 12 Sep 2012) $"
+  },
+  "dayPeriodRuleSet": {
+    "bg": [
+      {
+        "afternoon": {
+          "@before": "18:00",
+          "@from": "15:00"
+        }
+      },
+      {
+        "earlyMorning": {
+          "@before": "6:00",
+          "@from": "5:00"
+        }
+      },
+      {
+        "evening": {
+          "@before": "20:00",
+          "@from": "18:00"
+        }
+      },
+      {
+        "lateEvening": {
+          "@before": "22:00",
+          "@from": "20:00"
+        }
+      },
+      {
+        "lateMorning": {
+          "@before": "12:00",
+          "@from": "10:00"
+        }
+      },
+      {
+        "midDay": {
+          "@after": "12:00",
+          "@before": "15:00"
+        }
+      },
+      {
+        "morning": {
+          "@before": "10:00",
+          "@from": "6:00"
+        }
+      },
+      {
+        "night": {
+          "@before": "24:00",
+          "@from": "22:00"
+        }
+      },
+      {
+        "noon": {
+          "@at": "12:00"
+        }
+      },
+      {
+        "weeHours": {
+          "@before": "5:00",
+          "@from": "00:00"
+        }
+      }
+    ],
+    "chr": [
+      {
+        "am": {
+          "@before": "12:00",
+          "@from": "0:00"
+        }
+      },
+      {
+        "noon": {
+          "@at": "12:00"
+        }
+      },
+      {
+        "pm": {
+          "@after": "12:00",
+          "@before": "24:00"
+        }
+      }
+    ],
+    "da": [
+      {
+        "afternoon": {
+          "@after": "12:00",
+          "@before": "17:00"
+        }
+      },
+      {
+        "earlyMorning": {
+          "@before": "9:00",
+          "@from": "0:00"
+        }
+      },
+      {
+        "evening": {
+          "@before": "21:00",
+          "@from": "17:00"
+        }
+      },
+      {
+        "morning": {
+          "@before": "12:00",
+          "@from": "9:00"
+        }
+      },
+      {
+        "night": {
+          "@before": "24:00",
+          "@from": "21:00"
+        }
+      },
+      {
+        "noon": {
+          "@at": "12:00"
+        }
+      }
+    ],
+    "de": [
+      {
+        "afternoon": {
+          "@after": "12:00",
+          "@before": "17:00"
+        }
+      },
+      {
+        "earlyMorning": {
+          "@before": "9:00",
+          "@from": "0:00"
+        }
+      },
+      {
+        "evening": {
+          "@before": "21:00",
+          "@from": "17:00"
+        }
+      },
+      {
+        "morning": {
+          "@before": "12:00",
+          "@from": "9:00"
+        }
+      },
+      {
+        "night": {
+          "@before": "24:00",
+          "@from": "21:00"
+        }
+      },
+      {
+        "noon": {
+          "@at": "12:00"
+        }
+      }
+    ],
+    "ee": [
+      {
+        "afternoon": {
+          "@before": "18:00",
+          "@from": "14:00"
+        }
+      },
+      {
+        "earlyAfternoon": {
+          "@before": "14:00",
+          "@from": "12:00"
+        }
+      },
+      {
+        "evening": {
+          "@before": "21:00",
+          "@from": "18:00"
+        }
+      },
+      {
+        "morning": {
+          "@before": "12:00",
+          "@from": "05:00"
+        }
+      },
+      {
+        "night": {
+          "@before": "4:00",
+          "@from": "21:00"
+        }
+      },
+      {
+        "weeHours": {
+          "@before": "05:00",
+          "@from": "04:00"
+        }
+      }
+    ],
+    "en": [
+      {
+        "am": {
+          "@before": "12:00",
+          "@from": "0:00"
+        }
+      },
+      {
+        "noon": {
+          "@at": "12:00"
+        }
+      },
+      {
+        "pm": {
+          "@after": "12:00",
+          "@before": "24:00"
+        }
+      }
+    ],
+    "fa": [
+      {
+        "afternoon": {
+          "@before": "19:00",
+          "@from": "16:00"
+        }
+      },
+      {
+        "earlyMorning": {
+          "@before": "06:00",
+          "@from": "01:00"
+        }
+      },
+      {
+        "midDay": {
+          "@after": "12:00",
+          "@before": "16:00"
+        }
+      },
+      {
+        "morning": {
+          "@before": "12:00",
+          "@from": "06:00"
+        }
+      },
+      {
+        "night": {
+          "@before": "24:00",
+          "@from": "19:00"
+        }
+      },
+      {
+        "noon": {
+          "@at": "12:00"
+        }
+      },
+      {
+        "weeHours": {
+          "@before": "01:00",
+          "@from": "00:00"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "afternoon": {
+          "@after": "12:00",
+          "@before": "19:00"
+        }
+      },
+      {
+        "morning": {
+          "@before": "12:00",
+          "@from": "00:00"
+        }
+      },
+      {
+        "night": {
+          "@before": "24:00",
+          "@from": "19:00"
+        }
+      },
+      {
+        "noon": {
+          "@at": "12:00"
+        }
+      }
+    ],
+    "hr": [
+      {
+        "afternoon": {
+          "@after": "12:00",
+          "@before": "17:00"
+        }
+      },
+      {
+        "earlyMorning": {
+          "@before": "9:00",
+          "@from": "0:00"
+        }
+      },
+      {
+        "evening": {
+          "@before": "21:00",
+          "@from": "17:00"
+        }
+      },
+      {
+        "morning": {
+          "@before": "12:00",
+          "@from": "9:00"
+        }
+      },
+      {
+        "night": {
+          "@before": "24:00",
+          "@from": "21:00"
+        }
+      },
+      {
+        "noon": {
+          "@at": "12:00"
+        }
+      }
+    ],
+    "id": [
+      {
+        "afternoon": {
+          "@before": "18:00",
+          "@from": "15:00"
+        }
+      },
+      {
+        "earlyMorning": {
+          "@before": "5:00",
+          "@from": "3:00"
+        }
+      },
+      {
+        "midDay": {
+          "@before": "15:00",
+          "@from": "10:00"
+        }
+      },
+      {
+        "morning": {
+          "@before": "10:00",
+          "@from": "5:00"
+        }
+      },
+      {
+        "night": {
+          "@before": "3:00",
+          "@from": "18:00"
+        }
+      }
+    ],
+    "nl": [
+      {
+        "afternoon": {
+          "@after": "12:00",
+          "@before": "17:00"
+        }
+      },
+      {
+        "earlyMorning": {
+          "@before": "9:00",
+          "@from": "0:00"
+        }
+      },
+      {
+        "evening": {
+          "@before": "21:00",
+          "@from": "17:00"
+        }
+      },
+      {
+        "morning": {
+          "@before": "12:00",
+          "@from": "9:00"
+        }
+      },
+      {
+        "night": {
+          "@before": "24:00",
+          "@from": "21:00"
+        }
+      },
+      {
+        "noon": {
+          "@at": "12:00"
+        }
+      }
+    ],
+    "pl": [
+      {
+        "afternoon": {
+          "@after": "12:00",
+          "@before": "16:00"
+        }
+      },
+      {
+        "earlyMorning": {
+          "@before": "5:00",
+          "@from": "3:00"
+        }
+      },
+      {
+        "evening": {
+          "@before": "22:00",
+          "@from": "16:00"
+        }
+      },
+      {
+        "lateMorning": {
+          "@before": "12:00",
+          "@from": "10:00"
+        }
+      },
+      {
+        "morning": {
+          "@before": "10:00",
+          "@from": "5:00"
+        }
+      },
+      {
+        "night": {
+          "@before": "3:00",
+          "@from": "22:00"
+        }
+      },
+      {
+        "noon": {
+          "@at": "12:00"
+        }
+      }
+    ],
+    "pt": [
+      {
+        "afternoon": {
+          "@after": "12:00",
+          "@before": "19:00"
+        }
+      },
+      {
+        "morning": {
+          "@before": "12:00",
+          "@from": "00:00"
+        }
+      },
+      {
+        "night": {
+          "@before": "24:00",
+          "@from": "19:00"
+        }
+      },
+      {
+        "noon": {
+          "@at": "12:00"
+        }
+      }
+    ],
+    "root": [
+      {
+        "am": {
+          "@before": "12:00",
+          "@from": "0:00"
+        }
+      },
+      {
+        "pm": {
+          "@before": "24:00",
+          "@from": "12:00"
+        }
+      }
+    ],
+    "ta": [
+      {
+        "afternoon": {
+          "@before": "18:00",
+          "@from": "14:00"
+        }
+      },
+      {
+        "earlyMorning": {
+          "@before": "6:00",
+          "@from": "2:00"
+        }
+      },
+      {
+        "evening": {
+          "@before": "22:00",
+          "@from": "18:00"
+        }
+      },
+      {
+        "lateMorning": {
+          "@before": "14:00",
+          "@from": "10:00"
+        }
+      },
+      {
+        "morning": {
+          "@before": "10:00",
+          "@from": "6:00"
+        }
+      },
+      {
+        "night": {
+          "@before": "2:00",
+          "@from": "22:00"
+        }
+      }
+    ],
+    "te": [
+      {
+        "afternoon": {
+          "@after": "12:00",
+          "@before": "15:00"
+        }
+      },
+      {
+        "earlyMorning": {
+          "@before": "6:00",
+          "@from": "3:00"
+        }
+      },
+      {
+        "evening": {
+          "@before": "18:00",
+          "@from": "15:00"
+        }
+      },
+      {
+        "morning": {
+          "@before": "12:00",
+          "@from": "6:00"
+        }
+      },
+      {
+        "night": {
+          "@before": "3:00",
+          "@from": "18:00"
+        }
+      },
+      {
+        "noon": {
+          "@at": "12:00"
+        }
+      }
+    ],
+    "uk": [
+      {
+        "afternoon": {
+          "@before": "17:00",
+          "@from": "12:00"
+        }
+      },
+      {
+        "evening": {
+          "@before": "24:00",
+          "@from": "17:00"
+        }
+      },
+      {
+        "morning": {
+          "@before": "12:00",
+          "@from": "3:00"
+        }
+      },
+      {
+        "night": {
+          "@before": "3:00",
+          "@from": "00:00"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "afternoon": {
+          "@before": "18:00",
+          "@from": "13:00"
+        }
+      },
+      {
+        "earlyMorning": {
+          "@before": "6:00",
+          "@from": "4:00"
+        }
+      },
+      {
+        "midDay": {
+          "@before": "13:00",
+          "@from": "12:00"
+        }
+      },
+      {
+        "morning": {
+          "@before": "12:00",
+          "@from": "6:00"
+        }
+      },
+      {
+        "night": {
+          "@before": "24:00",
+          "@from": "18:00"
+        }
+      },
+      {
+        "weeHours": {
+          "@before": "4:00",
+          "@from": "00:00"
+        }
+      }
+    ]
+  }
+}

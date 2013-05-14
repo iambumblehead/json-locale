@@ -1,0 +1,546 @@
+{
+  "version": {
+    "@number": "$Revision: 7657 $"
+  },
+  "generation": {
+    "@date": "$Date: 2012-08-29 13:20:56 -0500 (Wed, 29 Aug 2012) $"
+  },
+  "plurals": {
+    "az": "",
+    "bm": "",
+    "bo": "",
+    "dz": "",
+    "fa": "",
+    "id": "",
+    "ig": "",
+    "ii": "",
+    "hu": "",
+    "ja": "",
+    "jv": "",
+    "ka": "",
+    "kde": "",
+    "kea": "",
+    "km": "",
+    "kn": "",
+    "ko": "",
+    "lo": "",
+    "ms": "",
+    "my": "",
+    "sah": "",
+    "ses": "",
+    "sg": "",
+    "th": "",
+    "to": "",
+    "tr": "",
+    "vi": "",
+    "wo": "",
+    "yo": "",
+    "zh": "",
+    "af": {
+      "pluralRule": "n is 1"
+    },
+    "ak": {
+      "pluralRule": "n in 0..1"
+    },
+    "am": {
+      "pluralRule": "n in 0..1"
+    },
+    "ar": {
+      "pluralRule": "n mod 100 in 3..10",
+      "pluralRule": "n mod 100 in 11..99",
+      "pluralRule": "n is 1",
+      "pluralRule": "n is 2",
+      "pluralRule": "n is 0"
+    },
+    "asa": {
+      "pluralRule": "n is 1"
+    },
+    "ast": {
+      "pluralRule": "n is 1"
+    },
+    "be": {
+      "pluralRule": "n mod 10 in 2..4 and n mod 100 not in 12..14",
+      "pluralRule": "n mod 10 is 0 or n mod 10 in 5..9 or n mod 100 in 11..14",
+      "pluralRule": "n mod 10 is 1 and n mod 100 is not 11"
+    },
+    "bem": {
+      "pluralRule": "n is 1"
+    },
+    "bez": {
+      "pluralRule": "n is 1"
+    },
+    "bg": {
+      "pluralRule": "n is 1"
+    },
+    "bh": {
+      "pluralRule": "n in 0..1"
+    },
+    "bn": {
+      "pluralRule": "n is 1"
+    },
+    "br": {
+      "pluralRule": "n mod 10 in 3..4,9 and n mod 100 not in 10..19,70..79,90..99",
+      "pluralRule": "n is not 0 and n mod 1000000 is 0",
+      "pluralRule": "n mod 10 is 1 and n mod 100 not in 11,71,91",
+      "pluralRule": "n mod 10 is 2 and n mod 100 not in 12,72,92"
+    },
+    "brx": {
+      "pluralRule": "n is 1"
+    },
+    "bs": {
+      "pluralRule": "n mod 10 in 2..4 and n mod 100 not in 12..14",
+      "pluralRule": "n mod 10 is 0 or n mod 10 in 5..9 or n mod 100 in 11..14",
+      "pluralRule": "n mod 10 is 1 and n mod 100 is not 11"
+    },
+    "ca": {
+      "pluralRule": "n is 1"
+    },
+    "cgg": {
+      "pluralRule": "n is 1"
+    },
+    "chr": {
+      "pluralRule": "n is 1"
+    },
+    "ckb": {
+      "pluralRule": "n is 1"
+    },
+    "cs": {
+      "pluralRule": "n in 2..4",
+      "pluralRule": "n is 1"
+    },
+    "cy": {
+      "pluralRule": "n is 3",
+      "pluralRule": "n is 6",
+      "pluralRule": "n is 1",
+      "pluralRule": "n is 2",
+      "pluralRule": "n is 0"
+    },
+    "da": {
+      "pluralRule": "n is 1"
+    },
+    "de": {
+      "pluralRule": "n is 1"
+    },
+    "dv": {
+      "pluralRule": "n is 1"
+    },
+    "ee": {
+      "pluralRule": "n is 1"
+    },
+    "el": {
+      "pluralRule": "n is 1"
+    },
+    "en": {
+      "pluralRule": "n is 1"
+    },
+    "eo": {
+      "pluralRule": "n is 1"
+    },
+    "es": {
+      "pluralRule": "n is 1"
+    },
+    "et": {
+      "pluralRule": "n is 1"
+    },
+    "eu": {
+      "pluralRule": "n is 1"
+    },
+    "ff": {
+      "pluralRule": "n within 0..2 and n is not 2"
+    },
+    "fi": {
+      "pluralRule": "n is 1"
+    },
+    "fil": {
+      "pluralRule": "n in 0..1"
+    },
+    "fo": {
+      "pluralRule": "n is 1"
+    },
+    "fr": {
+      "pluralRule": "n within 0..2 and n is not 2"
+    },
+    "fur": {
+      "pluralRule": "n is 1"
+    },
+    "fy": {
+      "pluralRule": "n is 1"
+    },
+    "ga": {
+      "pluralRule": "n in 3..6",
+      "pluralRule": "n in 7..10",
+      "pluralRule": "n is 1",
+      "pluralRule": "n is 2"
+    },
+    "gd": {
+      "pluralRule": "n in 3..10,13..19",
+      "pluralRule": "n in 1,11",
+      "pluralRule": "n in 2,12"
+    },
+    "gl": {
+      "pluralRule": "n is 1"
+    },
+    "gsw": {
+      "pluralRule": "n is 1"
+    },
+    "gu": {
+      "pluralRule": "n is 1"
+    },
+    "guw": {
+      "pluralRule": "n in 0..1"
+    },
+    "gv": {
+      "pluralRule": "n mod 10 in 1..2 or n mod 20 is 0"
+    },
+    "ha": {
+      "pluralRule": "n is 1"
+    },
+    "haw": {
+      "pluralRule": "n is 1"
+    },
+    "he": {
+      "pluralRule": "n is not 0 AND n mod 10 is 0",
+      "pluralRule": "n is 1",
+      "pluralRule": "n is 2"
+    },
+    "hi": {
+      "pluralRule": "n in 0..1"
+    },
+    "hr": {
+      "pluralRule": "n mod 10 in 2..4 and n mod 100 not in 12..14",
+      "pluralRule": "n mod 10 is 0 or n mod 10 in 5..9 or n mod 100 in 11..14",
+      "pluralRule": "n mod 10 is 1 and n mod 100 is not 11"
+    },
+    "is": {
+      "pluralRule": "n is 1"
+    },
+    "it": {
+      "pluralRule": "n is 1"
+    },
+    "iu": {
+      "pluralRule": "n is 1",
+      "pluralRule": "n is 2"
+    },
+    "jgo": {
+      "pluralRule": "n is 1"
+    },
+    "jmc": {
+      "pluralRule": "n is 1"
+    },
+    "kab": {
+      "pluralRule": "n within 0..2 and n is not 2"
+    },
+    "kaj": {
+      "pluralRule": "n is 1"
+    },
+    "kcg": {
+      "pluralRule": "n is 1"
+    },
+    "kk": {
+      "pluralRule": "n is 1"
+    },
+    "kkj": {
+      "pluralRule": "n is 1"
+    },
+    "kl": {
+      "pluralRule": "n is 1"
+    },
+    "ks": {
+      "pluralRule": "n is 1"
+    },
+    "ksb": {
+      "pluralRule": "n is 1"
+    },
+    "ksh": {
+      "pluralRule": "n is 1",
+      "pluralRule": "n is 0"
+    },
+    "ku": {
+      "pluralRule": "n is 1"
+    },
+    "kw": {
+      "pluralRule": "n is 1",
+      "pluralRule": "n is 2"
+    },
+    "ky": {
+      "pluralRule": "n is 1"
+    },
+    "lag": {
+      "pluralRule": "n within 0..2 and n is not 0 and n is not 2",
+      "pluralRule": "n is 0"
+    },
+    "lb": {
+      "pluralRule": "n is 1"
+    },
+    "lg": {
+      "pluralRule": "n is 1"
+    },
+    "ln": {
+      "pluralRule": "n in 0..1"
+    },
+    "lt": {
+      "pluralRule": "n mod 10 in 2..9 and n mod 100 not in 11..19",
+      "pluralRule": "n mod 10 is 1 and n mod 100 not in 11..19"
+    },
+    "lv": {
+      "pluralRule": "n mod 10 is 1 and n mod 100 is not 11",
+      "pluralRule": "n is 0"
+    },
+    "mas": {
+      "pluralRule": "n is 1"
+    },
+    "mg": {
+      "pluralRule": "n in 0..1"
+    },
+    "mgo": {
+      "pluralRule": "n is 1"
+    },
+    "mk": {
+      "pluralRule": "n mod 10 is 1 and n is not 11"
+    },
+    "ml": {
+      "pluralRule": "n is 1"
+    },
+    "mn": {
+      "pluralRule": "n is 1"
+    },
+    "mo": {
+      "pluralRule": "n is 0 OR n is not 1 AND n mod 100 in 1..19",
+      "pluralRule": "n is 1"
+    },
+    "mr": {
+      "pluralRule": "n is 1"
+    },
+    "mt": {
+      "pluralRule": "n is 0 or n mod 100 in 2..10",
+      "pluralRule": "n mod 100 in 11..19",
+      "pluralRule": "n is 1"
+    },
+    "nah": {
+      "pluralRule": "n is 1"
+    },
+    "naq": {
+      "pluralRule": "n is 1",
+      "pluralRule": "n is 2"
+    },
+    "nb": {
+      "pluralRule": "n is 1"
+    },
+    "nd": {
+      "pluralRule": "n is 1"
+    },
+    "ne": {
+      "pluralRule": "n is 1"
+    },
+    "nl": {
+      "pluralRule": "n is 1"
+    },
+    "nn": {
+      "pluralRule": "n is 1"
+    },
+    "nnh": {
+      "pluralRule": "n is 1"
+    },
+    "no": {
+      "pluralRule": "n is 1"
+    },
+    "nr": {
+      "pluralRule": "n is 1"
+    },
+    "nso": {
+      "pluralRule": "n in 0..1"
+    },
+    "ny": {
+      "pluralRule": "n is 1"
+    },
+    "nyn": {
+      "pluralRule": "n is 1"
+    },
+    "om": {
+      "pluralRule": "n is 1"
+    },
+    "or": {
+      "pluralRule": "n is 1"
+    },
+    "os": {
+      "pluralRule": "n is 1"
+    },
+    "pa": {
+      "pluralRule": "n is 1"
+    },
+    "pap": {
+      "pluralRule": "n is 1"
+    },
+    "pl": {
+      "pluralRule": "n mod 10 in 2..4 and n mod 100 not in 12..14",
+      "pluralRule": "n is not 1 and n mod 10 in 0..1 or n mod 10 in 5..9 or n mod 100 in 12..14",
+      "pluralRule": "n is 1"
+    },
+    "ps": {
+      "pluralRule": "n is 1"
+    },
+    "pt": {
+      "pluralRule": "n is 1"
+    },
+    "rm": {
+      "pluralRule": "n is 1"
+    },
+    "ro": {
+      "pluralRule": "n is 0 OR n is not 1 AND n mod 100 in 1..19",
+      "pluralRule": "n is 1"
+    },
+    "rof": {
+      "pluralRule": "n is 1"
+    },
+    "ru": {
+      "pluralRule": "n mod 10 in 2..4 and n mod 100 not in 12..14",
+      "pluralRule": "n mod 10 is 0 or n mod 10 in 5..9 or n mod 100 in 11..14",
+      "pluralRule": "n mod 10 is 1 and n mod 100 is not 11"
+    },
+    "rwk": {
+      "pluralRule": "n is 1"
+    },
+    "saq": {
+      "pluralRule": "n is 1"
+    },
+    "se": {
+      "pluralRule": "n is 1",
+      "pluralRule": "n is 2"
+    },
+    "seh": {
+      "pluralRule": "n is 1"
+    },
+    "sh": {
+      "pluralRule": "n mod 10 in 2..4 and n mod 100 not in 12..14",
+      "pluralRule": "n mod 10 is 0 or n mod 10 in 5..9 or n mod 100 in 11..14",
+      "pluralRule": "n mod 10 is 1 and n mod 100 is not 11"
+    },
+    "shi": {
+      "pluralRule": "n in 2..10",
+      "pluralRule": "n within 0..1"
+    },
+    "sk": {
+      "pluralRule": "n in 2..4",
+      "pluralRule": "n is 1"
+    },
+    "sl": {
+      "pluralRule": "n mod 100 in 3..4",
+      "pluralRule": "n mod 100 is 1",
+      "pluralRule": "n mod 100 is 2"
+    },
+    "sma": {
+      "pluralRule": "n is 1",
+      "pluralRule": "n is 2"
+    },
+    "smi": {
+      "pluralRule": "n is 1",
+      "pluralRule": "n is 2"
+    },
+    "smj": {
+      "pluralRule": "n is 1",
+      "pluralRule": "n is 2"
+    },
+    "smn": {
+      "pluralRule": "n is 1",
+      "pluralRule": "n is 2"
+    },
+    "sms": {
+      "pluralRule": "n is 1",
+      "pluralRule": "n is 2"
+    },
+    "sn": {
+      "pluralRule": "n is 1"
+    },
+    "so": {
+      "pluralRule": "n is 1"
+    },
+    "sq": {
+      "pluralRule": "n is 1"
+    },
+    "sr": {
+      "pluralRule": "n mod 10 in 2..4 and n mod 100 not in 12..14",
+      "pluralRule": "n mod 10 is 0 or n mod 10 in 5..9 or n mod 100 in 11..14",
+      "pluralRule": "n mod 10 is 1 and n mod 100 is not 11"
+    },
+    "ss": {
+      "pluralRule": "n is 1"
+    },
+    "ssy": {
+      "pluralRule": "n is 1"
+    },
+    "st": {
+      "pluralRule": "n is 1"
+    },
+    "sv": {
+      "pluralRule": "n is 1"
+    },
+    "sw": {
+      "pluralRule": "n is 1"
+    },
+    "syr": {
+      "pluralRule": "n is 1"
+    },
+    "ta": {
+      "pluralRule": "n is 1"
+    },
+    "te": {
+      "pluralRule": "n is 1"
+    },
+    "teo": {
+      "pluralRule": "n is 1"
+    },
+    "ti": {
+      "pluralRule": "n in 0..1"
+    },
+    "tig": {
+      "pluralRule": "n is 1"
+    },
+    "tk": {
+      "pluralRule": "n is 1"
+    },
+    "tl": {
+      "pluralRule": "n in 0..1"
+    },
+    "tn": {
+      "pluralRule": "n is 1"
+    },
+    "ts": {
+      "pluralRule": "n is 1"
+    },
+    "tzm": {
+      "pluralRule": "n in 0..1 or n in 11..99"
+    },
+    "uk": {
+      "pluralRule": "n mod 10 in 2..4 and n mod 100 not in 12..14",
+      "pluralRule": "n mod 10 is 0 or n mod 10 in 5..9 or n mod 100 in 11..14",
+      "pluralRule": "n mod 10 is 1 and n mod 100 is not 11"
+    },
+    "ur": {
+      "pluralRule": "n is 1"
+    },
+    "ve": {
+      "pluralRule": "n is 1"
+    },
+    "vo": {
+      "pluralRule": "n is 1"
+    },
+    "vun": {
+      "pluralRule": "n is 1"
+    },
+    "wa": {
+      "pluralRule": "n in 0..1"
+    },
+    "wae": {
+      "pluralRule": "n is 1"
+    },
+    "xh": {
+      "pluralRule": "n is 1"
+    },
+    "xog": {
+      "pluralRule": "n is 1"
+    },
+    "zu": {
+      "pluralRule": "n is 1"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "json-local",
+  "version": "0.0.01",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iambumblehead/json-locale.git"
+  },
+  "keywords": [
+      "time",
+      "date",
+      "calendar",
+      "formatting",
+      "unicode",
+      "ldml",
+      "cldr"
+  ],
+  "devDependencies" : {
+      "optimist" : "0.4.0"
+  },
+  "readmeFilename": "README.md",
+  "description": "Unicode Consortion JSON locale files."
+}

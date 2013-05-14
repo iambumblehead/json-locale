@@ -1,0 +1,493 @@
+{
+  "version": {
+    "@number": "$Revision: 5028 $"
+  },
+  "generation": {
+    "@date": "$Date: 2010-08-23 13:23:28 -0500 (Mon, 23 Aug 2010) $"
+  },
+  "characters": {
+    "character-fallback": {
+      "ad": [
+        { "substitute": "-"}
+      ],
+      "ff9e": [
+        { "substitute": "゛"}
+      ],
+      "ff9f": [
+        { "substitute": "゜"}
+      ],
+      "3000": [
+        { "substitute": "  "}
+      ],
+      "2010": [
+        { "substitute": "-"}
+      ],
+      "2011": [
+        { "substitute": "-"}
+      ],
+      "2012": [
+        { "substitute": "-"}
+      ],
+      "2013": [
+        { "substitute": "-"}
+      ],
+      "2014": [
+        { "substitute": "-"}
+      ],
+      "2015": [
+        { "substitute": "—"},
+        { "substitute": "-"}
+      ],
+      "66b": [
+        { "substitute": ","}
+      ],
+      "66c": [
+        { "substitute": "'"}
+      ],
+      "2018": [
+        { "substitute": "'"}
+      ],
+      "2019": [
+        { "substitute": "'"}
+      ],
+      "201a": [
+        { "substitute": ","}
+      ],
+      "201b": [
+        { "substitute": "'"}
+      ],
+      "201c": [
+        { "substitute": "\""}
+      ],
+      "201d": [
+        { "substitute": "\""}
+      ],
+      "201e": [
+        { "substitute": ",,"}
+      ],
+      "201f": [
+        { "substitute": "\""}
+      ],
+      "ab": [
+        { "substitute": "<<"}
+      ],
+      "bb": [
+        { "substitute": ">>"}
+      ],
+      "ff5f": [
+        { "substitute": "(("}
+      ],
+      "ff60": [
+        { "substitute": "))"}
+      ],
+      "2022": [
+        { "substitute": "·"}
+      ],
+      "2027": [
+        { "substitute": "·"}
+      ],
+      "5be": [
+        { "substitute": "‐"},
+        { "substitute": "-"}
+      ],
+      "5f3": [
+        { "substitute": "'"}
+      ],
+      "5f4": [
+        { "substitute": "\""}
+      ],
+      "ffe3": [
+        { "substitute": "¯"}
+      ],
+      "a9": [
+        { "substitute": "(C)"}
+      ],
+      "ae": [
+        { "substitute": "(R)"}
+      ],
+      "211e": [
+        { "substitute": "Rx"}
+      ],
+      "220f": [
+        { "substitute": "Π"}
+      ],
+      "2211": [
+        { "substitute": "Σ"}
+      ],
+      "2212": [
+        { "substitute": "-"}
+      ],
+      "2215": [
+        { "substitute": "/"}
+      ],
+      "2044": [
+        { "substitute": "/"}
+      ],
+      "2216": [
+        { "substitute": "\\"}
+      ],
+      "2223": [
+        { "substitute": "|"}
+      ],
+      "2225": [
+        { "substitute": "‖"},
+        { "substitute": "||"}
+      ],
+      "20a0": [
+        { "substitute": "CE"}
+      ],
+      "20a1": [
+        { "substitute": "CRC"}
+      ],
+      "20a2": [
+        { "substitute": "Cr"}
+      ],
+      "20a3": [
+        { "substitute": "Fr."}
+      ],
+      "20a4": [
+        { "substitute": "L."},
+        { "substitute": "£"}
+      ],
+      "20a6": [
+        { "substitute": "NGN"}
+      ],
+      "20a7": [
+        { "substitute": "Pts"}
+      ],
+      "20a9": [
+        { "substitute": "KRW"}
+      ],
+      "20aa": [
+        { "substitute": "שח"},
+        { "substitute": "ILS"}
+      ],
+      "20ab": [
+        { "substitute": "đ"},
+        { "substitute": "VND"}
+      ],
+      "20ac": [
+        { "substitute": "EUR"}
+      ],
+      "20ad": [
+        { "substitute": "LAK"}
+      ],
+      "20ae": [
+        { "substitute": "MNT"}
+      ],
+      "20af": [
+        { "substitute": "GRD"}
+      ],
+      "20b1": [
+        { "substitute": "PHP"}
+      ],
+      "20b2": [
+        { "substitute": "PYG"}
+      ],
+      "20b5": [
+        { "substitute": "¢"},
+        { "substitute": "Ȼ"},
+        { "substitute": "GHS"}
+      ],
+      "20b9": [
+        { "substitute": "Rs"}
+      ],
+      "215f": [
+        { "substitute": " 1/"}
+      ],
+      "bd": [
+        { "substitute": " 1/2"}
+      ],
+      "2153": [
+        { "substitute": " 1/3"}
+      ],
+      "bc": [
+        { "substitute": " 1/4"}
+      ],
+      "2155": [
+        { "substitute": " 1/5"}
+      ],
+      "2159": [
+        { "substitute": " 1/6"}
+      ],
+      "215b": [
+        { "substitute": " 1/8"}
+      ],
+      "2154": [
+        { "substitute": " 2/3"}
+      ],
+      "2156": [
+        { "substitute": " 2/5"}
+      ],
+      "be": [
+        { "substitute": " 3/4"}
+      ],
+      "2157": [
+        { "substitute": " 3/5"}
+      ],
+      "215c": [
+        { "substitute": " 3/8"}
+      ],
+      "2158": [
+        { "substitute": " 4/5"}
+      ],
+      "215a": [
+        { "substitute": " 5/6"}
+      ],
+      "215d": [
+        { "substitute": " 5/8"}
+      ],
+      "215e": [
+        { "substitute": " 7/8"}
+      ],
+      "33df": [
+        { "substitute": "A/m"}
+      ],
+      "e6": [
+        { "substitute": "ae"}
+      ],
+      "c6": [
+        { "substitute": "AE"}
+      ],
+      "33c6": [
+        { "substitute": "C/kg"}
+      ],
+      "33c4": [
+        { "substitute": "CC"}
+      ],
+      "33a0": [
+        { "substitute": "cm²"}
+      ],
+      "33a4": [
+        { "substitute": "cm³"}
+      ],
+      "3378": [
+        { "substitute": "dm²"}
+      ],
+      "3379": [
+        { "substitute": "dm³"}
+      ],
+      "33a2": [
+        { "substitute": "km²"}
+      ],
+      "33a6": [
+        { "substitute": "km³"}
+      ],
+      "33a7": [
+        { "substitute": "m/s"}
+      ],
+      "33a8": [
+        { "substitute": "m∕s²"},
+        { "substitute": "m/s²"}
+      ],
+      "33a1": [
+        { "substitute": "m²"}
+      ],
+      "33a5": [
+        { "substitute": "m³"}
+      ],
+      "339f": [
+        { "substitute": "mm²"}
+      ],
+      "33a3": [
+        { "substitute": "mm³"}
+      ],
+      "153": [
+        { "substitute": "oe"}
+      ],
+      "152": [
+        { "substitute": "OE"}
+      ],
+      "33d7": [
+        { "substitute": "pH"}
+      ],
+      "33ae": [
+        { "substitute": "rad/s"}
+      ],
+      "33af": [
+        { "substitute": "rad∕s²"},
+        { "substitute": "rad/s²"}
+      ],
+      "219": [
+        { "substitute": "ş"}
+      ],
+      "218": [
+        { "substitute": "Ş"}
+      ],
+      "df": [
+        { "substitute": "ss"}
+      ],
+      "fb05": [
+        { "substitute": "ſt"}
+      ],
+      "21b": [
+        { "substitute": "ţ"}
+      ],
+      "21a": [
+        { "substitute": "Ţ"}
+      ],
+      "33de": [
+        { "substitute": "V/m"}
+      ],
+      "149": [
+        { "substitute": "'n"}
+      ],
+      "ffa1": [
+        { "substitute": "ㄱ"}
+      ],
+      "ffa2": [
+        { "substitute": "ㄲ"}
+      ],
+      "ffa4": [
+        { "substitute": "ㄴ"}
+      ],
+      "ffa7": [
+        { "substitute": "ㄷ"}
+      ],
+      "ffa8": [
+        { "substitute": "ㄸ"}
+      ],
+      "ffa9": [
+        { "substitute": "ㄹ"}
+      ],
+      "ffb1": [
+        { "substitute": "ㅁ"}
+      ],
+      "ffb2": [
+        { "substitute": "ㅂ"}
+      ],
+      "ffb3": [
+        { "substitute": "ㅃ"}
+      ],
+      "ffb5": [
+        { "substitute": "ㅅ"}
+      ],
+      "ffb6": [
+        { "substitute": "ㅆ"}
+      ],
+      "ffb7": [
+        { "substitute": "ㅇ"}
+      ],
+      "ffb8": [
+        { "substitute": "ㅈ"}
+      ],
+      "ffb9": [
+        { "substitute": "ㅉ"}
+      ],
+      "ffba": [
+        { "substitute": "ㅊ"}
+      ],
+      "ffbb": [
+        { "substitute": "ㅋ"}
+      ],
+      "ffbc": [
+        { "substitute": "ㅌ"}
+      ],
+      "ffbd": [
+        { "substitute": "ㅍ"}
+      ],
+      "ffbe": [
+        { "substitute": "ㅎ"}
+      ],
+      "ffb0": [
+        { "substitute": "ㅀ"}
+      ],
+      "ffb4": [
+        { "substitute": "ㅄ"}
+      ],
+      "ffa0": [
+        { "substitute": "ㅤ"}
+      ],
+      "ffc2": [
+        { "substitute": "ㅏ"}
+      ],
+      "ffc3": [
+        { "substitute": "ㅐ"}
+      ],
+      "ffc4": [
+        { "substitute": "ㅑ"}
+      ],
+      "ffc5": [
+        { "substitute": "ㅒ"}
+      ],
+      "ffc6": [
+        { "substitute": "ㅓ"}
+      ],
+      "ffc7": [
+        { "substitute": "ㅔ"}
+      ],
+      "ffca": [
+        { "substitute": "ㅕ"}
+      ],
+      "ffcb": [
+        { "substitute": "ㅖ"}
+      ],
+      "ffcc": [
+        { "substitute": "ㅗ"}
+      ],
+      "ffcd": [
+        { "substitute": "ㅘ"}
+      ],
+      "ffce": [
+        { "substitute": "ㅙ"}
+      ],
+      "ffcf": [
+        { "substitute": "ㅚ"}
+      ],
+      "ffd2": [
+        { "substitute": "ㅛ"}
+      ],
+      "ffd3": [
+        { "substitute": "ㅜ"}
+      ],
+      "ffd4": [
+        { "substitute": "ㅝ"}
+      ],
+      "ffd5": [
+        { "substitute": "ㅞ"}
+      ],
+      "ffd6": [
+        { "substitute": "ㅟ"}
+      ],
+      "ffd7": [
+        { "substitute": "ㅠ"}
+      ],
+      "ffda": [
+        { "substitute": "ㅡ"}
+      ],
+      "ffdb": [
+        { "substitute": "ㅢ"}
+      ],
+      "ffdc": [
+        { "substitute": "ㅣ"}
+      ],
+      "ffa3": [
+        { "substitute": "ㄳ"}
+      ],
+      "ffa5": [
+        { "substitute": "ㄵ"}
+      ],
+      "ffa6": [
+        { "substitute": "ㄶ"}
+      ],
+      "ffaa": [
+        { "substitute": "ㄺ"}
+      ],
+      "ffab": [
+        { "substitute": "ㄻ"}
+      ],
+      "ffac": [
+        { "substitute": "ㄼ"}
+      ],
+      "ffad": [
+        { "substitute": "ㄽ"}
+      ],
+      "ffae": [
+        { "substitute": "ㄾ"}
+      ],
+      "ffaf": [
+        { "substitute": "ㄿ"}
+      ]
+    }
+  }
+}

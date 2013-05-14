@@ -1,0 +1,205 @@
+{
+  "version": {
+    "@number": "$Revision: 7724 $"
+  },
+  "generation": {
+    "@date": "$Date: 2012-09-12 14:08:15 -0500 (Wed, 12 Sep 2012) $"
+  },
+  "languageMatching": {
+    "written": [
+      {
+        "languageMatch": {
+          "@percent": "100",
+          "@supported": "nb",
+          "@desired": "no"
+        }
+      },
+      {
+        "languageMatch": {
+          "@percent": "96",
+          "@supported": "nb",
+          "@desired": "nn"
+        }
+      },
+      {
+        "languageMatch": {
+          "@percent": "96",
+          "@supported": "no",
+          "@desired": "nn"
+        }
+      },
+      {
+        "languageMatch": {
+          "@percent": "90",
+          "@supported": "no",
+          "@desired": "da"
+        }
+      },
+      {
+        "languageMatch": {
+          "@percent": "90",
+          "@supported": "nb",
+          "@desired": "da"
+        }
+      },
+      {
+        "languageMatch": {
+          "@percent": "96",
+          "@supported": "bs",
+          "@desired": "hr"
+        }
+      },
+      {
+        "languageMatch": {
+          "@percent": "96",
+          "@supported": "bs",
+          "@desired": "sh"
+        }
+      },
+      {
+        "languageMatch": {
+          "@percent": "96",
+          "@supported": "bs",
+          "@desired": "sr"
+        }
+      },
+      {
+        "languageMatch": {
+          "@percent": "96",
+          "@supported": "hr",
+          "@desired": "sh"
+        }
+      },
+      {
+        "languageMatch": {
+          "@percent": "96",
+          "@supported": "hr",
+          "@desired": "sr"
+        }
+      },
+      {
+        "languageMatch": {
+          "@percent": "96",
+          "@supported": "sr",
+          "@desired": "sh"
+        }
+      },
+      {
+        "languageMatch": {
+          "@percent": "90",
+          "@supported": "id",
+          "@desired": "ms"
+        }
+      },
+      {
+        "languageMatch": {
+          "@percent": "96",
+          "@supported": "aa",
+          "@desired": "ssy"
+        }
+      },
+      {
+        "languageMatch": {
+          "@percent": "90",
+          "@supported": "sr-Cyrl",
+          "@desired": "sr-Latn"
+        }
+      },
+      {
+        "languageMatch": {
+          "@percent": "85",
+          "@supported": "*-Hant",
+          "@oneway": "true",
+          "@desired": "*-Hans"
+        }
+      },
+      {
+        "languageMatch": {
+          "@percent": "75",
+          "@supported": "*-Hans",
+          "@oneway": "true",
+          "@desired": "*-Hant"
+        }
+      },
+      {
+        "languageMatch": {
+          "@percent": "85",
+          "@supported": "de-CH",
+          "@oneway": "true",
+          "@desired": "gsw"
+        }
+      },
+      {
+        "languageMatch": {
+          "@percent": "80",
+          "@supported": "de",
+          "@oneway": "true",
+          "@desired": "gsw"
+        }
+      },
+      {
+        "languageMatch": {
+          "@percent": "98",
+          "@supported": "en-*-CA",
+          "@desired": "en-*-US"
+        }
+      },
+      {
+        "languageMatch": {
+          "@percent": "97",
+          "@supported": "en-*-*",
+          "@desired": "en-*-US"
+        }
+      },
+      {
+        "languageMatch": {
+          "@percent": "98",
+          "@supported": "en-*-*",
+          "@desired": "en-*-CA"
+        }
+      },
+      {
+        "languageMatch": {
+          "@percent": "99",
+          "@supported": "en-*-*",
+          "@desired": "en-*-*"
+        }
+      },
+      {
+        "languageMatch": {
+          "@percent": "100",
+          "@supported": "es-*-ES",
+          "@desired": "es-*-ES"
+        }
+      },
+      {
+        "languageMatch": {
+          "@percent": "93",
+          "@supported": "es-*-*",
+          "@desired": "es-*-ES"
+        }
+      },
+      {
+        "languageMatch": {
+          "@percent": "1",
+          "@supported": "*",
+          "@desired": "*"
+        }
+      },
+      {
+        "languageMatch": {
+          "@percent": "20",
+          "@supported": "*-*",
+          "@desired": "*-*"
+        }
+      },
+      {
+        "languageMatch": {
+          "@percent": "96",
+          "@supported": "*-*-*",
+          "@desired": "*-*-*"
+        }
+      }
+    ]
+  }
+}
