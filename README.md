@@ -79,11 +79,13 @@ json-local may be downloaded directly or installed through `npm`.
 
  2. **Generate a Collection of JSON files**
 
- > ```javascript
-   var SimpleTime = require('simpleTime'), t;
-   t = SimpleTime.getYMDArrDate(['2013', '4', '4']);
-   t = SimpleTime.getDayFromDate(t, 4);
-   console.log(t.getDate()); // 8
+ > ```bash
+   $ node ./json-locale.js \  
+    --inputPath=./JSONlocale/main \
+    --keep=numbers,currencies,languages \
+    --keepCalendars=gregorian \
+    --keepCalendarItems=months,days,dateFormats,timeFormats \
+    --keepNumberItems=symbolsFormatsNumberSystemLatn,currencies
    ```
 
 ---------------------------------------------------------
