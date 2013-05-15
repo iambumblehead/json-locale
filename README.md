@@ -6,10 +6,9 @@ json-locale
 
 The [official Unicode ldml-JSON][1] files are provided here. These files provide **standardised** format descriptors for display of times, dates, currencies, etc., using the Unicode standard. Additional scripts included help you generate new collections of JSON files that contain needed data only.
 
-These files are important. They should be used by all scripting
-communities. Formatting of numbers and dates are a source of fragmentation in the ecmascript eco-system.
-
-Most libraries use custom formatting rules. Such rules are not compatible with other libraries, they cannot be used for international content. Unicode formatting rules solve these problems.
+The benefits of libraries that follow the Unicode Standard for number and date formatting:  
+ * compatible with other systems that follow the standard
+ * usable with international (locale-specific) content
 
 The original JSON files include formatting rules for multiple types of calendar and other information you probably do not need. Use this script to generate your own collection of these files that contain only the information you need.
 
