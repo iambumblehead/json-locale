@@ -4,7 +4,7 @@ json-locale
 
 ### OVERVIEW:
 
-The [official Unicode ldml-JSON][1] files are provided here. These files provide **standardised** format descriptors for display of times, dates, currencies, etc., using the Unicode standard. Additional scripts included help you generate new collections of JSON files that contain needed data only.
+The [official Unicode ldml-JSON][1] files are provided here. These files provide **standardised** format descriptors for display of times, dates, currencies, etc., using the [Unicode standard][5]. Additional scripts included help you generate new collections of JSON files that contain needed data only.
 
 The benefits of libraries that follow the Unicode Standard for number and date formatting:  
  * compatible with other systems that follow the standard
@@ -36,6 +36,147 @@ json-local may be downloaded directly or installed through `npm`.
 
 ---------------------------------------------------------
 
+#### <a id="get-started">Get Started:
+
+ 1. **Before Starting...**   
+
+ 'Examples demonstrate usage from a shell but this script is also usable from a javascript file. Each environment uses the same modifiers. Only the syntax is different. 'Both examples would produce the same output.
+ 
+ > *shell*
+
+ > ```bash
+   $ node ./json-locale.js \  
+     --inputPath=./JSONlocale/main \
+     --keep=numbers,currencies,languages \
+     --keepCalendars=gregorian \
+     --keepCalendarItems=months,days,dateFormats,timeFormats \
+     --keepNumberItems=symbolsFormatsNumberSystemLatn,currencies
+   ```
+
+ > *javascript file*
+
+ > ```javascript
+   var jsonLocale = require('json-locale');
+   jsonLocale.build({  
+     inputPath : './JSONlocale/main',
+     keep : ["numbers", "currencies", "languages"],  
+     keepCalendars : ["gregorian"],
+     keepCalendarItems : [
+       "months",
+       "days",
+       "dateFormats",
+       "timeFormats"
+     ],
+     keepNumberItems : [
+       "symbolsFormatsNumberSystemLatn", 
+       "currencies"
+     ],
+   }, function (err, res) {
+     if (err) return console.log(err);
+     console.log('finished!')
+   });
+   ```
+
+ 2. **Generate a Collection of JSON files**
+
+ > ```javascript
+   var SimpleTime = require('simpleTime'), t;
+   t = SimpleTime.getYMDArrDate(['2013', '4', '4']);
+   t = SimpleTime.getDayFromDate(t, 4);
+   console.log(t.getDate()); // 8
+   ```
+
+---------------------------------------------------------
+
+#### <a id="modifiers">Modifiers:
+
+ - **--inputPath= _path_**, _default: ./JSONlocale/main_  
+   
+   a systempath to a directory or file.
+
+ - **--outputPath= _path_**, _default: ./JSONlocaleNew_  
+ 
+   a systempath to a directory or file.
+   
+ - **--keep= _item_, _anotheritem_**, _default: allItems_     
+ 
+   direct json-local to keep specific items. if no items are specified, all items are kept. available items are elements of the `keep` array:
+
+ > ```javascript
+   keep : [
+     "identity",
+     "languages",
+     "scripts",
+     "territories",
+     "variants",
+     "keys",
+     "types",
+     "measurements",
+     "codePatterns",
+     "layouts",
+     "characters",
+     "calendars",
+     "currencies",
+     "numbers",
+     "units"
+   ];
+   ```
+    
+ - **--keepCalendars= _item_, _anotheritem_**, _default: allItems_     
+ 
+   direct json-local to keep specific items. if no items are specified, all items are kept. available items are elements of the `keepCalendars` array: 
+
+ > ```javascript
+   keepCalendars : [
+     "buddhist", 
+     "chinese", 
+     "coptic", 
+     "dangi",
+     "ethiopic", 
+     "ethiopicAmeteAlem",
+     "gregorian",
+     "hebrew", 
+     "indian",
+     "islamic", 
+     "islamicCivil", 
+      "japanese",
+     "persian", 
+     "roc"
+   ];
+   ```
+ 
+ - **--keepCalendarItems= _item_, _anotheritem_**, _default: allItems_      
+ 
+   direct json-local to keep specific items. if no items are specified, all items are kept. available items are elements of the `keepCalendarsItems` array:  
+
+ > ```javascript
+   keepCalendarsItems : [
+     "months",
+     "days",
+     "quarters",
+     "eras",
+     "dateFormats",
+     "timeFormats",
+     "dateTimeFormats",
+     "fields"      
+   ];
+   ```
+ 
+ - **--keepNumberItems= _item_, _anotheritem_**, _default: allItems_      
+ 
+   direct json-local to keep specific items. if no items are specified, all items are kept. available items are elements of the `keepNumbersItems` array:   
+
+ > ```javascript
+   keepNumbersItems : [
+     "currencyFormatsNumberSystemLatn",
+     "symbolsNumberSystemLatn",
+     "decimalFormatsNumberSystemLatn",
+     "currencies"
+   ]
+   ```
+ 
+---------------------------------------------------------
+
 #### <a id="license">License:
 
 (The MIT License)
@@ -48,6 +189,10 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+
+---------------------------------------------------------
+
+#### <a id="unicodeLicense">Unicode License:
 
 (The Unicode License) http://unicode.org/copyright.html
 
@@ -76,6 +221,10 @@ Taxes. The user agrees to pay any taxes arising from access to this website or u
 Severability.  If any provision of this Agreement is declared invalid or unenforceable, the remaining provisions of this Agreement shall remain in effect.
 Entire Agreement. This Agreement constitutes the entire agreement between the parties. 
 
+
+---------------------------------------------------------
+
+#### <a id="unicodeTerms">Unicode Terms:
 
 
 (Unicode inc, License Agreement) http://unicode.org/copyright.html

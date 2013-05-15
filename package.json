@@ -19,5 +19,5 @@
       "node-fs" : ">=0.1.5"
   },
   "readmeFilename": "README.md",
-  "description": "Unicode Consortion JSON locale files."
+  "description": "Unicode Consortiom JSON locale files."
 }
