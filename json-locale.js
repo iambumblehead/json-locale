@@ -4,14 +4,11 @@ var UserOptions = require('./lib/UserOptions'),
     fs = require('fs'),
     util = require('util'),
     path = require('path'),
-    argv = require('optimist').argv,
-    opts = UserOptions.getNew(argv);
+    argv = require('optimist').argv;
 
-var converter = {
+var converter = module.exports = {
   convert : function (opts, fn) {
-    var that = this, 
-        fileObjArr = [],
-        baseFilenameArr;
+    var fileObjArr = [];
 
     fs.readdir(opts.inputDir, function (err, filenameArr) {
       if (err) return fn(err);
@@ -20,8 +17,6 @@ var converter = {
         return filename.match(/\.json$/) ? true : false;
       });      
 
-
-      console.log(opts, opts.inputDir, opts.outputDir);
       fileObjArr = filenameArr.map(function (filename) {
         return FileObj.getNew({
           filename : filename,
@@ -41,12 +36,16 @@ var converter = {
           });
         });
       }(fileObjArr.length));      
-
     });
   }
 };
 
-converter.convert(opts, function (err, res) {
-  if (err) return console.log(err);
-  console.log('[...] finished.');
-});
+// if called from command line...
+if (require.main === module) {
+  var opts = UserOptions.getNew(argv);
+  converter.convert(opts, function (err, res) {
+    if (err) return console.log(err);
+    console.log('[...] finished.');
+  });
+} 
+
