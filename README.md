@@ -11,7 +11,13 @@ The benefits of libraries that follow the Unicode Standard for number and date f
   * usable with international (locale-specific) content
 
 
-The original JSON files include formatting rules for multiple types of calendar and other information you probably do not need. Use this script to generate your own collection of these files that contain only the information you need. These scripts will also convert ISO codes in the data from the original two-letter 639-1 to three-letter ISO-639-2.
+The original JSON files include formatting rules for multiple types of calendar and other information you probably do not need. 
+
+Use this script to generate your own collection of these files
+  * generate specific locale-files
+  * generate specific content for locale-files 
+  * generate locale files for ISO 639-1 or 639-2 format
+  
 
 [0]: http://www.bumblehead.com                            "bumblehead"
 [1]: http://www.unicode.org/repos/cldr-aux/json/22.1/   "unicode JSON"
@@ -47,11 +53,12 @@ json-locale may be downloaded directly or installed through `npm`.
 
  > ```bash
    $ node ./json-locale.js \  
-     --inputPath=./JSONlocale/main \
+     --outputPath=./JSONlocale \
      --keep=numbers,currencies,languages \
      --keepCalendars=gregorian \
      --keepCalendarItems=months,days,dateFormats,timeFormats \
-     --keepNumberItems=symbolsFormatsNumberSystemLatn,currencies
+     --keepNumberItems=symbolsFormatsNumberSystemLatn,currencies \
+     --localeFilter=en_US,spa_ES,spa_CL \
    ```
 
  > *javascript file*
@@ -60,7 +67,7 @@ json-locale may be downloaded directly or installed through `npm`.
    var jsonLocale = require('json-locale');
    
    jsonLocale.convert({  
-       inputDir : './JSONlocale/main',
+       outputPath : "./JSONlocale",
        keep : ["numbers", "languages", "calendars"],  
        keepCalendars : ["gregorian"],
        keepCalendarItems : [
@@ -72,6 +79,11 @@ json-locale may be downloaded directly or installed through `npm`.
        keepNumberItems : [
            "symbolsFormatsNumberSystemLatn", 
            "currencies"
+       ],
+       localeFilter : [
+           "en_US",
+           "spa_ES",
+           "spa_CL"
        ]
    }, function (err, res) {
        if (err) return console.log(err);
@@ -83,7 +95,7 @@ json-locale may be downloaded directly or installed through `npm`.
 
  > ```bash
    $ node ./json-locale.js \  
-    --inputPath=./JSONlocale/main \
+    --outputPath=./JSONlocale \ 
     --keep=numbers,currencies,languages \
     --keepCalendars=gregorian \
     --keepCalendarItems=months,days,dateFormats,timeFormats \
@@ -94,13 +106,29 @@ json-locale may be downloaded directly or installed through `npm`.
 
 #### <a id="modifiers">Modifiers:
 
- - **--inputDir= _path_**, _default: ./JSONlocale/main_  
+ - **--inputDir= _path_**, _default: json-locale/JSONlocale/main_  
    
-   a systempath to a directory or file.
+   a systempath to a directory or file. this does not need to be defined. by default, json-locale will read locale files from its own directory.
 
  - **--outputDir= _path_**, _default: ./JSONlocaleNew_  
  
    a systempath to a directory or file.
+   
+ - **--isoType= _ISOType_**, _default: 639-2_     
+ 
+   there are two valid ISOType, `639-2` and `639-1`. `639-2` is three-letter language format (ex, 'eng' or 'spa'). `639-1` is two-letter language format (ex, 'en' or 'es').
+
+ - **--localeFilter= _item_, _anotheritem_**, _default: allItems_     
+ 
+   by default, all json-locale files will generate all possible locale files. localeFilter may be defined as an array of values or a string of comma-separated values. When defined, only locale files corresponding to the given values are generated.
+
+ > ```javascript
+   localeFilter : [
+       "en_US",
+       "spa_ES",
+       "spa_CL"
+   ]
+   ```
    
  - **--keep= _item_, _anotheritem_**, _default: allItems_     
  
