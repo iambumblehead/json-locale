@@ -24,6 +24,9 @@ describe("JSONLocale.build", function () {
        "symbolsFormatsNumberSystemLatn", 
        "currencies"
      ],
+
+     isoType : 'ISO-639-2',
+
      localeFilter : [
        "en_US",
        "spa_ES",

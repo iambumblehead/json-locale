@@ -10,8 +10,6 @@ var UserOptions = require('./lib/UserOptions'),
 var converter = module.exports = {
   convert : function (opts, fn) {
 
-    console.log('convert co', opts);
-
     var fileObjArr = [];
 
     fs.readdir(opts.inputDir, function (err, filenameArr) {
