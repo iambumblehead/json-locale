@@ -12,6 +12,8 @@ var converter = module.exports = {
 
     var fileObjArr = [];
 
+    console.log('[...] json-locale: begin.');
+
     fs.readdir(opts.inputDir, function (err, filenameArr) {
       if (err) return fn(err);
 
@@ -35,7 +37,7 @@ var converter = module.exports = {
 
 
       (function next(x, fileObj) {
-        if (!x--) return fn(null, '[...] done.'); 
+        if (!x--) return fn(null, console.log('[...] json-locale: done.')); 
         fileObj = fileObjArr[x];
         fileObj.getFiltered(fileObj, opts, function (err, filteredObj) {
           if (err) return fn(err);
