@@ -6,11 +6,12 @@ json-locale
 
 The [official Unicode ldml-JSON][1] files are provided here. These files provide **standardised** format descriptors for display of times, dates, currencies, etc., using the [Unicode standard][5]. Additional scripts included help you generate new collections of JSON files that contain needed data only.
 
-The benefits of libraries that follow the Unicode Standard for number and date formatting:  
- * compatible with other systems that follow the standard
- * usable with international (locale-specific) content
+The benefits of libraries that follow the Unicode Standard for number and date formatting:
+  * compatible with other systems that follow the standard
+  * usable with international (locale-specific) content
 
-The original JSON files include formatting rules for multiple types of calendar and other information you probably do not need. Use this script to generate your own collection of these files that contain only the information you need.
+
+The original JSON files include formatting rules for multiple types of calendar and other information you probably do not need. Use this script to generate your own collection of these files that contain only the information you need. These scripts will also convert ISO codes in the data from the original two-letter 639-1 to three-letter ISO-639-2.
 
 [0]: http://www.bumblehead.com                            "bumblehead"
 [1]: http://www.unicode.org/repos/cldr-aux/json/22.1/   "unicode JSON"
@@ -20,7 +21,7 @@ The original JSON files include formatting rules for multiple types of calendar 
 ---------------------------------------------------------
 #### <a id="install"></a>INSTALL:
 
-json-local may be downloaded directly or installed through `npm`.
+json-locale may be downloaded directly or installed through `npm`.
 
  * **npm**   
 
@@ -57,23 +58,24 @@ json-local may be downloaded directly or installed through `npm`.
 
  > ```javascript
    var jsonLocale = require('json-locale');
+   
    jsonLocale.convert({  
-     inputDir : './JSONlocale/main',
-     keep : ["numbers", "languages", "calendars"],  
-     keepCalendars : ["gregorian"],
-     keepCalendarItems : [
-       "months",
-       "days",
-       "dateFormats",
-       "timeFormats"
-     ],
-     keepNumberItems : [
-       "symbolsFormatsNumberSystemLatn", 
-       "currencies"
-     ]
+       inputDir : './JSONlocale/main',
+       keep : ["numbers", "languages", "calendars"],  
+       keepCalendars : ["gregorian"],
+       keepCalendarItems : [
+           "months",
+           "days",
+           "dateFormats",
+           "timeFormats"
+       ],
+       keepNumberItems : [
+           "symbolsFormatsNumberSystemLatn", 
+           "currencies"
+       ]
    }, function (err, res) {
-     if (err) return console.log(err);
-     console.log('finished!')
+       if (err) return console.log(err);
+       console.log('finished!')
    });
    ```
 
@@ -102,78 +104,78 @@ json-local may be downloaded directly or installed through `npm`.
    
  - **--keep= _item_, _anotheritem_**, _default: allItems_     
  
-   direct json-local to keep specific items. if no items are specified, all items are kept. available items are elements of the `keep` array:
+   direct json-locale to keep specific items. if no items are specified, all items are kept. available items are elements of the `keep` array:
 
  > ```javascript
    keep : [
-     "identity",
-     "languages",
-     "scripts",
-     "territories",
-     "variants",
-     "keys",
-     "types",
-     "measurements",
-     "codePatterns",
-     "layouts",
-     "characters",
-     "calendars",
-     "currencies",
-     "numbers",
-     "units"
+       "identity",
+       "languages",
+       "scripts",
+       "territories",
+       "variants",
+       "keys",
+       "types",
+       "measurements",
+       "codePatterns",
+       "layouts",
+       "characters",
+       "calendars",
+       "currencies",
+       "numbers",
+       "units"
    ];
    ```
     
  - **--keepCalendars= _item_, _anotheritem_**, _default: allItems_     
  
-   direct json-local to keep specific items. if no items are specified, all items are kept. available items are elements of the `keepCalendars` array: 
+   direct json-locale to keep specific items. if no items are specified, all items are kept. available items are elements of the `keepCalendars` array: 
 
  > ```javascript
    keepCalendars : [
-     "buddhist", 
-     "chinese", 
-     "coptic", 
-     "dangi",
-     "ethiopic", 
-     "ethiopicAmeteAlem",
-     "gregorian",
-     "hebrew", 
-     "indian",
-     "islamic", 
-     "islamicCivil", 
-      "japanese",
-     "persian", 
-     "roc"
+       "buddhist", 
+       "chinese", 
+       "coptic", 
+       "dangi",
+       "ethiopic", 
+       "ethiopicAmeteAlem",
+       "gregorian",
+       "hebrew", 
+       "indian",
+       "islamic", 
+       "islamicCivil", 
+       "japanese",
+       "persian", 
+       "roc"
    ];
    ```
  
  - **--keepCalendarItems= _item_, _anotheritem_**, _default: allItems_      
  
-   direct json-local to keep specific items. if no items are specified, all items are kept. available items are elements of the `keepCalendarsItems` array:  
+   direct json-locale to keep specific items. if no items are specified, all items are kept. available items are elements of the `keepCalendarsItems` array:  
 
  > ```javascript
    keepCalendarsItems : [
-     "months",
-     "days",
-     "quarters",
-     "eras",
-     "dateFormats",
-     "timeFormats",
-     "dateTimeFormats",
-     "fields"      
+       "months",
+       "days",
+       "quarters",
+       "eras",
+       "dateFormats",
+       "timeFormats",
+       "dateTimeFormats",
+       "fields"      
    ];
    ```
  
  - **--keepNumberItems= _item_, _anotheritem_**, _default: allItems_      
  
-   direct json-local to keep specific items. if no items are specified, all items are kept. available items are elements of the `keepNumbersItems` array:   
+   direct json-locale to keep specific items. if no items are specified, all items are kept. available items are elements of the `keepNumbersItems` array:   
 
  > ```javascript
    keepNumbersItems : [
-     "currencyFormatsNumberSystemLatn",
-     "symbolsNumberSystemLatn",
-     "decimalFormatsNumberSystemLatn",
-     "currencies"
+       "currencyFormatsNumberSystemLatn",
+       "symbolsNumberSystemLatn",
+       "decimalFormatsNumberSystemLatn",
+       "currencies"
    ]
    ```
  

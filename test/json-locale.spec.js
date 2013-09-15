@@ -6,8 +6,14 @@ describe("JSONLocale.build", function () {
    JSONLocale.convert({  
      inputDir : './JSONlocale/main',
      outputDir : './JSONlocaleNew',
-     keep : ["numbers", "languages", "calendars"],  
-     keepCalendars : ["gregorian"],
+     keep : [
+       "numbers", 
+       "languages", 
+       "calendars"
+     ],  
+     keepCalendars : [
+       "gregorian"
+     ],
      keepCalendarItems : [
        "months",
        "days",
@@ -17,6 +23,11 @@ describe("JSONLocale.build", function () {
      keepNumberItems : [
        "symbolsFormatsNumberSystemLatn", 
        "currencies"
+     ],
+     localeFilter : [
+       "en_US",
+       "spa_ES",
+       "spa_CL"
      ]
    }, function (err, res) {});
 

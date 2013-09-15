@@ -1,5 +1,6 @@
 var UserOptions = require('./lib/UserOptions'),
     FileObj = require('./lib/FileObj'),
+    ISOUtil = require('./lib/ISO/isoutil.js'),
 
     fs = require('fs'),
     util = require('util'),
@@ -8,6 +9,9 @@ var UserOptions = require('./lib/UserOptions'),
 
 var converter = module.exports = {
   convert : function (opts, fn) {
+
+    console.log('convert co', opts);
+
     var fileObjArr = [];
 
     fs.readdir(opts.inputDir, function (err, filenameArr) {
@@ -17,6 +21,12 @@ var converter = module.exports = {
         return filename.match(/\.json$/) ? true : false;
       });      
 
+      if (opts.localeFilterArr) {
+        filenameArr = filenameArr.filter(function (filename) {
+            return ISOUtil.isFilenameInFilter(opts, filename);
+        });
+      }
+
       fileObjArr = filenameArr.map(function (filename) {
         return FileObj.getNew({
           filename : filename,
@@ -25,12 +35,13 @@ var converter = module.exports = {
         });
       });
 
+
       (function next(x, fileObj) {
         if (!x--) return fn(null, '[...] done.'); 
         fileObj = fileObjArr[x];
         fileObj.getFiltered(fileObj, opts, function (err, filteredObj) {
           if (err) return fn(err);
-          fileObj.writeObjJSON(filteredObj, function (err, res) {
+          fileObj.writeObjJSON(filteredObj, opts, function (err, res) {
             if (err) return fn(err);
             next(x);
           });
