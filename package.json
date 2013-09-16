@@ -1,6 +1,6 @@
 {
     "name": "json-locale",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "repository": {
         "type": "git",
         "url": "https://github.com/iambumblehead/json-locale.git"
@@ -24,7 +24,8 @@
         "optimist" : "0.4.0",
         "node-fs" : ">=0.1.5",
         "jasmine-node" : ">=1.3.0",
-            "pathpublic" : ">=0.0.1"
+        "pathpublic" : ">=0.0.1",
+        "objobjwalk" : ">=0.0.1"
     },
     "scripts" : {
         "test" : "node node_modules/jasmine-node/bin/jasmine-node --verbose test/"

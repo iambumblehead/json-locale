@@ -129,6 +129,10 @@ json-locale may be downloaded directly or installed through `npm`.
        "spa_CL"
    ]
    ```
+
+ - **--isConvert_yy= _bool_**, _default: true_  
+ 
+   replace two-character `yy` with `yyyy` for each date/time pattern.
    
  - **--keep= _item_, _anotheritem_**, _default: allItems_     
  
