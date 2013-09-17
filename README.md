@@ -134,6 +134,13 @@ json-locale may be downloaded directly or installed through `npm`.
  
    replace two-character `yy` with `yyyy` for each date/time pattern.
    
+ - **--isConvert_underscore= _bool_**, _default: false_     
+ 
+   replace underscore with hyphen so that `eng_US` becomes `eng-US`. [iOS style locale codes][3].
+
+[10]: http://developer.apple.com/library/ios/#documentation/MacOSX/Conceptual/BPInternational/Articles/LanguageDesignations.html#//apple_ref/doc/uid/20002144-SW3 "apple lang-locale"
+
+   
  - **--keep= _item_, _anotheritem_**, _default: allItems_     
  
    direct json-locale to keep specific items. if no items are specified, all items are kept. available items are elements of the `keep` array:
