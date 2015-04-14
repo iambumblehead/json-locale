@@ -104,43 +104,34 @@ $ git clone https://github.com/iambumblehead/json-locale.git
 #### <a id="modifiers">Modifiers:
 
  - **--inputDir= _path_**, _default: json-locale/JSONlocale/main_
-   
    a systempath to a directory or file. this does not need to be defined. by default, json-locale will read locale files from its own directory.
 
  - **--outputDir= _path_**, _default: ./JSONlocaleNew_
- 
    a systempath to a directory or file.
    
  - **--isoType= _ISOType_**, _default: 639-2_
- 
    there are two valid ISOType, `639-2` and `639-1`. `639-2` is three-letter language format (ex, 'eng' or 'spa'). `639-1` is two-letter language format (ex, 'en' or 'es').
 
  - **--localeFilter= _item_, _anotheritem_**, _default: allItems_
- 
    by default, all json-locale files will generate all possible locale files. localeFilter may be defined as an array of values or a string of comma-separated values. When defined, only locale files corresponding to the given values are generated.
-
- > ```javascript
+   ```javascript
    localeFilter : [
-       "en_US",
-       "spa_ES",
-       "spa_CL"
+     "en_US",
+     "spa_ES",
+     "spa_CL"
    ]
    ```
 
  - **--localeDefault= _defaultItem_**, _default: none_
-
    speficy a default locale (ex, 'eng_US'). a file named 'baseLangLocale.json' is saved to the output directory with the default locale.
 
  - **--isConvert_yy= _bool_**, _default: true_
- 
    replace two-character `yy` with `yyyy` for each date/time pattern.
    
  - **--isConvert_underscore= _bool_**, _default: false_
- 
    replace underscore with hyphen so that `eng_US` becomes `eng-US`. [iOS style locale codes][3].
 
  - **--keep= _item_, _anotheritem_**, _default: allItems_
-
    direct json-locale to keep specific items. if no items are specified, all items are kept. available items are elements of the `keep` array:
    ```javascript
    keep : [
@@ -162,8 +153,7 @@ $ git clone https://github.com/iambumblehead/json-locale.git
    ];
    ```
     
- - **--keepCalendars= _item_, _anotheritem_**, _default: allItems_     
- 
+ - **--keepCalendars= _item_, _anotheritem_**, _default: allItems_
    direct json-locale to keep specific items. if no items are specified, all items are kept. available items are elements of the `keepCalendars` array: 
    ```javascript
    keepCalendars : [
@@ -185,7 +175,6 @@ $ git clone https://github.com/iambumblehead/json-locale.git
    ```
  
  - **--keepCalendarItems= _item_, _anotheritem_**, _default: allItems_
- 
    direct json-locale to keep specific items. if no items are specified, all items are kept. available items are elements of the `keepCalendarsItems` array:
    ```javascript
    keepCalendarsItems : [
@@ -201,7 +190,6 @@ $ git clone https://github.com/iambumblehead/json-locale.git
    ```
  
  - **--keepNumberItems= _item_, _anotheritem_**, _default: allItems_
- 
    direct json-locale to keep specific items. if no items are specified, all items are kept. available items are elements of the `keepNumbersItems` array:
    ```javascript
    keepNumbersItems : [
