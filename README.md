@@ -139,9 +139,6 @@ $ git clone https://github.com/iambumblehead/json-locale.git
  
    replace underscore with hyphen so that `eng_US` becomes `eng-US`. [iOS style locale codes][3].
 
-[10]: http://developer.apple.com/library/ios/#documentation/MacOSX/Conceptual/BPInternational/Articles/LanguageDesignations.html#//apple_ref/doc/uid/20002144-SW3 "apple lang-locale"
-
-   
  - **--keep= _item_, _anotheritem_**, _default: allItems_     
  
    direct json-locale to keep specific items. if no items are specified, all items are kept. available items are elements of the `keep` array:
@@ -218,7 +215,10 @@ $ git clone https://github.com/iambumblehead/json-locale.git
        "currencies"
    ]
    ```
- 
+
+
+[3]: http://developer.apple.com/library/ios/#documentation/MacOSX/Conceptual/BPInternational/Articles/LanguageDesignations.html#//apple_ref/doc/uid/20002144-SW3 "apple lang-locale"
+
 ---------------------------------------------------------
 
 #### <a id="license">License:
@@ -314,3 +314,4 @@ THE DATA FILES AND SOFTWARE ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
 Except as contained in this notice, the name of a copyright holder shall not be used in advertising or otherwise to promote the sale, use or other dealings in these Data Files or Software without prior written authorization of the copyright holder.
 
 Unicode and the Unicode logo are trademarks of Unicode, Inc. in the United States and other countries. All third party trademarks referenced herein are the property of their respective owners.
+
