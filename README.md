@@ -29,78 +29,75 @@ Use this script to generate your own collection of these files
 
 json-locale may be downloaded directly or installed through `npm`.
 
- * **npm**   
+**npm**
 
- ```bash
- $ npm install json-locale
- ```
+```bash
+$ npm install json-locale
+```
 
- * **Direct Download**
+**Direct Download**
  
- ```bash  
- $ git clone https://github.com/iambumblehead/json-locale.git
- ```
+```bash
+$ git clone https://github.com/iambumblehead/json-locale.git
+```
 
 ---------------------------------------------------------
 
 #### <a id="get-started">Get Started:
 
- 1. **Before Starting...**   
+ 1. **Before Starting...**
 
- 'Examples demonstrate usage from a shell but this script is also usable from a javascript file. Each environment uses the same modifiers. Only the syntax is different. 'Both examples would produce the same output.
+    'Examples demonstrate usage from a shell but this script is also usable from a javascript file. Each environment uses the same modifiers. Only the syntax is different. 'Both examples would produce the same output.
  
- > *shell*
+    *shell*
+    ```bash
+    $ node ./json-locale.js \
+      --outputPath=./JSONlocale \
+      --keep=numbers,currencies,languages \
+      --keepCalendars=gregorian \
+      --keepCalendarItems=months,days,dateFormats,timeFormats \
+      --keepNumberItems=symbolsFormatsNumberSystemLatn,currencies \
+      --localeFilter=en_US,spa_ES,spa_CL \
+    ```
 
- > ```bash
-   $ node ./json-locale.js \  
-     --outputPath=./JSONlocale \
-     --keep=numbers,currencies,languages \
-     --keepCalendars=gregorian \
-     --keepCalendarItems=months,days,dateFormats,timeFormats \
-     --keepNumberItems=symbolsFormatsNumberSystemLatn,currencies \
-     --localeFilter=en_US,spa_ES,spa_CL \
-   ```
-
- > *javascript file*
-
- > ```javascript
-   var jsonLocale = require('json-locale');
+    *javascript file*
+    ```javascript
+    var jsonLocale = require('json-locale');
    
-   jsonLocale.convert({  
-       outputPath : "./JSONlocale",
-       keep : ["numbers", "languages", "calendars"],  
-       keepCalendars : ["gregorian"],
-       keepCalendarItems : [
-           "months",
-           "days",
-           "dateFormats",
-           "timeFormats"
-       ],
-       keepNumberItems : [
-           "symbolsFormatsNumberSystemLatn", 
-           "currencies"
-       ],
-       localeFilter : [
-           "en_US",
-           "spa_ES",
-           "spa_CL"
-       ]
-   }, function (err, res) {
-       if (err) return console.log(err);
-       console.log('finished!')
-   });
-   ```
+    jsonLocale.convert({
+      outputPath : "./JSONlocale",
+      keep : ["numbers", "languages", "calendars"],
+      keepCalendars : ["gregorian"],
+      keepCalendarItems : [
+        "months",
+        "days",
+        "dateFormats",
+        "timeFormats"
+      ],
+      keepNumberItems : [
+        "symbolsFormatsNumberSystemLatn", 
+        "currencies"
+      ],
+      localeFilter : [
+        "en_US",
+        "spa_ES",
+        "spa_CL"
+      ]
+    }, function (err, res) {
+      if (err) return console.log(err);
+      console.log('finished!')
+    });
+    ```
 
  2. **Generate a Collection of JSON files**
-
- > ```bash
-   $ node ./json-locale.js \  
-    --outputPath=./JSONlocale \ 
-    --keep=numbers,currencies,languages \
-    --keepCalendars=gregorian \
-    --keepCalendarItems=months,days,dateFormats,timeFormats \
-    --keepNumberItems=symbolsFormatsNumberSystemLatn,currencies
-   ```
+    ```bash
+    $ node ./json-locale.js \  
+      --outputPath=./JSONlocale \ 
+      --keep=numbers,currencies,languages \
+      --keepCalendars=gregorian \
+      --keepCalendarItems=months,days,dateFormats,timeFormats \
+      --keepNumberItems=symbolsFormatsNumberSystemLatn,currencies
+    ```
 
 ---------------------------------------------------------
 
@@ -129,6 +126,10 @@ json-locale may be downloaded directly or installed through `npm`.
        "spa_CL"
    ]
    ```
+
+ - **--localeDefault= _defaultItem_**, _default: none_
+
+   speficy a default locale (ex, 'eng_US'). a file named 'baseLangLocale.json' is saved to the output directory with the default locale.
 
  - **--isConvert_yy= _bool_**, _default: true_  
  
