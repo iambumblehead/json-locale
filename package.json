@@ -1,6 +1,7 @@
 {
-    "name": "json-locale",
-    "version": "0.0.43",
+  "name": "json-locale",
+  "main": "json-locale",
+    "version": "0.0.44",
     "repository": {
         "type": "git",
         "url": "https://github.com/iambumblehead/json-locale.git"

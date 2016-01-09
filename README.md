@@ -2,22 +2,11 @@ json-locale
 ===========
 **(c)[Bumblehead][0], 2013** [MIT-license](#license), [Unicode Terms](#terms)
 
-### OVERVIEW:
+The [official Unicode ldml-JSON][1] files are provided. They define standardised format descriptors to display times, dates, currencies, etc., using the [Unicode standard][5]. The source unicode JSON files include many formatting rules for multiple types of calendar and other information you likely do not need --json-local generates custom collections of JSON files that contain needed data only.
 
-The [official Unicode ldml-JSON][1] files are provided here. These files provide **standardised** format descriptors for display of times, dates, currencies, etc., using the [Unicode standard][5]. Additional scripts included help you generate new collections of JSON files that contain needed data only.
-
-The benefits of libraries that follow the Unicode Standard for number and date formatting:
-  * compatible with other systems that follow the standard
-  * usable with international (locale-specific) content
-
-
-The original JSON files include formatting rules for multiple types of calendar and other information you probably do not need. 
-
-Use this script to generate your own collection of these files
   * generate specific locale-files
-  * generate specific content for locale-files 
+  * generate locale-files with filtered content
   * generate locale files for ISO 639-1 or 639-2 format
-  
 
 [0]: http://www.bumblehead.com                            "bumblehead"
 [1]: http://www.unicode.org/repos/cldr-aux/json/22.1/   "unicode JSON"
@@ -25,86 +14,43 @@ Use this script to generate your own collection of these files
 [5]: http://cldr.unicode.org/index/cldr-spec/json  "ldml-to-json spec"
 
 ---------------------------------------------------------
-#### <a id="install"></a>INSTALL:
 
-json-locale may be downloaded directly or installed through `npm`.
+#### <a id="get-started"></a>get started
 
-**npm**
-
+Both examples would produce the same output.
+ 
+*shell*
 ```bash
-$ npm install json-locale
+$ node ./json-locale.js \
+  --outputPath=./JSONlocale \
+  --keep=numbers,currencies,languages \
+  --keepCalendars=gregorian \
+  --keepCalendarItems=months,days,dateFormats,timeFormats \
+  --keepNumberItems=symbolsFormatsNumberSystemLatn,currencies \
+  --localeFilter=en_US,spa_ES,spa_CL \
 ```
 
-**Direct Download**
- 
-```bash
-$ git clone https://github.com/iambumblehead/json-locale.git
+
+*javascript file*
+```javascript
+jsonlocale.convert({
+  outputPath        : "./JSONlocale",
+  keep              : [ "numbers", "languages", "calendars" ],
+  keepCalendars     : [ "gregorian" ],
+  keepCalendarItems : [ "months", "days", "dateFormats", "timeFormats" ],
+  keepNumberItems   : [ "symbolsFormatsNumberSystemLatn", "currencies" ],
+  localeFilter      : [ "en_US", "spa_ES", "spa_CL" ]
+}, function (err, res) {
+  console.log('finished!')
+});
 ```
 
 ---------------------------------------------------------
 
-#### <a id="get-started">Get Started:
-
- 1. **Before Starting...**
-
-    'Examples demonstrate usage from a shell but this script is also usable from a javascript file. Each environment uses the same modifiers. Only the syntax is different. 'Both examples would produce the same output.
- 
-    *shell*
-    ```bash
-    $ node ./json-locale.js \
-      --outputPath=./JSONlocale \
-      --keep=numbers,currencies,languages \
-      --keepCalendars=gregorian \
-      --keepCalendarItems=months,days,dateFormats,timeFormats \
-      --keepNumberItems=symbolsFormatsNumberSystemLatn,currencies \
-      --localeFilter=en_US,spa_ES,spa_CL \
-    ```
-
-    *javascript file*
-    ```javascript
-    var jsonLocale = require('json-locale');
-   
-    jsonLocale.convert({
-      outputPath : "./JSONlocale",
-      keep : ["numbers", "languages", "calendars"],
-      keepCalendars : ["gregorian"],
-      keepCalendarItems : [
-        "months",
-        "days",
-        "dateFormats",
-        "timeFormats"
-      ],
-      keepNumberItems : [
-        "symbolsFormatsNumberSystemLatn", 
-        "currencies"
-      ],
-      localeFilter : [
-        "en_US",
-        "spa_ES",
-        "spa_CL"
-      ]
-    }, function (err, res) {
-      if (err) return console.log(err);
-      console.log('finished!')
-    });
-    ```
-
- 2. **Generate a Collection of JSON files**
-    ```bash
-    $ node ./json-locale.js \  
-      --outputPath=./JSONlocale \ 
-      --keep=numbers,currencies,languages \
-      --keepCalendars=gregorian \
-      --keepCalendarItems=months,days,dateFormats,timeFormats \
-      --keepNumberItems=symbolsFormatsNumberSystemLatn,currencies
-    ```
-
----------------------------------------------------------
-
-#### <a id="modifiers">Modifiers:
+#### <a id="modifiers">modifiers
 
  - **--inputDir= _path_**, _default: json-locale/JSONlocale/main_
-   a systempath to a directory or file. this does not need to be defined. by default, json-locale will read locale files from its own directory.
+   a systempath to a directory or file. by default, json-locale will read locale files from its own directory.
 
  - **--outputDir= _path_**, _default: ./JSONlocaleNew_
    a systempath to a directory or file.
@@ -203,10 +149,11 @@ $ git clone https://github.com/iambumblehead/json-locale.git
 
 
 [3]: http://developer.apple.com/library/ios/#documentation/MacOSX/Conceptual/BPInternational/Articles/LanguageDesignations.html#//apple_ref/doc/uid/20002144-SW3 "apple lang-locale"
+[7]: https://raw.githubusercontent.com/iambumblehead/es5classic/master/es5classic_120x120.png
 
----------------------------------------------------------
 
-#### <a id="license">License:
+![scrounge](https://github.com/iambumblehead/scroungejs/raw/master/img/hand.png)[![es5 classic][7]][7]
+
 
 (The MIT License)
 
@@ -218,10 +165,7 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-
 ---------------------------------------------------------
-
-#### <a id="unicodeLicense">Unicode License:
 
 (The Unicode License) http://unicode.org/copyright.html
 
@@ -275,9 +219,6 @@ THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 ---------------------------------------------------------
-
-#### <a id="unicodeTerms">Unicode Terms:
-
 
 (Unicode inc, License Agreement) http://unicode.org/copyright.html
 
