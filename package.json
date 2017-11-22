@@ -1,7 +1,7 @@
 {
   "name": "json-locale",
   "main": "json-locale",
-  "version": "0.0.45",
+  "version": "0.0.46",
   "readmeFilename": "README.md",
   "description": "Unicode Consortium JSON locale files.",
   "repository": {
