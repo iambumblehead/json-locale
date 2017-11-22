@@ -1,38 +1,42 @@
 {
   "name": "json-locale",
   "main": "json-locale",
-    "version": "0.0.44",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/iambumblehead/json-locale.git"
+  "version": "0.0.45",
+  "readmeFilename": "README.md",
+  "description": "Unicode Consortium JSON locale files.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iambumblehead/json-locale.git"
+  },
+  "scripts": {
+    "test": "node node_modules/jasmine/bin/jasmine.js --verbose"
+  },
+  "licenses": [
+    {
+      "type": "Unicode",
+      "url": "http://unicode.org/copyright.html"
     },
-    "licenses" : [{ 
-        "type" : "Unicode",
-        "url" : "http://unicode.org/copyright.html"
-    }, {
-        "type" : "MIT"
-    }],
-    "keywords": [
-        "time",
-        "date",
-        "calendar",
-        "formatting",
-        "unicode",
-        "ldml",
-        "cldr"
-    ],
-    "dependencies" : {
-        "optimist" : "0.4.0",
-        "node-fs" : ">=0.1.5",
-        "pathpublic" : ">=0.0.1",
-        "objobjwalk" : ">=0.0.1"
-    },
-    "devDependencies" : {
-        "jasmine-node" : ">=1.3.0"
-    },
-    "scripts" : {
-        "test" : "node node_modules/jasmine-node/bin/jasmine-node --verbose test/"
-    },
-    "readmeFilename": "README.md",
-    "description": "Unicode Consortium JSON locale files."
+    {
+      "type": "MIT"
+    }
+  ],
+  "keywords": [
+    "time",
+    "date",
+    "calendar",
+    "formatting",
+    "unicode",
+    "ldml",
+    "cldr"
+  ],
+  "dependencies": {
+    "optimist": "0.4.0",
+    "node-fs": ">=0.1.5",
+    "pathpublic": ">=0.0.1",
+    "objobjwalk": ">=0.0.1"
+  },
+  "devDependencies": {
+    "jasmine": "2.5.3",
+    "jasmine-spec-reporter": "3.2.0"
+  }
 }

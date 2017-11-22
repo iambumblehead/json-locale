@@ -1,8 +1,8 @@
 json-locale
 ===========
-**(c)[Bumblehead][0], 2013** [MIT-license](#license), [Unicode Terms](#terms)
+**(c)[Bumblehead][0]** [MIT-license](#license), [Unicode Terms](#terms)
 
-The [official Unicode ldml-JSON][1] files are provided. They define standardised format descriptors to display times, dates, currencies, etc., using the [Unicode standard][5]. The source unicode JSON files include many formatting rules for multiple types of calendar and other information you likely do not need --json-local generates custom collections of JSON files that contain needed data only.
+The [official Unicode ldml-JSON][1] files are provided. They define standardised format descriptors to display times, dates, currencies, etc., using the [Unicode standard][5]. The source unicode JSON files include formatting rules for multiple types of calendar and other information. Use --json-locale to generate custom collections of JSON files that contain needed data only.
 
   * generate specific locale-files
   * generate locale-files with filtered content
