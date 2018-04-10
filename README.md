@@ -22,7 +22,7 @@ Both examples would produce the same output.
 *shell*
 ```bash
 $ node ./json-locale.js \
-  --outputPath=./JSONlocale \
+  --outputDir=./JSONlocale \
   --keep=numbers,currencies,languages \
   --keepCalendars=gregorian \
   --keepCalendarItems=months,days,dateFormats,timeFormats \
@@ -34,7 +34,7 @@ $ node ./json-locale.js \
 *javascript file*
 ```javascript
 jsonlocale.convert({
-  outputPath        : "./JSONlocale",
+  outputDir         : "./JSONlocale",
   keep              : [ "numbers", "languages", "calendars" ],
   keepCalendars     : [ "gregorian" ],
   keepCalendarItems : [ "months", "days", "dateFormats", "timeFormats" ],

@@ -43,6 +43,8 @@ var converter = module.exports = {
 
   convert : function (opts, fn) {
     var fileObjArr = [];
+
+    opts = UserOptions.getNew(opts);
     
     fs.readdir(opts.inputDir, function (err, filenameArr) {
       if (err) return fn(err);
@@ -76,10 +78,10 @@ var converter = module.exports = {
 
 // if called from command line...
 if (require.main === module) {
-  var opts = UserOptions.getNew(argv);
+  //var opts = UserOptions.getNew(argv);
 
   console.log('[...] json-locale: begin.');
-  converter.convert(opts, function (err, res) {
+  converter.convert(argv, function (err, res) {
     if (err) return console.log(err);
     console.log('[...] finished.');
   });
