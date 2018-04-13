@@ -1,6 +1,6 @@
 {
   "name": "json-locale",
-  "main": "json-locale",
+  "main": "src/json",
   "version": "0.0.46",
   "readmeFilename": "README.md",
   "description": "Unicode Consortium JSON locale files.",
@@ -9,7 +9,7 @@
     "url": "https://github.com/iambumblehead/json-locale.git"
   },
   "scripts": {
-    "test": "node node_modules/jasmine/bin/jasmine.js --verbose"
+    "test": "jasmine --verbose"
   },
   "licenses": [
     {
