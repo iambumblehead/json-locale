@@ -53,24 +53,40 @@ jsonlocale.convert({
 
 #### <a id="modifiers">modifiers
 
- - **--inputDir= _path_**, _default: json-locale/JSONlocale/main_
-   a systempath to a directory or file. by default, json-locale will read locale files from its own directory.
+<table>
+  <tbody>
+    <tr>
+      <th align="center">option</th>
+      <th align="center">description</th>
+    </tr>
+    <tr>
+      <td align="right">**outputDir**<br />_./JSONlocaleNew_</td>
+      <td align="left">directory path where json files will be saved</td>
+    </tr>
+    <tr>
+      <td align="right">**isoType**<br />_639-2_</td>
+      <td align="left">there are two valid ISOType, `639-2` and `639-1`. `639-2` is three-letter language format (ex, 'eng' or 'spa'). `639-1` is two-letter language format (ex, 'en' or 'es').</td>
+    </tr>
+    <tr>
+      <td align="right">**localeFilter**<br />_all items_</td>
+      <td align="left">by default, all json-locale files will generate all possible locale files. localeFilter may be defined as an array of values or a string of comma-separated values. When defined, only locale files corresponding to the given values are generated.
+```javascript
+localeFilter : [
+"en_US",
+"spa_ES",
+"spa_CL"
+]
+```
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td align="center">See the list</td>
+    </tr>
+  </tbody>
+</table>
 
- - **--outputDir= _path_**, _default: ./JSONlocaleNew_
-   a systempath to a directory or file.
-   
- - **--isoType= _ISOType_**, _default: 639-2_
-   there are two valid ISOType, `639-2` and `639-1`. `639-2` is three-letter language format (ex, 'eng' or 'spa'). `639-1` is two-letter language format (ex, 'en' or 'es').
 
- - **--localeFilter= _item_, _anotheritem_**, _default: allItems_
-   by default, all json-locale files will generate all possible locale files. localeFilter may be defined as an array of values or a string of comma-separated values. When defined, only locale files corresponding to the given values are generated.
-   ```javascript
-   localeFilter : [
-     "en_US",
-     "spa_ES",
-     "spa_CL"
-   ]
-   ```
 
  - **--localeDefault= _defaultItem_**, _default: none_
    speficy a default locale (ex, 'eng_US'). a file named 'baseLangLocale.json' is saved to the output directory with the default locale.
