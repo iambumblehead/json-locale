@@ -56,47 +56,40 @@ jsonlocale.convert({
 <table>
   <tbody>
     <tr>
-      <th align="center">option</th>
-      <th align="center">description</th>
-    </tr>
-    <tr>
-      <td align="right"><b>outputDir</b><br /><i>./JSONlocaleNew</i></td>
+      <td align="right"><b>outputDir</b><br /><i>'./locales'</i></td>
       <td align="left">directory path where json files will be saved</td>
     </tr>
     <tr>
-      <td align="right"><b>isoType</b><br /><i>639-2</i></td>
-      <td align="left">there are two valid ISOType, `639-2` and `639-1`. `639-2` is three-letter language format (ex, 'eng' or 'spa'). `639-1` is two-letter language format (ex, 'en' or 'es').</td>
+      <td align="right"><b>isoType</b><br /><i>'639-2'</i></td>
+      <td align="left"> <code>'639-2'</code> or <code>'639-1'</code>. "639-2" is three-letter language format (ex, 'eng' or 'spa'). "639-1" is two-letter language format (ex, 'en' or 'es').</td>
     </tr>
     <tr>
       <td align="right"><b>localeFilter</b><br /><i>all items</i></td>
       <td align="left">by default, all json-locale files will generate all possible locale files. localeFilter may be defined as an array of values or a string of comma-separated values. When defined, only locale files corresponding to the given values are generated.
-
-         ```javascript
-         localeFilter : [
+       <pre lang="javascript">
+         localeFilter = [
            "en_US",
            "spa_ES",
-           "spa_CL"
-         ]
-         ```
+           "spa_CL" ]
+        </pre>
       </td>
     </tr>
     <tr>
-      <td></td>
-      <td align="center">See the list</td>
+      <td align="right"><b>localeDefault</b><br /><i>none</i></td>
+      <td align="left">if a default locale is defined, for example 'eng_US', a copy of the corresponding locale file is saved to the output directory as 'baseLangLocale.json'.</td>
+    </tr>
+    <tr>
+      <td align="right"><b>isConvert_yy</b><br /><i>true</i></td>
+      <td align="left">replace two-character "yy" with "yyyy" for each gregorian date/time pattern to make dates less ambiguous.</td>
+    </tr>
+    <tr>
+      <td align="right"><b>isConvert_underscore</b><br /><i>false</i></td>
+      <td align="left">replace underscore with hyphen so that `eng_US` becomes `eng-US`. see [iOS style locale codes.][3]</td>
     </tr>
   </tbody>
 </table>
 
 
-
- - **--localeDefault= _defaultItem_**, _default: none_
-   speficy a default locale (ex, 'eng_US'). a file named 'baseLangLocale.json' is saved to the output directory with the default locale.
-
- - **--isConvert_yy= _bool_**, _default: true_
-   replace two-character `yy` with `yyyy` for each date/time pattern.
-   
- - **--isConvert_underscore= _bool_**, _default: false_
-   replace underscore with hyphen so that `eng_US` becomes `eng-US`. [iOS style locale codes][3].
 
  - **--keep= _item_, _anotheritem_**, _default: allItems_
    direct json-locale to keep specific items. if no items are specified, all items are kept. available items are elements of the `keep` array:
