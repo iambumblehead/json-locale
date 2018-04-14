@@ -49,10 +49,6 @@ jsonlocale.convert({
 });
 ```
 
----------------------------------------------------------
-
-#### <a id="modifiers">modifiers
-
 <table>
   <tbody>
     <tr>
@@ -67,9 +63,9 @@ jsonlocale.convert({
       <td align="right"><b>localeFilter</b><br /><i>all items</i></td>
       <td align="left">by default, all json-locale files will generate all possible locale files. localeFilter may be defined as an array of values or a string of comma-separated values. When defined, only locale files corresponding to the given values are generated.
        <pre lang="javascript">
-         [ "en_US",
-           "spa_ES",
-           "spa_CL" ]
+[ "en_US",
+  "spa_ES",
+  "spa_CL" ]
         </pre>
       </td>
     </tr>
@@ -89,21 +85,21 @@ jsonlocale.convert({
       <td align="right"><b>keep</b><br /><i>all items</i></td>
       <td align="left">keep specific items. if no items are specified, all items are kept. all available items listed here,
        <pre lang="javascript">
-         [ "identity",
-           "languages",
-           "scripts",
-           "territories",
-           "variants",
-           "keys",
-           "types",
-           "measurements",
-           "codePatterns",
-           "layouts",
-           "characters",
-           "calendars",
-           "currencies",
-           "numbers",
-           "units" ]
+[ "identity",
+  "languages",
+  "scripts",
+  "territories",
+  "variants",
+  "keys",
+  "types",
+  "measurements",
+  "codePatterns",
+  "layouts",
+  "characters",
+  "calendars",
+  "currencies",
+  "numbers",
+  "units" ]
         </pre>
       </td>
     </tr>
@@ -111,20 +107,20 @@ jsonlocale.convert({
       <td align="right"><b>keepCalendars</b><br /><i>all items</i></td>
       <td align="left">keep specific calendars. if no items are specified, all calendars are kept. all available calendars listed here,
        <pre lang="javascript">
-         [ "buddhist", 
-           "chinese", 
-           "coptic", 
-           "dangi",
-           "ethiopic", 
-           "ethiopicAmeteAlem",
-           "gregorian",
-           "hebrew", 
-           "indian",
-           "islamic", 
-           "islamicCivil", 
-           "japanese",
-           "persian", 
-           "roc" ]
+[ "buddhist", 
+  "chinese", 
+  "coptic", 
+  "dangi",
+  "ethiopic", 
+  "ethiopicAmeteAlem",
+  "gregorian",
+  "hebrew", 
+  "indian",
+  "islamic", 
+  "islamicCivil", 
+  "japanese",
+  "persian", 
+  "roc" ]
         </pre>
       </td>
     </tr>
@@ -132,14 +128,14 @@ jsonlocale.convert({
       <td align="right"><b>keepCalendarItems</b><br /><i>all items</i></td>
       <td align="left">keep more specific calendar items. if no items are specified, all items are kept. all available items listed here,
        <pre lang="javascript">
-         [ "months",
-           "days",
-           "quarters",
-           "eras",
-           "dateFormats",
-           "timeFormats",
-           "dateTimeFormats",
-           "fields" ]
+[ "months",
+  "days",
+  "quarters",
+  "eras",
+  "dateFormats",
+  "timeFormats",
+  "dateTimeFormats",
+  "fields" ]
         </pre>
       </td>
     </tr>
@@ -147,10 +143,10 @@ jsonlocale.convert({
       <td align="right"><b>keepNumberItems</b><br /><i>all items</i></td>
       <td align="left">keep more specific number items. if no items are specified, all items are kept. all available items listed here,
        <pre lang="javascript">
-         [ "currencyFormatsNumberSystemLatn",
-           "symbolsNumberSystemLatn",
-           "decimalFormatsNumberSystemLatn",
-           "currencies" ]
+[ "currencyFormatsNumberSystemLatn",
+  "symbolsNumberSystemLatn",
+  "decimalFormatsNumberSystemLatn",
+  "currencies" ]
         </pre>
       </td>
     </tr>
