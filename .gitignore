@@ -4,3 +4,4 @@ README.html
 npm-debug.log
 .DS_Store
 .tern-port
+test/locale

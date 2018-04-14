@@ -3,26 +3,26 @@ var fs = require('fs'),
     util = require('util'),
     nodefs = require('node-fs'),
     pathpublic = require('pathpublic'),
-    ISOUtil = require('./ISO/isoutil.js'),
-    UserOptions = require('./UserOptions'),
-    Filter = require('./Filter');
+    ISOUtil = require('./json_iso'),
+    Filter = require('./json_filter');
 
-var FileObj = module.exports = (function() {
+module.exports = (o => {
 
   var fileObj = {
     filename : '',
     inputDir : '',
     outputDir : '',
 
-    read : function (filename, fn) {
+    read : (filename, fn) => {
       fs.readFile(filename, 'utf8', fn);
     },
+
     write : function (filename, opts, content, fn) {
       var writename = ISOUtil.getISOConvertedFilename(opts, filename),
           writenamepath = pathpublic.get(writename, opts.outputDir);
       
       console.log('[...] write: ' + writenamepath);
-      fs.writeFile(UserOptions.getFullPath(writenamepath), content, fn);
+      fs.writeFile(path.resolve(writenamepath), content, fn);
     },
 
     getOutputPathJSONFull : function () {
@@ -97,7 +97,6 @@ var FileObj = module.exports = (function() {
         fn(null, res);
       });
     }
-    
   };
 
   return {
@@ -110,4 +109,4 @@ var FileObj = module.exports = (function() {
     }
   };
 
-}());
+})({});

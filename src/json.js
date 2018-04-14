@@ -1,11 +1,12 @@
-var UserOptions = require('./lib/UserOptions'),
-    FileObj = require('./lib/FileObj'),
-    ISOUtil = require('./lib/ISO/isoutil.js'),
 
-    fs = require('fs'),
+let fs = require('fs'),
     util = require('util'),
     path = require('path'),
-    argv = require('optimist').argv;
+    argv = require('optimist').argv,
+
+    json_opts = require('./json_opts'),
+    FileObj = require('./FileObj'),
+    ISOUtil = require('./json_iso');
 
 var converter = module.exports = {
 
@@ -43,6 +44,9 @@ var converter = module.exports = {
 
   convert : function (opts, fn) {
     var fileObjArr = [];
+
+    //opts = UserOptions.getNew(opts);
+    opts = json_opts(opts);
     
     fs.readdir(opts.inputDir, function (err, filenameArr) {
       if (err) return fn(err);
@@ -76,10 +80,8 @@ var converter = module.exports = {
 
 // if called from command line...
 if (require.main === module) {
-  var opts = UserOptions.getNew(argv);
-
   console.log('[...] json-locale: begin.');
-  converter.convert(opts, function (err, res) {
+  converter.convert(argv, function (err, res) {
     if (err) return console.log(err);
     console.log('[...] finished.');
   });

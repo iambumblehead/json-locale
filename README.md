@@ -2,11 +2,15 @@ json-locale
 ===========
 **(c)[Bumblehead][0]** [MIT-license](#license), [Unicode Terms](#terms)
 
-The [official Unicode ldml-JSON][1] files are provided. They define standardised format descriptors to display times, dates, currencies, etc., using the [Unicode standard][5]. The source unicode JSON files include formatting rules for multiple types of calendar and other information. Use --json-locale to generate custom collections of JSON files that contain needed data only.
+[![Build Status](https://travis-ci.org/iambumblehead/json-locale.svg?branch=master)](https://travis-ci.org/iambumblehead/json-locale)
 
-  * generate specific locale-files
-  * generate locale-files with filtered content
-  * generate locale files for ISO 639-1 or 639-2 format
+The [official Unicode ldml-JSON][1] files are provided. They define standardised format descriptors to display times, dates, currencies, etc., using the [Unicode standard][5]. Unicode JSON files provide formatting rules for calendars, dates, currencies and other information. 
+
+The Unicode JSON files are big. Use json-locale to generate filtered, smaller JSON files.
+
+  * generate fewer files, for specific locales
+  * generate smaller locale-files with filtered content
+  * generate files around the ISO 639-1 or 639-2 format
 
 [0]: http://www.bumblehead.com                            "bumblehead"
 [1]: http://www.unicode.org/repos/cldr-aux/json/22.1/   "unicode JSON"
@@ -21,20 +25,20 @@ Both examples would produce the same output.
  
 *shell*
 ```bash
-$ node ./json-locale.js \
-  --outputPath=./JSONlocale \
+$ node path/to/json-locale/src/json.js \
+  --outputDir=./JSONlocale \
   --keep=numbers,currencies,languages \
   --keepCalendars=gregorian \
   --keepCalendarItems=months,days,dateFormats,timeFormats \
   --keepNumberItems=symbolsFormatsNumberSystemLatn,currencies \
-  --localeFilter=en_US,spa_ES,spa_CL \
+  --localeFilter=en_US,spa_ES,spa_CL
 ```
 
 
 *javascript file*
 ```javascript
 jsonlocale.convert({
-  outputPath        : "./JSONlocale",
+  outputDir         : "./JSONlocale",
   keep              : [ "numbers", "languages", "calendars" ],
   keepCalendars     : [ "gregorian" ],
   keepCalendarItems : [ "months", "days", "dateFormats", "timeFormats" ],
@@ -157,7 +161,7 @@ jsonlocale.convert({
 
 (The MIT License)
 
-Copyright (c) 2013 [Bumblehead][0] <chris@bumblehead.com>
+Copyright (c) [Bumblehead][0] <chris@bumblehead.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

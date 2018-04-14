@@ -1,6 +1,6 @@
 // http://www.loc.gov/standards/iso639-2/ISO-639-2_8859-1.txt
 
-var languageArr = module.exports = [{
+module.exports = [{
   code : "aar",
   language : [
     "aa","Afar","afar"
