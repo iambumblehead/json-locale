@@ -67,8 +67,7 @@ jsonlocale.convert({
       <td align="right"><b>localeFilter</b><br /><i>all items</i></td>
       <td align="left">by default, all json-locale files will generate all possible locale files. localeFilter may be defined as an array of values or a string of comma-separated values. When defined, only locale files corresponding to the given values are generated.
        <pre lang="javascript">
-         localeFilter = [
-           "en_US",
+         [ "en_US",
            "spa_ES",
            "spa_CL" ]
         </pre>
@@ -86,79 +85,77 @@ jsonlocale.convert({
       <td align="right"><b>isConvert_underscore</b><br /><i>false</i></td>
       <td align="left">replace underscore with hyphen so that `eng_US` becomes `eng-US`. see [iOS style locale codes.][3]</td>
     </tr>
+    <tr>
+      <td align="right"><b>keep</b><br /><i>all items</i></td>
+      <td align="left">keep specific items. if no items are specified, all items are kept. all available items listed here,
+       <pre lang="javascript">
+         [ "identity",
+           "languages",
+           "scripts",
+           "territories",
+           "variants",
+           "keys",
+           "types",
+           "measurements",
+           "codePatterns",
+           "layouts",
+           "characters",
+           "calendars",
+           "currencies",
+           "numbers",
+           "units" ]
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td align="right"><b>keepCalendars</b><br /><i>all items</i></td>
+      <td align="left">keep specific calendars. if no items are specified, all calendars are kept. all available calendars listed here,
+       <pre lang="javascript">
+         [ "buddhist", 
+           "chinese", 
+           "coptic", 
+           "dangi",
+           "ethiopic", 
+           "ethiopicAmeteAlem",
+           "gregorian",
+           "hebrew", 
+           "indian",
+           "islamic", 
+           "islamicCivil", 
+           "japanese",
+           "persian", 
+           "roc" ]
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td align="right"><b>keepCalendarItems</b><br /><i>all items</i></td>
+      <td align="left">keep more specific calendar items. if no items are specified, all items are kept. all available items listed here,
+       <pre lang="javascript">
+         [ "months",
+           "days",
+           "quarters",
+           "eras",
+           "dateFormats",
+           "timeFormats",
+           "dateTimeFormats",
+           "fields" ]
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td align="right"><b>keepNumberItems</b><br /><i>all items</i></td>
+      <td align="left">keep more specific number items. if no items are specified, all items are kept. all available items listed here,
+       <pre lang="javascript">
+         [ "currencyFormatsNumberSystemLatn",
+           "symbolsNumberSystemLatn",
+           "decimalFormatsNumberSystemLatn",
+           "currencies" ]
+        </pre>
+      </td>
+    </tr>
   </tbody>
 </table>
-
-
-
- - **--keep= _item_, _anotheritem_**, _default: allItems_
-   direct json-locale to keep specific items. if no items are specified, all items are kept. available items are elements of the `keep` array:
-   ```javascript
-   keep : [
-     "identity",
-     "languages",
-     "scripts",
-     "territories",
-     "variants",
-     "keys",
-     "types",
-     "measurements",
-     "codePatterns",
-     "layouts",
-     "characters",
-     "calendars",
-     "currencies",
-     "numbers",
-     "units"
-   ];
-   ```
-    
- - **--keepCalendars= _item_, _anotheritem_**, _default: allItems_
-   direct json-locale to keep specific items. if no items are specified, all items are kept. available items are elements of the `keepCalendars` array: 
-   ```javascript
-   keepCalendars : [
-     "buddhist", 
-     "chinese", 
-     "coptic", 
-     "dangi",
-     "ethiopic", 
-     "ethiopicAmeteAlem",
-     "gregorian",
-     "hebrew", 
-     "indian",
-     "islamic", 
-     "islamicCivil", 
-     "japanese",
-     "persian", 
-     "roc"
-   ];
-   ```
- 
- - **--keepCalendarItems= _item_, _anotheritem_**, _default: allItems_
-   direct json-locale to keep specific items. if no items are specified, all items are kept. available items are elements of the `keepCalendarsItems` array:
-   ```javascript
-   keepCalendarsItems : [
-     "months",
-     "days",
-     "quarters",
-     "eras",
-     "dateFormats",
-     "timeFormats",
-     "dateTimeFormats",
-     "fields"
-   ];
-   ```
- 
- - **--keepNumberItems= _item_, _anotheritem_**, _default: allItems_
-   direct json-locale to keep specific items. if no items are specified, all items are kept. available items are elements of the `keepNumbersItems` array:
-   ```javascript
-   keepNumbersItems : [
-     "currencyFormatsNumberSystemLatn",
-     "symbolsNumberSystemLatn",
-     "decimalFormatsNumberSystemLatn",
-     "currencies"
-   ]
-   ```
 
 
 
@@ -166,7 +163,7 @@ jsonlocale.convert({
 [7]: https://raw.githubusercontent.com/iambumblehead/es5classic/master/es5classic_120x120.png
 
 
-![scrounge](https://github.com/iambumblehead/scroungejs/raw/master/img/hand.png)[![es5 classic][7]][7]
+![scrounge](https://github.com/iambumblehead/scroungejs/raw/master/img/hand.png)
 
 
 (The MIT License)
