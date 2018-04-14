@@ -44,10 +44,12 @@ jsonlocale.convert({
   keepCalendarItems : [ "months", "days", "dateFormats", "timeFormats" ],
   keepNumberItems   : [ "symbolsFormatsNumberSystemLatn", "currencies" ],
   localeFilter      : [ "en_US", "spa_ES", "spa_CL" ]
-}, function (err, res) {
+}, (err, res) => {
   console.log('finished!')
 });
 ```
+
+## options
 
 <table>
   <tbody>
