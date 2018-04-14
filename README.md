@@ -19,7 +19,7 @@ The Unicode JSON files are big. Use json-locale to generate filtered, smaller JS
 
 ---------------------------------------------------------
 
-#### <a id="get-started"></a>get started
+## get started
 
 Both examples would produce the same output.
  
