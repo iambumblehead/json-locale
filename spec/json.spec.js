@@ -1,11 +1,11 @@
-var jsonlocal = require('../');
+const path = require('path'),
+      jsonlocal = require('../');
 
 describe('json', () => {
   it('should build files', done => {  
 
     jsonlocal.convert({  
-      inputDir : './JSONlocale/main',
-      outputDir : './JSONlocaleNew',
+      outputDir : path.join(__dirname, '/../test/locale/'),
       keep : [
         'numbers', 
         'languages', 
@@ -25,7 +25,7 @@ describe('json', () => {
         'currencies'
       ],
 
-      isoType : '639-1', // three letter (639-1), two letter (639-2)
+      isoType : '639-2', // two letter (639-1), three letter (639-2)
       localeDefault : 'eng_US',
 
       localeFilter : [
@@ -36,7 +36,6 @@ describe('json', () => {
     }, (err, res) => {
       done();
     });
-
   });
 });
 

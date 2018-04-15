@@ -23,7 +23,7 @@ describe('json_opts', () => {
     expect( opts.isoType ).toBe( 'ISO-639-1' );
     expect( opts.localeDefault ).toBe( false );
     expect( opts.isConvert_yy ).toBe( true );
-    expect( opts.isConvert_underscore ).toBe( true );
+    expect( opts.isConvert_underscore ).toBe( false );
     expect( opts.localeFilterArr.sort().join(',') )
       .toBe( 'de_AT,de_DE,fr_BE,fr_FR,nl_BE,nl_NL' );
     expect( opts.keep.sort().join(',') )

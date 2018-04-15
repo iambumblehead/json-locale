@@ -1,7 +1,7 @@
 {
   "name": "json-locale",
   "main": "src/json",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "readmeFilename": "README.md",
   "description": "Unicode Consortium JSON locale files.",
   "repository": {
@@ -11,7 +11,7 @@
   "scripts": {
     "lint": "eslint 'src/*.js'",
     "test": "jasmine --verbose",
-    "start": "cd test && node build.js"    
+    "start": "cd test && node build.js"
   },
   "licenses": [
     {
@@ -28,15 +28,21 @@
     "calendar",
     "formatting",
     "unicode",
+    "json",
+    "locale",
+    "locales",
+    "dates",
+    "regions",
+    "cuture",
     "ldml",
     "cldr"
   ],
   "dependencies": {
     "castas": "^0.0.3",
-    "optimist": "0.4.0",
-    "node-fs": ">=0.1.5",
-    "pathpublic": ">=0.0.1",
-    "objobjwalk": ">=0.0.1"
+    "yargs": "^11.0.0",
+    "node-fs": "^0.1.7",
+    "pathpublic": "^0.0.8",
+    "objobjwalk": "^0.0.7"
   },
   "devDependencies": {
     "jasmine": "2.5.3",

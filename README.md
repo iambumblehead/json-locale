@@ -37,7 +37,7 @@ $ node path/to/json-locale/src/json.js \
 
 *javascript file*
 ```javascript
-jsonlocale.convert({
+jsonlocale({
   outputDir         : "./JSONlocale",
   keep              : [ "numbers", "languages", "calendars" ],
   keepCalendars     : [ "gregorian" ],
@@ -81,7 +81,7 @@ jsonlocale.convert({
     </tr>
     <tr>
       <td align="right"><b>isConvert_underscore</b><br /><i>false</i></td>
-      <td align="left">replace underscore with hyphen so that `eng_US` becomes `eng-US`. see [iOS style locale codes.][3]</td>
+      <td align="left">replace underscore with hyphen so that `eng_US` becomes `eng-US`. see <a href="http://developer.apple.com/library/ios/#documentation/MacOSX/Conceptual/BPInternational/Articles/LanguageDesignations.html#//apple_ref/doc/uid/20002144-SW3" title="iOS locale codes">iOS style locale codes.</a></td>
     </tr>
     <tr>
       <td align="right"><b>keep</b><br /><i>all items</i></td>

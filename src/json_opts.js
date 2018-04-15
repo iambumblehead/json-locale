@@ -18,7 +18,7 @@ module.exports = (o => {
 
     finopt.localeDefault = castas.str(opt.localeDefault, '') || false;
     finopt.isConvert_yy = castas.bool(opt.isConvert_yy, true);
-    finopt.isConvert_underscore = castas.bool(opt.isConvert_underscore, true);
+    finopt.isConvert_underscore = castas.bool(opt.isConvert_underscore, false);
     
     finopt.localeFilterArr = castas.arr(opt.localeFilter, false);
     

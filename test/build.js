@@ -11,7 +11,7 @@ require('child_process').execSync(
 `, {stdio:'inherit'});
 
 // scripted build...
-jsonlocale.convert({
+jsonlocale({
   outputDir : './locale',
   isoType : '639-1',
   keep : [
@@ -22,6 +22,7 @@ jsonlocale.convert({
     'currencyFormatsNumberSystemLatn',
     'symbolsNumberSystemLatn',
     'decimalFormatsNumberSystemLatn' ],
+  localeDefault : 'de_DE',
   keepCalendars : [
     'coptic',
     'japanese' ],
