@@ -55,15 +55,15 @@ jsonlocale({
   <tbody>
     <tr>
       <td align="right"><b>outputDir</b><br /><i>'./locales'</i></td>
-      <td align="left">directory path where json files will be saved</td>
+      <td align="left" style="white-space:normal;">directory path where json files will be saved</td>
     </tr>
     <tr>
       <td align="right"><b>isoType</b><br /><i>'639-2'</i></td>
-      <td align="left"> <code>'639-2'</code> or <code>'639-1'</code>. "639-2" is three-letter language format (ex, 'eng' or 'spa'). "639-1" is two-letter language format (ex, 'en' or 'es').</td>
+      <td align="left" style="white-space:normal;"> <code>'639-2'</code> or <code>'639-1'</code>. "639-2" is three-letter language format (ex, 'eng' or 'spa'). "639-1" is two-letter language format (ex, 'en' or 'es').</td>
     </tr>
     <tr>
       <td align="right"><b>localeFilter</b><br /><i>all items</i></td>
-      <td align="left">by default, all json-locale files will generate all possible locale files. localeFilter may be defined as an array of values or a string of comma-separated values. When defined, only locale files corresponding to the given values are generated.
+      <td align="left" style="white-space:normal;">by default, all json-locale files will generate all possible locale files. localeFilter may be defined as an array of values or a string of comma-separated values. When defined, only locale files corresponding to the given values are generated.
        <pre lang="javascript">
 [ "en_US",
   "spa_ES",
@@ -73,19 +73,19 @@ jsonlocale({
     </tr>
     <tr>
       <td align="right"><b>localeDefault</b><br /><i>none</i></td>
-      <td align="left">if a default locale is defined, for example 'eng_US', a copy of the corresponding locale file is saved to the output directory as 'baseLangLocale.json'.</td>
+      <td align="left" style="white-space:normal;">if a default locale is defined, for example 'eng_US', a copy of the corresponding locale file is saved to the output directory as 'baseLangLocale.json'.</td>
     </tr>
     <tr>
       <td align="right"><b>isConvert_yy</b><br /><i>true</i></td>
-      <td align="left">replace two-character "yy" with "yyyy" for each gregorian date/time pattern to make dates less ambiguous.</td>
+      <td align="left" style="white-space:normal;">replace two-character "yy" with "yyyy" for each gregorian date/time pattern to make dates less ambiguous.</td>
     </tr>
     <tr>
       <td align="right"><b>isConvert_underscore</b><br /><i>false</i></td>
-      <td align="left">replace underscore with hyphen so that `eng_US` becomes `eng-US`. see <a href="http://developer.apple.com/library/ios/#documentation/MacOSX/Conceptual/BPInternational/Articles/LanguageDesignations.html#//apple_ref/doc/uid/20002144-SW3" title="iOS locale codes">iOS style locale codes.</a></td>
+      <td align="left" style="white-space:normal;">replace underscore with hyphen so that `eng_US` becomes `eng-US`. see <a href="http://developer.apple.com/library/ios/#documentation/MacOSX/Conceptual/BPInternational/Articles/LanguageDesignations.html#//apple_ref/doc/uid/20002144-SW3" title="iOS locale codes">iOS style locale codes.</a></td>
     </tr>
     <tr>
       <td align="right"><b>keep</b><br /><i>all items</i></td>
-      <td align="left">keep specific items. if no items are specified, all items are kept. all available items listed here,
+      <td align="left" style="white-space:normal;">keep specific items. if no items are specified, all items are kept. all available items listed here,
        <pre lang="javascript">
 [ "identity",
   "languages",
@@ -107,7 +107,7 @@ jsonlocale({
     </tr>
     <tr>
       <td align="right"><b>keepCalendars</b><br /><i>all items</i></td>
-      <td align="left">keep specific calendars. if no items are specified, all calendars are kept. all available calendars listed here,
+      <td align="left" style="white-space:normal;">keep specific calendars. if no items are specified, all calendars are kept. all available calendars listed here,
        <pre lang="javascript">
 [ "buddhist", 
   "chinese", 
@@ -128,7 +128,7 @@ jsonlocale({
     </tr>
     <tr>
       <td align="right"><b>keepCalendarItems</b><br /><i>all items</i></td>
-      <td align="left">keep more specific calendar items. if no items are specified, all items are kept. all available items listed here,
+      <td align="left" style="white-space:normal;">keep more specific calendar items. if no items are specified, all items are kept. all available items listed here,
        <pre lang="javascript">
 [ "months",
   "days",
@@ -143,7 +143,7 @@ jsonlocale({
     </tr>
     <tr>
       <td align="right"><b>keepNumberItems</b><br /><i>all items</i></td>
-      <td align="left">keep more specific number items. if no items are specified, all items are kept. all available items listed here,
+      <td align="left" style="white-space:normal;">keep more specific number items. if no items are specified, all items are kept. all available items listed here,
        <pre lang="javascript">
 [ "currencyFormatsNumberSystemLatn",
   "symbolsNumberSystemLatn",

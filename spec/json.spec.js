@@ -3,7 +3,6 @@ const path = require('path'),
 
 describe('json', () => {
   it('should build files', done => {  
-
     jsonlocal.convert({  
       outputDir : path.join(__dirname, '/../test/locale/'),
       keep : [
