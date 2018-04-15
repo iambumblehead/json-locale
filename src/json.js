@@ -11,18 +11,18 @@ const json_build = require('./json_build'),
 // if called from command line...
 if (require.main === module) {
   console.log('[...] json-locale: begin.');
-  json_build(require('yargs').argv, (err, res) => {
+  json_build(require('yargs').argv, err => {
     if (err) return console.log(err);
     console.log('[...] finished.');
   });
-} 
+}
 
 module.exports = (o => {
   o = (opts, fn) =>
     json_build(opts, fn);
 
   o.convert = (opts, fn) =>
-    json_build(opts, fn);    
+    json_build(opts, fn);
 
   o.json_build = json_build;
   o.json_fileinfo = json_fileinfo;

@@ -1,0 +1,89 @@
+# eslint config
+
+extends:
+  - airbnb-base
+plugins:
+  - import
+env:
+  node: true
+  es6: true
+parser: babel-eslint
+parserOptions:
+  sourceType: script
+  allowImportExportEverywhere: true
+  ecmaFeatures:
+    jsx: false
+globals:
+  __dirname: false
+  describe: false
+  expect: false
+  it: false
+rules:
+  import/no-extraneous-dependencies:
+    - error
+    - devDependencies: true
+  global-require: off
+  no-sequences: off
+  strict:
+    - 2
+    - never
+  one-var:
+    - 2
+    - always
+  no-bitwise: off
+  space-in-parens:
+    - error
+    - never
+  import/newline-after-import: off
+  indent:
+    - error
+    - 2
+    - flatTernaryExpressions: true
+      VariableDeclarator:
+        let: 2
+        const: 3
+  camelcase: off
+  func-names: off
+  newline-per-chained-call: off
+  max-len:
+    - error
+    - 200
+  comma-dangle:
+    - error
+    - never
+  no-mixed-operators: off
+  no-plusplus: off
+  no-console: off
+  arrow-parens:
+    - error
+    - as-needed
+  space-before-function-paren:
+    - error
+    - always
+  consistent-return: off
+  array-callback-return: off
+  prefer-const: off
+  curly: off
+  no-param-reassign: off
+  key-spacing:
+    - error
+    - beforeColon: true
+  no-shadow:
+    - 0
+    - warn
+    - allow:
+      - err
+  prefer-arrow-callback:
+    - error
+    - allowNamedFunctions: true
+  no-return-assign: off
+  no-use-before-define:
+    - error
+    - nofunc
+  no-nested-ternary: off
+  array-bracket-spacing:
+    - error
+    - always
+  prefer-destructuring: error
+  class-methods-use-this: off
+  no-confusing-arrow: off

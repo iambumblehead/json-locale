@@ -1,24 +1,22 @@
-
 module.exports = (o => {
   o.lookup = (obj, nsstr) => (
     nsstr.split('.').reduce((a, b) => a ? a[b] : null, obj));
-  
-  o.rm = (obj, nsstr, [ns, ...rest] = nsstr.split('.')) => {
+
+  o.rm = (obj, nsstr, [ ns, ...rest ] = nsstr.split('.')) => {
     let newobj = Object.assign({}, obj);
-    
+
     if (rest.length > 0) {
       newobj[ns] = o.rm(newobj[ns], nsstr, rest);
     } else {
-      
       delete newobj[ns];
     }
 
     return newobj;
   };
 
-  o.replace = (obj, nsstr, newval, [ns, ...rest] = nsstr.split('.')) => {
+  o.replace = (obj, nsstr, newval, [ ns, ...rest ] = nsstr.split('.')) => {
     let newobj = Object.assign({}, obj);
-    
+
     if (rest.length > 0) {
       newobj[ns] = o.replace(newobj[ns], nsstr, newval, rest);
     } else if (ns in newobj) {
@@ -28,7 +26,7 @@ module.exports = (o => {
     }
 
     return newobj;
-  };  
+  };
 
   return o;
 })({});

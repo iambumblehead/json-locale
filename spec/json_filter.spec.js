@@ -1,28 +1,29 @@
 const json_filter = require('../src/json_filter');
+const json_opts = require('../src/json_opts');
 const json_rmns = require('../src/json_rmns');
 
 describe('json_filter', () => {
-  [ ['identity', 'getRmIdentity'],
-    ['localeDisplayNames.languages', 'getRmLanguages'],
-    ['listPatterns', 'getRmListPatterns'],
-    ['localeDisplayNames.localeDisplayPattern', 'getRmDisplayPattern'],
-    ['localeDisplayNames.scripts', 'getRmScripts'],
-    ['localeDisplayNames.territories', 'getRmTerritories'],
-    ['localeDisplayNames.variants', 'getRmVariants'],
-    ['localeDisplayNames.keys', 'getRmKeys'],
-    ['localeDisplayNames.types', 'getRmTypes'],
-    ['localeDisplayNames.measurementSystemNames', 'getRmMeasurements'],
-    ['localeDisplayNames.codePatterns', 'getRmCodePatterns'],
-    ['delimiters', 'getRmDelimiters'],
-    ['layout', 'getRmLayouts'],
-    ['characters', 'getRmCharacters'],
-    ['dates.calendars', 'getRmCalendars'],
-    ['dates.timeZoneNames', 'getRmTimeZoneNames'],
-    ['numbers', 'getRmNumbers'],
-    ['numbers.currencies', 'getRmCurrencies'],
-    ['units', 'getRmUnits'],
-    ['posix', 'getRmPosix'],
-    ['layout', 'getRmLayouts'] ].map(([ns, fn]) => {
+  [ ['identity', 'rmidentity'],
+    ['localeDisplayNames.languages', 'rmlanguages'],
+    ['listPatterns', 'rmlistPatterns'],
+    ['localeDisplayNames.localeDisplayPattern', 'rmdisplayPattern'],
+    ['localeDisplayNames.scripts', 'rmscripts'],
+    ['localeDisplayNames.territories', 'rmterritories'],
+    ['localeDisplayNames.variants', 'rmvariants'],
+    ['localeDisplayNames.keys', 'rmkeys'],
+    ['localeDisplayNames.types', 'rmtypes'],
+    ['localeDisplayNames.measurementSystemNames', 'rmmeasurements'],
+    ['localeDisplayNames.codePatterns', 'rmcodePatterns'],
+    ['delimiters', 'rmdelimiters'],
+    ['layout', 'rmlayouts'],
+    ['characters', 'rmcharacters'],
+    ['dates.calendars', 'rmcalendars'],
+    ['dates.timeZoneNames', 'rmtimeZoneNames'],
+    ['numbers', 'rmnumbers'],
+    ['numbers.currencies', 'rmcurrencies'],
+    ['units', 'rmunits'],
+    ['posix', 'rmposix'],
+    ['layout', 'rmlayouts'] ].map(([ns, fn]) => {
     it(`should remove '${ns.split('.').reverse()[0]}' item`, () => {
       let en_UScodes = require('../JSONlocale/main/en_US.json');
       
@@ -44,13 +45,11 @@ describe('json_filter', () => {
     expect( typeof json_rmns.lookup(en_UScodes, 'localeDisplayNames.keys' ) ).toBe( 'object' );
     expect( typeof json_rmns.lookup(en_UScodes, 'layout' ) ).toBe( 'object' );
 
-    en_UScodes = json_filter.filterAll(en_UScodes, {
-      keep : [
-        'identity',
-        'displayPattern',
-        'types'
-      ]
-    });
+    en_UScodes = json_filter(en_UScodes, [
+      'identity',
+      'displayPattern',
+      'types'
+    ], {});
 
     expect( typeof json_rmns.lookup(en_UScodes, 'identity' ) ).toBe( 'object' );
     expect( typeof json_rmns.lookup(en_UScodes, 'localeDisplayNames.localeDisplayPattern' ) ).toBe( 'object' );
@@ -87,5 +86,5 @@ describe('json_filter.getISOConverted', () => {
 
     expect( json_rmns.lookup(en_UScodes, 'identity.language' ) ).toBe( 'en' );    
   });  
-
 });
+

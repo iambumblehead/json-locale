@@ -1,2433 +1,2433 @@
 // http://www.loc.gov/standards/iso639-2/ISO-639-2_8859-1.txt
 
-module.exports = [{
-  code : "aar",
+module.exports = [ {
+  code : 'aar',
   language : [
-    "aa","Afar","afar"
+    'aa', 'Afar', 'afar'
   ]
-},{
-  code : "abk",
+}, {
+  code : 'abk',
   language : [
-    "ab","Abkhazian","abkhaze"
+    'ab', 'Abkhazian', 'abkhaze'
   ]
-},{
-  code : "ace",
+}, {
+  code : 'ace',
   language : [
-    "Achinese","aceh"
+    'Achinese', 'aceh'
   ]
-},{
-  code : "ach",
+}, {
+  code : 'ach',
   language : [
-    "Acoli","acoli"
+    'Acoli', 'acoli'
   ]
-},{
-  code : "ada",
+}, {
+  code : 'ada',
   language : [
-    "Adangme","adangme"
+    'Adangme', 'adangme'
   ]
-},{
-  code : "ady",
+}, {
+  code : 'ady',
   language : [
-    "Adyghe; Adygei","adyghé"
+    'Adyghe; Adygei', 'adyghé'
   ]
-},{
-  code : "afa",
+}, {
+  code : 'afa',
   language : [
-    "Afro-Asiatic languages","afro-asiatiques, langues"
+    'Afro-Asiatic languages', 'afro-asiatiques, langues'
   ]
-},{
-  code : "afh",
+}, {
+  code : 'afh',
   language : [
-    "Afrihili","afrihili"
+    'Afrihili', 'afrihili'
   ]
-},{
-  code : "afr",
+}, {
+  code : 'afr',
   language : [
-    "af","Afrikaans","afrikaans"
+    'af', 'Afrikaans', 'afrikaans'
   ]
-},{
-  code : "ain",
+}, {
+  code : 'ain',
   language : [
-    "Ainu","aïnou"
+    'Ainu', 'aïnou'
   ]
-},{
-  code : "aka",
+}, {
+  code : 'aka',
   language : [
-    "ak","Akan","akan"
+    'ak', 'Akan', 'akan'
   ]
-},{
-  code : "akk",
+}, {
+  code : 'akk',
   language : [
-    "Akkadian","akkadien"
+    'Akkadian', 'akkadien'
   ]
-},{
-  code : "alb",
+}, {
+  code : 'alb',
   language : [
-    "sqi","sq","Albanian","albanais"
+    'sqi', 'sq', 'Albanian', 'albanais'
   ]
-},{
-  code : "ale",
+}, {
+  code : 'ale',
   language : [
-    "Aleut","aléoute"
+    'Aleut', 'aléoute'
   ]
-},{
-  code : "alg",
+}, {
+  code : 'alg',
   language : [
-    "Algonquian languages","algonquines, langues"
+    'Algonquian languages', 'algonquines, langues'
   ]
-},{
-  code : "alt",
+}, {
+  code : 'alt',
   language : [
-    "Southern Altai","altai du Sud"
+    'Southern Altai', 'altai du Sud'
   ]
-},{
-  code : "amh",
+}, {
+  code : 'amh',
   language : [
-    "am","Amharic","amharique"
+    'am', 'Amharic', 'amharique'
   ]
-},{
-  code : "ang",
+}, {
+  code : 'ang',
   language : [
-    "English, Old (ca.450-1100)","anglo-saxon (ca.450-1100)"
+    'English, Old (ca.450-1100)', 'anglo-saxon (ca.450-1100)'
   ]
-},{
-  code : "anp",
+}, {
+  code : 'anp',
   language : [
-    "Angika","angika"
+    'Angika', 'angika'
   ]
-},{
-  code : "apa",
+}, {
+  code : 'apa',
   language : [
-    "Apache languages","apache, langues"
+    'Apache languages', 'apache, langues'
   ]
-},{
-  code : "ara",
+}, {
+  code : 'ara',
   language : [
-    "ar","Arabic","arabe"
+    'ar', 'Arabic', 'arabe'
   ]
-},{
-  code : "arc",
+}, {
+  code : 'arc',
   language : [
-    "Official Aramaic (700-300 BCE); Imperial Aramaic (700-300 BCE)","araméen d'empire (700-300 BCE)"
+    'Official Aramaic (700-300 BCE); Imperial Aramaic (700-300 BCE)', 'araméen d\'empire (700-300 BCE)'
   ]
-},{
-  code : "arg",
+}, {
+  code : 'arg',
   language : [
-    "an","Aragonese","aragonais"
+    'an', 'Aragonese', 'aragonais'
   ]
-},{
-  code : "arm",
+}, {
+  code : 'arm',
   language : [
-    "hye","hy","Armenian","arménien"
+    'hye', 'hy', 'Armenian', 'arménien'
   ]
-},{
-  code : "arn",
+}, {
+  code : 'arn',
   language : [
-    "Mapudungun; Mapuche","mapudungun; mapuche; mapuce"
+    'Mapudungun; Mapuche', 'mapudungun; mapuche; mapuce'
   ]
-},{
-  code : "arp",
+}, {
+  code : 'arp',
   language : [
-    "Arapaho","arapaho"
+    'Arapaho', 'arapaho'
   ]
-},{
-  code : "art",
+}, {
+  code : 'art',
   language : [
-    "Artificial languages","artificielles, langues"
+    'Artificial languages', 'artificielles, langues'
   ]
-},{
-  code : "arw",
+}, {
+  code : 'arw',
   language : [
-    "Arawak","arawak"
+    'Arawak', 'arawak'
   ]
-},{
-  code : "asm",
+}, {
+  code : 'asm',
   language : [
-    "as","Assamese","assamais"
+    'as', 'Assamese', 'assamais'
   ]
-},{
-  code : "ast",
+}, {
+  code : 'ast',
   language : [
-    "Asturian; Bable; Leonese; Asturleonese","asturien; bable; léonais; asturoléonais"
+    'Asturian; Bable; Leonese; Asturleonese', 'asturien; bable; léonais; asturoléonais'
   ]
-},{
-  code : "ath",
+}, {
+  code : 'ath',
   language : [
-    "Athapascan languages","athapascanes, langues"
+    'Athapascan languages', 'athapascanes, langues'
   ]
-},{
-  code : "aus",
+}, {
+  code : 'aus',
   language : [
-    "Australian languages","australiennes, langues"
+    'Australian languages', 'australiennes, langues'
   ]
-},{
-  code : "ava",
+}, {
+  code : 'ava',
   language : [
-    "av","Avaric","avar"
+    'av', 'Avaric', 'avar'
   ]
-},{
-  code : "ave",
+}, {
+  code : 'ave',
   language : [
-    "ae","Avestan","avestique"
+    'ae', 'Avestan', 'avestique'
   ]
-},{
-  code : "awa",
+}, {
+  code : 'awa',
   language : [
-    "Awadhi","awadhi"
+    'Awadhi', 'awadhi'
   ]
-},{
-  code : "aym",
+}, {
+  code : 'aym',
   language : [
-    "ay","Aymara","aymara"
+    'ay', 'Aymara', 'aymara'
   ]
-},{
-  code : "aze",
+}, {
+  code : 'aze',
   language : [
-    "az","Azerbaijani","azéri"
+    'az', 'Azerbaijani', 'azéri'
   ]
-},{
-  code : "bad",
+}, {
+  code : 'bad',
   language : [
-    "Banda languages","banda, langues"
+    'Banda languages', 'banda, langues'
   ]
-},{
-  code : "bai",
+}, {
+  code : 'bai',
   language : [
-    "Bamileke languages","bamiléké, langues"
+    'Bamileke languages', 'bamiléké, langues'
   ]
-},{
-  code : "bak",
+}, {
+  code : 'bak',
   language : [
-    "ba","Bashkir","bachkir"
+    'ba', 'Bashkir', 'bachkir'
   ]
-},{
-  code : "bal",
+}, {
+  code : 'bal',
   language : [
-    "Baluchi","baloutchi"
+    'Baluchi', 'baloutchi'
   ]
-},{
-  code : "bam",
+}, {
+  code : 'bam',
   language : [
-    "bm","Bambara","bambara"
+    'bm', 'Bambara', 'bambara'
   ]
-},{
-  code : "ban",
+}, {
+  code : 'ban',
   language : [
-    "Balinese","balinais"
+    'Balinese', 'balinais'
   ]
-},{
-  code : "baq",
+}, {
+  code : 'baq',
   language : [
-    "eus","eu","Basque","basque"
+    'eus', 'eu', 'Basque', 'basque'
   ]
-},{
-  code : "bas",
+}, {
+  code : 'bas',
   language : [
-    "Basa","basa"
+    'Basa', 'basa'
   ]
-},{
-  code : "bat",
+}, {
+  code : 'bat',
   language : [
-    "Baltic languages","baltes, langues"
+    'Baltic languages', 'baltes, langues'
   ]
-},{
-  code : "bej",
+}, {
+  code : 'bej',
   language : [
-    "Beja; Bedawiyet","bedja"
+    'Beja; Bedawiyet', 'bedja'
   ]
-},{
-  code : "bel",
+}, {
+  code : 'bel',
   language : [
-    "be","Belarusian","biélorusse"
+    'be', 'Belarusian', 'biélorusse'
   ]
-},{
-  code : "bem",
+}, {
+  code : 'bem',
   language : [
-    "Bemba","bemba"
+    'Bemba', 'bemba'
   ]
-},{
-  code : "ben",
+}, {
+  code : 'ben',
   language : [
-    "bn","Bengali","bengali"
+    'bn', 'Bengali', 'bengali'
   ]
-},{
-  code : "ber",
+}, {
+  code : 'ber',
   language : [
-    "Berber languages","berbères, langues"
+    'Berber languages', 'berbères, langues'
   ]
-},{
-  code : "bho",
+}, {
+  code : 'bho',
   language : [
-    "Bhojpuri","bhojpuri"
+    'Bhojpuri', 'bhojpuri'
   ]
-},{
-  code : "bih",
+}, {
+  code : 'bih',
   language : [
-    "bh","Bihari languages","langues bihari"
+    'bh', 'Bihari languages', 'langues bihari'
   ]
-},{
-  code : "bik",
+}, {
+  code : 'bik',
   language : [
-    "Bikol","bikol"
+    'Bikol', 'bikol'
   ]
-},{
-  code : "bin",
+}, {
+  code : 'bin',
   language : [
-    "Bini; Edo","bini; edo"
+    'Bini; Edo', 'bini; edo'
   ]
-},{
-  code : "bis",
+}, {
+  code : 'bis',
   language : [
-    "bi","Bislama","bichlamar"
+    'bi', 'Bislama', 'bichlamar'
   ]
-},{
-  code : "bla",
+}, {
+  code : 'bla',
   language : [
-    "Siksika","blackfoot"
+    'Siksika', 'blackfoot'
   ]
-},{
-  code : "bnt",
+}, {
+  code : 'bnt',
   language : [
-    "Bantu languages","bantou, langues"
+    'Bantu languages', 'bantou, langues'
   ]
-},{
-  code : "bos",
+}, {
+  code : 'bos',
   language : [
-    "bs","Bosnian","bosniaque"
+    'bs', 'Bosnian', 'bosniaque'
   ]
-},{
-  code : "bra",
+}, {
+  code : 'bra',
   language : [
-    "Braj","braj"
+    'Braj', 'braj'
   ]
-},{
-  code : "bre",
+}, {
+  code : 'bre',
   language : [
-    "br","Breton","breton"
+    'br', 'Breton', 'breton'
   ]
-},{
-  code : "btk",
+}, {
+  code : 'btk',
   language : [
-    "Batak languages","batak, langues"
+    'Batak languages', 'batak, langues'
   ]
-},{
-  code : "bua",
+}, {
+  code : 'bua',
   language : [
-    "Buriat","bouriate"
+    'Buriat', 'bouriate'
   ]
-},{
-  code : "bug",
+}, {
+  code : 'bug',
   language : [
-    "Buginese","bugi"
+    'Buginese', 'bugi'
   ]
-},{
-  code : "bul",
+}, {
+  code : 'bul',
   language : [
-    "bg","Bulgarian","bulgare"
+    'bg', 'Bulgarian', 'bulgare'
   ]
-},{
-  code : "bur",
+}, {
+  code : 'bur',
   language : [
-    "mya","my","Burmese","birman"
+    'mya', 'my', 'Burmese', 'birman'
   ]
-},{
-  code : "byn",
+}, {
+  code : 'byn',
   language : [
-    "Blin; Bilin","blin; bilen"
+    'Blin; Bilin', 'blin; bilen'
   ]
-},{
-  code : "cad",
+}, {
+  code : 'cad',
   language : [
-    "Caddo","caddo"
+    'Caddo', 'caddo'
   ]
-},{
-  code : "cai",
+}, {
+  code : 'cai',
   language : [
-    "Central American Indian languages","amérindiennes de l'Amérique centrale, langues"
+    'Central American Indian languages', 'amérindiennes de l\'Amérique centrale, langues'
   ]
-},{
-  code : "car",
+}, {
+  code : 'car',
   language : [
-    "Galibi Carib","karib; galibi; carib"
+    'Galibi Carib', 'karib; galibi; carib'
   ]
-},{
-  code : "cat",
+}, {
+  code : 'cat',
   language : [
-    "ca","Catalan; Valencian","catalan; valencien"
+    'ca', 'Catalan; Valencian', 'catalan; valencien'
   ]
-},{
-  code : "cau",
+}, {
+  code : 'cau',
   language : [
-    "Caucasian languages","caucasiennes, langues"
+    'Caucasian languages', 'caucasiennes, langues'
   ]
-},{
-  code : "ceb",
+}, {
+  code : 'ceb',
   language : [
-    "Cebuano","cebuano"
+    'Cebuano', 'cebuano'
   ]
-},{
-  code : "cel",
+}, {
+  code : 'cel',
   language : [
-    "Celtic languages","celtiques, langues; celtes, langues"
+    'Celtic languages', 'celtiques, langues; celtes, langues'
   ]
-},{
-  code : "cha",
+}, {
+  code : 'cha',
   language : [
-    "ch","Chamorro","chamorro"
+    'ch', 'Chamorro', 'chamorro'
   ]
-},{
-  code : "chb",
+}, {
+  code : 'chb',
   language : [
-    "Chibcha","chibcha"
+    'Chibcha', 'chibcha'
   ]
-},{
-  code : "che",
+}, {
+  code : 'che',
   language : [
-    "ce","Chechen","tchétchène"
+    'ce', 'Chechen', 'tchétchène'
   ]
-},{
-  code : "chg",
+}, {
+  code : 'chg',
   language : [
-    "Chagatai","djaghataï"
+    'Chagatai', 'djaghataï'
   ]
-},{
-  code : "chi",
+}, {
+  code : 'chi',
   language : [
-    "zho","zh","Chinese","chinois"
+    'zho', 'zh', 'Chinese', 'chinois'
   ]
-},{
-  code : "chk",
+}, {
+  code : 'chk',
   language : [
-    "Chuukese","chuuk"
+    'Chuukese', 'chuuk'
   ]
-},{
-  code : "chm",
+}, {
+  code : 'chm',
   language : [
-    "Mari","mari"
+    'Mari', 'mari'
   ]
-},{
-  code : "chn",
+}, {
+  code : 'chn',
   language : [
-    "Chinook jargon","chinook, jargon"
+    'Chinook jargon', 'chinook, jargon'
   ]
-},{
-  code : "cho",
+}, {
+  code : 'cho',
   language : [
-    "Choctaw","choctaw"
+    'Choctaw', 'choctaw'
   ]
-},{
-  code : "chp",
+}, {
+  code : 'chp',
   language : [
-    "Chipewyan; Dene Suline","chipewyan"
+    'Chipewyan; Dene Suline', 'chipewyan'
   ]
-},{
-  code : "chr",
+}, {
+  code : 'chr',
   language : [
-    "Cherokee","cherokee"
+    'Cherokee', 'cherokee'
   ]
-},{
-  code : "chu",
+}, {
+  code : 'chu',
   language : [
-    "cu","Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic","slavon d'église; vieux slave; slavon liturgique; vieux bulgare"
+    'cu', 'Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic', 'slavon d\'église; vieux slave; slavon liturgique; vieux bulgare'
   ]
-},{
-  code : "chv",
+}, {
+  code : 'chv',
   language : [
-    "cv","Chuvash","tchouvache"
+    'cv', 'Chuvash', 'tchouvache'
   ]
-},{
-  code : "chy",
+}, {
+  code : 'chy',
   language : [
-    "Cheyenne","cheyenne"
+    'Cheyenne', 'cheyenne'
   ]
-},{
-  code : "cmc",
+}, {
+  code : 'cmc',
   language : [
-    "Chamic languages","chames, langues"
+    'Chamic languages', 'chames, langues'
   ]
-},{
-  code : "cop",
+}, {
+  code : 'cop',
   language : [
-    "Coptic","copte"
+    'Coptic', 'copte'
   ]
-},{
-  code : "cor",
+}, {
+  code : 'cor',
   language : [
-    "kw","Cornish","cornique"
+    'kw', 'Cornish', 'cornique'
   ]
-},{
-  code : "cos",
+}, {
+  code : 'cos',
   language : [
-    "co","Corsican","corse"
+    'co', 'Corsican', 'corse'
   ]
-},{
-  code : "cpe",
+}, {
+  code : 'cpe',
   language : [
-    "Creoles and pidgins, English based","créoles et pidgins basés sur l'anglais"
+    'Creoles and pidgins, English based', 'créoles et pidgins basés sur l\'anglais'
   ]
-},{
-  code : "cpf",
+}, {
+  code : 'cpf',
   language : [
-    "Creoles and pidgins, French-based","créoles et pidgins basés sur le français"
+    'Creoles and pidgins, French-based', 'créoles et pidgins basés sur le français'
   ]
-},{
-  code : "cpp",
+}, {
+  code : 'cpp',
   language : [
-    "Creoles and pidgins, Portuguese-based","créoles et pidgins basés sur le portugais"
+    'Creoles and pidgins, Portuguese-based', 'créoles et pidgins basés sur le portugais'
   ]
-},{
-  code : "cre",
+}, {
+  code : 'cre',
   language : [
-    "cr","Cree","cree"
+    'cr', 'Cree', 'cree'
   ]
-},{
-  code : "crh",
+}, {
+  code : 'crh',
   language : [
-    "Crimean Tatar; Crimean Turkish","tatar de Crimé"
+    'Crimean Tatar; Crimean Turkish', 'tatar de Crimé'
   ]
-},{
-  code : "crp",
+}, {
+  code : 'crp',
   language : [
-    "Creoles and pidgins","créoles et pidgins"
+    'Creoles and pidgins', 'créoles et pidgins'
   ]
-},{
-  code : "csb",
+}, {
+  code : 'csb',
   language : [
-    "Kashubian","kachoube"
+    'Kashubian', 'kachoube'
   ]
-},{
-  code : "cus",
+}, {
+  code : 'cus',
   language : [
-    "Cushitic languages","couchitiques, langues"
+    'Cushitic languages', 'couchitiques, langues'
   ]
-},{
-  code : "cze",
+}, {
+  code : 'cze',
   language : [
-    "ces","cs","Czech","tchèque"
+    'ces', 'cs', 'Czech', 'tchèque'
   ]
-},{
-  code : "dak",
+}, {
+  code : 'dak',
   language : [
-    "Dakota","dakota"
+    'Dakota', 'dakota'
   ]
-},{
-  code : "dan",
+}, {
+  code : 'dan',
   language : [
-    "da","Danish","danois"
+    'da', 'Danish', 'danois'
   ]
-},{
-  code : "dar",
+}, {
+  code : 'dar',
   language : [
-    "Dargwa","dargwa"
+    'Dargwa', 'dargwa'
   ]
-},{
-  code : "day",
+}, {
+  code : 'day',
   language : [
-    "Land Dayak languages","dayak, langues"
+    'Land Dayak languages', 'dayak, langues'
   ]
-},{
-  code : "del",
+}, {
+  code : 'del',
   language : [
-    "Delaware","delaware"
+    'Delaware', 'delaware'
   ]
-},{
-  code : "den",
+}, {
+  code : 'den',
   language : [
-    "Slave (Athapascan)","esclave (athapascan)"
+    'Slave (Athapascan)', 'esclave (athapascan)'
   ]
-},{
-  code : "dgr",
+}, {
+  code : 'dgr',
   language : [
-    "Dogrib","dogrib"
+    'Dogrib', 'dogrib'
   ]
-},{
-  code : "din",
+}, {
+  code : 'din',
   language : [
-    "Dinka","dinka"
+    'Dinka', 'dinka'
   ]
-},{
-  code : "div",
+}, {
+  code : 'div',
   language : [
-    "dv","Divehi; Dhivehi; Maldivian","maldivien"
+    'dv', 'Divehi; Dhivehi; Maldivian', 'maldivien'
   ]
-},{
-  code : "doi",
+}, {
+  code : 'doi',
   language : [
-    "Dogri","dogri"
+    'Dogri', 'dogri'
   ]
-},{
-  code : "dra",
+}, {
+  code : 'dra',
   language : [
-    "Dravidian languages","dravidiennes, langues"
+    'Dravidian languages', 'dravidiennes, langues'
   ]
-},{
-  code : "dsb",
+}, {
+  code : 'dsb',
   language : [
-    "Lower Sorbian","bas-sorabe"
+    'Lower Sorbian', 'bas-sorabe'
   ]
-},{
-  code : "dua",
+}, {
+  code : 'dua',
   language : [
-    "Duala","douala"
+    'Duala', 'douala'
   ]
-},{
-  code : "dum",
+}, {
+  code : 'dum',
   language : [
-    "Dutch, Middle (ca.1050-1350)","néerlandais moyen (ca. 1050-1350)"
+    'Dutch, Middle (ca.1050-1350)', 'néerlandais moyen (ca. 1050-1350)'
   ]
-},{
-  code : "dut",
+}, {
+  code : 'dut',
   language : [
-    "nld","nl","Dutch; Flemish","néerlandais; flamand"
+    'nld', 'nl', 'Dutch; Flemish', 'néerlandais; flamand'
   ]
-},{
-  code : "dyu",
+}, {
+  code : 'dyu',
   language : [
-    "Dyula","dioula"
+    'Dyula', 'dioula'
   ]
-},{
-  code : "dzo",
+}, {
+  code : 'dzo',
   language : [
-    "dz","Dzongkha","dzongkha"
+    'dz', 'Dzongkha', 'dzongkha'
   ]
-},{
-  code : "efi",
+}, {
+  code : 'efi',
   language : [
-    "Efik","efik"
+    'Efik', 'efik'
   ]
-},{
-  code : "egy",
+}, {
+  code : 'egy',
   language : [
-    "Egyptian (Ancient)","égyptien"
+    'Egyptian (Ancient)', 'égyptien'
   ]
-},{
-  code : "eka",
+}, {
+  code : 'eka',
   language : [
-    "Ekajuk","ekajuk"
+    'Ekajuk', 'ekajuk'
   ]
-},{
-  code : "elx",
+}, {
+  code : 'elx',
   language : [
-    "Elamite","élamite"
+    'Elamite', 'élamite'
   ]
-},{
-  code : "eng",
+}, {
+  code : 'eng',
   language : [
-    "en","English","anglais"
+    'en', 'English', 'anglais'
   ]
-},{
-  code : "enm",
+}, {
+  code : 'enm',
   language : [
-    "English, Middle (1100-1500)","anglais moyen (1100-1500)"
+    'English, Middle (1100-1500)', 'anglais moyen (1100-1500)'
   ]
-},{
-  code : "epo",
+}, {
+  code : 'epo',
   language : [
-    "eo","Esperanto","espéranto"
+    'eo', 'Esperanto', 'espéranto'
   ]
-},{
-  code : "est",
+}, {
+  code : 'est',
   language : [
-    "et","Estonian","estonien"
+    'et', 'Estonian', 'estonien'
   ]
-},{
-  code : "ewe",
+}, {
+  code : 'ewe',
   language : [
-    "ee","Ewe","éwé"
+    'ee', 'Ewe', 'éwé'
   ]
-},{
-  code : "ewo",
+}, {
+  code : 'ewo',
   language : [
-    "Ewondo","éwondo"
+    'Ewondo', 'éwondo'
   ]
-},{
-  code : "fan",
+}, {
+  code : 'fan',
   language : [
-    "Fang","fang"
+    'Fang', 'fang'
   ]
-},{
-  code : "fao",
+}, {
+  code : 'fao',
   language : [
-    "fo","Faroese","féroïen"
+    'fo', 'Faroese', 'féroïen'
   ]
-},{
-  code : "fat",
+}, {
+  code : 'fat',
   language : [
-    "Fanti","fanti"
+    'Fanti', 'fanti'
   ]
-},{
-  code : "fij",
+}, {
+  code : 'fij',
   language : [
-    "fj","Fijian","fidjien"
+    'fj', 'Fijian', 'fidjien'
   ]
-},{
-  code : "fil",
+}, {
+  code : 'fil',
   language : [
-    "Filipino; Pilipino","filipino; pilipino"
+    'Filipino; Pilipino', 'filipino; pilipino'
   ]
-},{
-  code : "fin",
+}, {
+  code : 'fin',
   language : [
-    "fi","Finnish","finnois"
+    'fi', 'Finnish', 'finnois'
   ]
-},{
-  code : "fiu",
+}, {
+  code : 'fiu',
   language : [
-    "Finno-Ugrian languages","finno-ougriennes, langues"
+    'Finno-Ugrian languages', 'finno-ougriennes, langues'
   ]
-},{
-  code : "fon",
+}, {
+  code : 'fon',
   language : [
-    "Fon","fon"
+    'Fon', 'fon'
   ]
-},{
-  code : "fre",
+}, {
+  code : 'fre',
   language : [
-    "fra","fr","French","français"
+    'fra', 'fr', 'French', 'français'
   ]
-},{
-  code : "frm",
+}, {
+  code : 'frm',
   language : [
-    "French, Middle (ca.1400-1600)","français moyen (1400-1600)"
+    'French, Middle (ca.1400-1600)', 'français moyen (1400-1600)'
   ]
-},{
-  code : "fro",
+}, {
+  code : 'fro',
   language : [
-    "French, Old (842-ca.1400)","français ancien (842-ca.1400)"
+    'French, Old (842-ca.1400)', 'français ancien (842-ca.1400)'
   ]
-},{
-  code : "frr",
+}, {
+  code : 'frr',
   language : [
-    "Northern Frisian","frison septentrional"
+    'Northern Frisian', 'frison septentrional'
   ]
-},{
-  code : "frs",
+}, {
+  code : 'frs',
   language : [
-    "Eastern Frisian","frison oriental"
+    'Eastern Frisian', 'frison oriental'
   ]
-},{
-  code : "fry",
+}, {
+  code : 'fry',
   language : [
-    "fy","Western Frisian","frison occidental"
+    'fy', 'Western Frisian', 'frison occidental'
   ]
-},{
-  code : "ful",
+}, {
+  code : 'ful',
   language : [
-    "ff","Fulah","peul"
+    'ff', 'Fulah', 'peul'
   ]
-},{
-  code : "fur",
+}, {
+  code : 'fur',
   language : [
-    "Friulian","frioulan"
+    'Friulian', 'frioulan'
   ]
-},{
-  code : "gaa",
+}, {
+  code : 'gaa',
   language : [
-    "Ga","ga"
+    'Ga', 'ga'
   ]
-},{
-  code : "gay",
+}, {
+  code : 'gay',
   language : [
-    "Gayo","gayo"
+    'Gayo', 'gayo'
   ]
-},{
-  code : "gba",
+}, {
+  code : 'gba',
   language : [
-    "Gbaya","gbaya"
+    'Gbaya', 'gbaya'
   ]
-},{
-  code : "gem",
+}, {
+  code : 'gem',
   language : [
-    "Germanic languages","germaniques, langues"
+    'Germanic languages', 'germaniques, langues'
   ]
-},{
-  code : "geo",
+}, {
+  code : 'geo',
   language : [
-    "kat","ka","Georgian","géorgien"
+    'kat', 'ka', 'Georgian', 'géorgien'
   ]
-},{
-  code : "ger",
+}, {
+  code : 'ger',
   language : [
-    "deu","de","German","allemand"
+    'deu', 'de', 'German', 'allemand'
   ]
-},{
-  code : "gez",
+}, {
+  code : 'gez',
   language : [
-    "Geez","guèze"
+    'Geez', 'guèze'
   ]
-},{
-  code : "gil",
+}, {
+  code : 'gil',
   language : [
-    "Gilbertese","kiribati"
+    'Gilbertese', 'kiribati'
   ]
-},{
-  code : "gla",
+}, {
+  code : 'gla',
   language : [
-    "gd","Gaelic; Scottish Gaelic","gaélique; gaélique écossais"
+    'gd', 'Gaelic; Scottish Gaelic', 'gaélique; gaélique écossais'
   ]
-},{
-  code : "gle",
+}, {
+  code : 'gle',
   language : [
-    "ga","Irish","irlandais"
+    'ga', 'Irish', 'irlandais'
   ]
-},{
-  code : "glg",
+}, {
+  code : 'glg',
   language : [
-    "gl","Galician","galicien"
+    'gl', 'Galician', 'galicien'
   ]
-},{
-  code : "glv",
+}, {
+  code : 'glv',
   language : [
-    "gv","Manx","manx; mannois"
+    'gv', 'Manx', 'manx; mannois'
   ]
-},{
-  code : "gmh",
+}, {
+  code : 'gmh',
   language : [
-    "German, Middle High (ca.1050-1500)","allemand, moyen haut (ca. 1050-1500)"
+    'German, Middle High (ca.1050-1500)', 'allemand, moyen haut (ca. 1050-1500)'
   ]
-},{
-  code : "goh",
+}, {
+  code : 'goh',
   language : [
-    "German, Old High (ca.750-1050)","allemand, vieux haut (ca. 750-1050)"
+    'German, Old High (ca.750-1050)', 'allemand, vieux haut (ca. 750-1050)'
   ]
-},{
-  code : "gon",
+}, {
+  code : 'gon',
   language : [
-    "Gondi","gond"
+    'Gondi', 'gond'
   ]
-},{
-  code : "gor",
+}, {
+  code : 'gor',
   language : [
-    "Gorontalo","gorontalo"
+    'Gorontalo', 'gorontalo'
   ]
-},{
-  code : "got",
+}, {
+  code : 'got',
   language : [
-    "Gothic","gothique"
+    'Gothic', 'gothique'
   ]
-},{
-  code : "grb",
+}, {
+  code : 'grb',
   language : [
-    "Grebo","grebo"
+    'Grebo', 'grebo'
   ]
-},{
-  code : "grc",
+}, {
+  code : 'grc',
   language : [
-    "Greek, Ancient (to 1453)","grec ancien (jusqu'à 1453)"
+    'Greek, Ancient (to 1453)', 'grec ancien (jusqu\'à 1453)'
   ]
-},{
-  code : "gre",
+}, {
+  code : 'gre',
   language : [
-    "ell","el","Greek, Modern (1453-)","grec moderne (après 1453)"
+    'ell', 'el', 'Greek, Modern (1453-)', 'grec moderne (après 1453)'
   ]
-},{
-  code : "grn",
+}, {
+  code : 'grn',
   language : [
-    "gn","Guarani","guarani"
+    'gn', 'Guarani', 'guarani'
   ]
-},{
-  code : "gsw",
+}, {
+  code : 'gsw',
   language : [
-    "Swiss German; Alemannic; Alsatian","suisse alémanique; alémanique; alsacien"
+    'Swiss German; Alemannic; Alsatian', 'suisse alémanique; alémanique; alsacien'
   ]
-},{
-  code : "guj",
+}, {
+  code : 'guj',
   language : [
-    "gu","Gujarati","goudjrati"
+    'gu', 'Gujarati', 'goudjrati'
   ]
-},{
-  code : "gwi",
+}, {
+  code : 'gwi',
   language : [
-    "Gwich'in","gwich'in"
+    'Gwich\'in', 'gwich\'in'
   ]
-},{
-  code : "hai",
+}, {
+  code : 'hai',
   language : [
-    "Haida","haida"
+    'Haida', 'haida'
   ]
-},{
-  code : "hat",
+}, {
+  code : 'hat',
   language : [
-    "ht","Haitian; Haitian Creole","haïtien; créole haïtien"
+    'ht', 'Haitian; Haitian Creole', 'haïtien; créole haïtien'
   ]
-},{
-  code : "hau",
+}, {
+  code : 'hau',
   language : [
-    "ha","Hausa","haoussa"
+    'ha', 'Hausa', 'haoussa'
   ]
-},{
-  code : "haw",
+}, {
+  code : 'haw',
   language : [
-    "Hawaiian","hawaïen"
+    'Hawaiian', 'hawaïen'
   ]
-},{
-  code : "heb",
+}, {
+  code : 'heb',
   language : [
-    "he","Hebrew","hébreu"
+    'he', 'Hebrew', 'hébreu'
   ]
-},{
-  code : "her",
+}, {
+  code : 'her',
   language : [
-    "hz","Herero","herero"
+    'hz', 'Herero', 'herero'
   ]
-},{
-  code : "hil",
+}, {
+  code : 'hil',
   language : [
-    "Hiligaynon","hiligaynon"
+    'Hiligaynon', 'hiligaynon'
   ]
-},{
-  code : "him",
+}, {
+  code : 'him',
   language : [
-    "Himachali languages; Western Pahari languages","langues himachalis; langues paharis occidentales"
+    'Himachali languages; Western Pahari languages', 'langues himachalis; langues paharis occidentales'
   ]
-},{
-  code : "hin",
+}, {
+  code : 'hin',
   language : [
-    "hi","Hindi","hindi"
+    'hi', 'Hindi', 'hindi'
   ]
-},{
-  code : "hit",
+}, {
+  code : 'hit',
   language : [
-    "Hittite","hittite"
+    'Hittite', 'hittite'
   ]
-},{
-  code : "hmn",
+}, {
+  code : 'hmn',
   language : [
-    "Hmong; Mong","hmong"
+    'Hmong; Mong', 'hmong'
   ]
-},{
-  code : "hmo",
+}, {
+  code : 'hmo',
   language : [
-    "ho","Hiri Motu","hiri motu"
+    'ho', 'Hiri Motu', 'hiri motu'
   ]
-},{
-  code : "hrv",
+}, {
+  code : 'hrv',
   language : [
-    "hr","Croatian","croate"
+    'hr', 'Croatian', 'croate'
   ]
-},{
-  code : "hsb",
+}, {
+  code : 'hsb',
   language : [
-    "Upper Sorbian","haut-sorabe"
+    'Upper Sorbian', 'haut-sorabe'
   ]
-},{
-  code : "hun",
+}, {
+  code : 'hun',
   language : [
-    "hu","Hungarian","hongrois"
+    'hu', 'Hungarian', 'hongrois'
   ]
-},{
-  code : "hup",
+}, {
+  code : 'hup',
   language : [
-    "Hupa","hupa"
+    'Hupa', 'hupa'
   ]
-},{
-  code : "iba",
+}, {
+  code : 'iba',
   language : [
-    "Iban","iban"
+    'Iban', 'iban'
   ]
-},{
-  code : "ibo",
+}, {
+  code : 'ibo',
   language : [
-    "ig","Igbo","igbo"
+    'ig', 'Igbo', 'igbo'
   ]
-},{
-  code : "ice",
+}, {
+  code : 'ice',
   language : [
-    "isl","is","Icelandic","islandais"
+    'isl', 'is', 'Icelandic', 'islandais'
   ]
-},{
-  code : "ido",
+}, {
+  code : 'ido',
   language : [
-    "io","Ido","ido"
+    'io', 'Ido', 'ido'
   ]
-},{
-  code : "iii",
+}, {
+  code : 'iii',
   language : [
-    "ii","Sichuan Yi; Nuosu","yi de Sichuan"
+    'ii', 'Sichuan Yi; Nuosu', 'yi de Sichuan'
   ]
-},{
-  code : "ijo",
+}, {
+  code : 'ijo',
   language : [
-    "Ijo languages","ijo, langues"
+    'Ijo languages', 'ijo, langues'
   ]
-},{
-  code : "iku",
+}, {
+  code : 'iku',
   language : [
-    "iu","Inuktitut","inuktitut"
+    'iu', 'Inuktitut', 'inuktitut'
   ]
-},{
-  code : "ile",
+}, {
+  code : 'ile',
   language : [
-    "ie","Interlingue; Occidental","interlingue"
+    'ie', 'Interlingue; Occidental', 'interlingue'
   ]
-},{
-  code : "ilo",
+}, {
+  code : 'ilo',
   language : [
-    "Iloko","ilocano"
+    'Iloko', 'ilocano'
   ]
-},{
-  code : "ina",
+}, {
+  code : 'ina',
   language : [
-    "ia","Interlingua (International Auxiliary Language Association)","interlingua (langue auxiliaire internationale)"
+    'ia', 'Interlingua (International Auxiliary Language Association)', 'interlingua (langue auxiliaire internationale)'
   ]
-},{
-  code : "inc",
+}, {
+  code : 'inc',
   language : [
-    "Indic languages","indo-aryennes, langues"
+    'Indic languages', 'indo-aryennes, langues'
   ]
-},{
-  code : "ind",
+}, {
+  code : 'ind',
   language : [
-    "id","Indonesian","indonésien"
+    'id', 'Indonesian', 'indonésien'
   ]
-},{
-  code : "ine",
+}, {
+  code : 'ine',
   language : [
-    "Indo-European languages","indo-européennes, langues"
+    'Indo-European languages', 'indo-européennes, langues'
   ]
-},{
-  code : "inh",
+}, {
+  code : 'inh',
   language : [
-    "Ingush","ingouche"
+    'Ingush', 'ingouche'
   ]
-},{
-  code : "ipk",
+}, {
+  code : 'ipk',
   language : [
-    "ik","Inupiaq","inupiaq"
+    'ik', 'Inupiaq', 'inupiaq'
   ]
-},{
-  code : "ira",
+}, {
+  code : 'ira',
   language : [
-    "Iranian languages","iraniennes, langues"
+    'Iranian languages', 'iraniennes, langues'
   ]
-},{
-  code : "iro",
+}, {
+  code : 'iro',
   language : [
-    "Iroquoian languages","iroquoises, langues"
+    'Iroquoian languages', 'iroquoises, langues'
   ]
-},{
-  code : "ita",
+}, {
+  code : 'ita',
   language : [
-    "it","Italian","italien"
+    'it', 'Italian', 'italien'
   ]
-},{
-  code : "jav",
+}, {
+  code : 'jav',
   language : [
-    "jv","Javanese","javanais"
+    'jv', 'Javanese', 'javanais'
   ]
-},{
-  code : "jbo",
+}, {
+  code : 'jbo',
   language : [
-    "Lojban","lojban"
+    'Lojban', 'lojban'
   ]
-},{
-  code : "jpn",
+}, {
+  code : 'jpn',
   language : [
-    "ja","Japanese","japonais"
+    'ja', 'Japanese', 'japonais'
   ]
-},{
-  code : "jpr",
+}, {
+  code : 'jpr',
   language : [
-    "Judeo-Persian","judéo-persan"
+    'Judeo-Persian', 'judéo-persan'
   ]
-},{
-  code : "jrb",
+}, {
+  code : 'jrb',
   language : [
-    "Judeo-Arabic","judéo-arabe"
+    'Judeo-Arabic', 'judéo-arabe'
   ]
-},{
-  code : "kaa",
+}, {
+  code : 'kaa',
   language : [
-    "Kara-Kalpak","karakalpak"
+    'Kara-Kalpak', 'karakalpak'
   ]
-},{
-  code : "kab",
+}, {
+  code : 'kab',
   language : [
-    "Kabyle","kabyle"
+    'Kabyle', 'kabyle'
   ]
-},{
-  code : "kac",
+}, {
+  code : 'kac',
   language : [
-    "Kachin; Jingpho","kachin; jingpho"
+    'Kachin; Jingpho', 'kachin; jingpho'
   ]
-},{
-  code : "kal",
+}, {
+  code : 'kal',
   language : [
-    "kl","Kalaallisut; Greenlandic","groenlandais"
+    'kl', 'Kalaallisut; Greenlandic', 'groenlandais'
   ]
-},{
-  code : "kam",
+}, {
+  code : 'kam',
   language : [
-    "Kamba","kamba"
+    'Kamba', 'kamba'
   ]
-},{
-  code : "kan",
+}, {
+  code : 'kan',
   language : [
-    "kn","Kannada","kannada"
+    'kn', 'Kannada', 'kannada'
   ]
-},{
-  code : "kar",
+}, {
+  code : 'kar',
   language : [
-    "Karen languages","karen, langues"
+    'Karen languages', 'karen, langues'
   ]
-},{
-  code : "kas",
+}, {
+  code : 'kas',
   language : [
-    "ks","Kashmiri","kashmiri"
+    'ks', 'Kashmiri', 'kashmiri'
   ]
-},{
-  code : "kau",
+}, {
+  code : 'kau',
   language : [
-    "kr","Kanuri","kanouri"
+    'kr', 'Kanuri', 'kanouri'
   ]
-},{
-  code : "kaw",
+}, {
+  code : 'kaw',
   language : [
-    "Kawi","kawi"
+    'Kawi', 'kawi'
   ]
-},{
-  code : "kaz",
+}, {
+  code : 'kaz',
   language : [
-    "kk","Kazakh","kazakh"
+    'kk', 'Kazakh', 'kazakh'
   ]
-},{
-  code : "kbd",
+}, {
+  code : 'kbd',
   language : [
-    "Kabardian","kabardien"
+    'Kabardian', 'kabardien'
   ]
-},{
-  code : "kha",
+}, {
+  code : 'kha',
   language : [
-    "Khasi","khasi"
+    'Khasi', 'khasi'
   ]
-},{
-  code : "khi",
+}, {
+  code : 'khi',
   language : [
-    "Khoisan languages","khoïsan, langues"
+    'Khoisan languages', 'khoïsan, langues'
   ]
-},{
-  code : "khm",
+}, {
+  code : 'khm',
   language : [
-    "km","Central Khmer","khmer central"
+    'km', 'Central Khmer', 'khmer central'
   ]
-},{
-  code : "kho",
+}, {
+  code : 'kho',
   language : [
-    "Khotanese; Sakan","khotanais; sakan"
+    'Khotanese; Sakan', 'khotanais; sakan'
   ]
-},{
-  code : "kik",
+}, {
+  code : 'kik',
   language : [
-    "ki","Kikuyu; Gikuyu","kikuyu"
+    'ki', 'Kikuyu; Gikuyu', 'kikuyu'
   ]
-},{
-  code : "kin",
+}, {
+  code : 'kin',
   language : [
-    "rw","Kinyarwanda","rwanda"
+    'rw', 'Kinyarwanda', 'rwanda'
   ]
-},{
-  code : "kir",
+}, {
+  code : 'kir',
   language : [
-    "ky","Kirghiz; Kyrgyz","kirghiz"
+    'ky', 'Kirghiz; Kyrgyz', 'kirghiz'
   ]
-},{
-  code : "kmb",
+}, {
+  code : 'kmb',
   language : [
-    "Kimbundu","kimbundu"
+    'Kimbundu', 'kimbundu'
   ]
-},{
-  code : "kok",
+}, {
+  code : 'kok',
   language : [
-    "Konkani","konkani"
+    'Konkani', 'konkani'
   ]
-},{
-  code : "kom",
+}, {
+  code : 'kom',
   language : [
-    "kv","Komi","kom"
+    'kv', 'Komi', 'kom'
   ]
-},{
-  code : "kon",
+}, {
+  code : 'kon',
   language : [
-    "kg","Kongo","kongo"
+    'kg', 'Kongo', 'kongo'
   ]
-},{
-  code : "kor",
+}, {
+  code : 'kor',
   language : [
-    "ko","Korean","coréen"
+    'ko', 'Korean', 'coréen'
   ]
-},{
-  code : "kos",
+}, {
+  code : 'kos',
   language : [
-    "Kosraean","kosrae"
+    'Kosraean', 'kosrae'
   ]
-},{
-  code : "kpe",
+}, {
+  code : 'kpe',
   language : [
-    "Kpelle","kpellé"
+    'Kpelle', 'kpellé'
   ]
-},{
-  code : "krc",
+}, {
+  code : 'krc',
   language : [
-    "Karachay-Balkar","karatchai balkar"
+    'Karachay-Balkar', 'karatchai balkar'
   ]
-},{
-  code : "krl",
+}, {
+  code : 'krl',
   language : [
-    "Karelian","carélien"
+    'Karelian', 'carélien'
   ]
-},{
-  code : "kro",
+}, {
+  code : 'kro',
   language : [
-    "Kru languages","krou, langues"
+    'Kru languages', 'krou, langues'
   ]
-},{
-  code : "kru",
+}, {
+  code : 'kru',
   language : [
-    "Kurukh","kurukh"
+    'Kurukh', 'kurukh'
   ]
-},{
-  code : "kua",
+}, {
+  code : 'kua',
   language : [
-    "kj","Kuanyama; Kwanyama","kuanyama; kwanyama"
+    'kj', 'Kuanyama; Kwanyama', 'kuanyama; kwanyama'
   ]
-},{
-  code : "kum",
+}, {
+  code : 'kum',
   language : [
-    "Kumyk","koumyk"
+    'Kumyk', 'koumyk'
   ]
-},{
-  code : "kur",
+}, {
+  code : 'kur',
   language : [
-    "ku","Kurdish","kurde"
+    'ku', 'Kurdish', 'kurde'
   ]
-},{
-  code : "kut",
+}, {
+  code : 'kut',
   language : [
-    "Kutenai","kutenai"
+    'Kutenai', 'kutenai'
   ]
-},{
-  code : "lad",
+}, {
+  code : 'lad',
   language : [
-    "Ladino","judéo-espagnol"
+    'Ladino', 'judéo-espagnol'
   ]
-},{
-  code : "lah",
+}, {
+  code : 'lah',
   language : [
-    "Lahnda","lahnda"
+    'Lahnda', 'lahnda'
   ]
-},{
-  code : "lam",
+}, {
+  code : 'lam',
   language : [
-    "Lamba","lamba"
+    'Lamba', 'lamba'
   ]
-},{
-  code : "lao",
+}, {
+  code : 'lao',
   language : [
-    "lo","Lao","lao"
+    'lo', 'Lao', 'lao'
   ]
-},{
-  code : "lat",
+}, {
+  code : 'lat',
   language : [
-    "la","Latin","latin"
+    'la', 'Latin', 'latin'
   ]
-},{
-  code : "lav",
+}, {
+  code : 'lav',
   language : [
-    "lv","Latvian","letton"
+    'lv', 'Latvian', 'letton'
   ]
-},{
-  code : "lez",
+}, {
+  code : 'lez',
   language : [
-    "Lezghian","lezghien"
+    'Lezghian', 'lezghien'
   ]
-},{
-  code : "lim",
+}, {
+  code : 'lim',
   language : [
-    "li","Limburgan; Limburger; Limburgish","limbourgeois"
+    'li', 'Limburgan; Limburger; Limburgish', 'limbourgeois'
   ]
-},{
-  code : "lin",
+}, {
+  code : 'lin',
   language : [
-    "ln","Lingala","lingala"
+    'ln', 'Lingala', 'lingala'
   ]
-},{
-  code : "lit",
+}, {
+  code : 'lit',
   language : [
-    "lt","Lithuanian","lituanien"
+    'lt', 'Lithuanian', 'lituanien'
   ]
-},{
-  code : "lol",
+}, {
+  code : 'lol',
   language : [
-    "Mongo","mongo"
+    'Mongo', 'mongo'
   ]
-},{
-  code : "loz",
+}, {
+  code : 'loz',
   language : [
-    "Lozi","lozi"
+    'Lozi', 'lozi'
   ]
-},{
-  code : "ltz",
+}, {
+  code : 'ltz',
   language : [
-    "lb","Luxembourgish; Letzeburgesch","luxembourgeois"
+    'lb', 'Luxembourgish; Letzeburgesch', 'luxembourgeois'
   ]
-},{
-  code : "lua",
+}, {
+  code : 'lua',
   language : [
-    "Luba-Lulua","luba-lulua"
+    'Luba-Lulua', 'luba-lulua'
   ]
-},{
-  code : "lub",
+}, {
+  code : 'lub',
   language : [
-    "lu","Luba-Katanga","luba-katanga"
+    'lu', 'Luba-Katanga', 'luba-katanga'
   ]
-},{
-  code : "lug",
+}, {
+  code : 'lug',
   language : [
-    "lg","Ganda","ganda"
+    'lg', 'Ganda', 'ganda'
   ]
-},{
-  code : "lui",
+}, {
+  code : 'lui',
   language : [
-    "Luiseno","luiseno"
+    'Luiseno', 'luiseno'
   ]
-},{
-  code : "lun",
+}, {
+  code : 'lun',
   language : [
-    "Lunda","lunda"
+    'Lunda', 'lunda'
   ]
-},{
-  code : "luo",
+}, {
+  code : 'luo',
   language : [
-    "Luo (Kenya and Tanzania)","luo (Kenya et Tanzanie)"
+    'Luo (Kenya and Tanzania)', 'luo (Kenya et Tanzanie)'
   ]
-},{
-  code : "lus",
+}, {
+  code : 'lus',
   language : [
-    "Lushai","lushai"
+    'Lushai', 'lushai'
   ]
-},{
-  code : "mac",
+}, {
+  code : 'mac',
   language : [
-    "mkd","mk","Macedonian","macédonien"
+    'mkd', 'mk', 'Macedonian', 'macédonien'
   ]
-},{
-  code : "mad",
+}, {
+  code : 'mad',
   language : [
-    "Madurese","madourais"
+    'Madurese', 'madourais'
   ]
-},{
-  code : "mag",
+}, {
+  code : 'mag',
   language : [
-    "Magahi","magahi"
+    'Magahi', 'magahi'
   ]
-},{
-  code : "mah",
+}, {
+  code : 'mah',
   language : [
-    "mh","Marshallese","marshall"
+    'mh', 'Marshallese', 'marshall'
   ]
-},{
-  code : "mai",
+}, {
+  code : 'mai',
   language : [
-    "Maithili","maithili"
+    'Maithili', 'maithili'
   ]
-},{
-  code : "mak",
+}, {
+  code : 'mak',
   language : [
-    "Makasar","makassar"
+    'Makasar', 'makassar'
   ]
-},{
-  code : "mal",
+}, {
+  code : 'mal',
   language : [
-    "ml","Malayalam","malayalam"
+    'ml', 'Malayalam', 'malayalam'
   ]
-},{
-  code : "man",
+}, {
+  code : 'man',
   language : [
-    "Mandingo","mandingue"
+    'Mandingo', 'mandingue'
   ]
-},{
-  code : "mao",
+}, {
+  code : 'mao',
   language : [
-    "mri","mi","Maori","maori"
+    'mri', 'mi', 'Maori', 'maori'
   ]
-},{
-  code : "map",
+}, {
+  code : 'map',
   language : [
-    "Austronesian languages","austronésiennes, langues"
+    'Austronesian languages', 'austronésiennes, langues'
   ]
-},{
-  code : "mar",
+}, {
+  code : 'mar',
   language : [
-    "mr","Marathi","marathe"
+    'mr', 'Marathi', 'marathe'
   ]
-},{
-  code : "mas",
+}, {
+  code : 'mas',
   language : [
-    "Masai","massaï"
+    'Masai', 'massaï'
   ]
-},{
-  code : "may",
+}, {
+  code : 'may',
   language : [
-    "msa","ms","Malay","malais"
+    'msa', 'ms', 'Malay', 'malais'
   ]
-},{
-  code : "mdf",
+}, {
+  code : 'mdf',
   language : [
-    "Moksha","moksa"
+    'Moksha', 'moksa'
   ]
-},{
-  code : "mdr",
+}, {
+  code : 'mdr',
   language : [
-    "Mandar","mandar"
+    'Mandar', 'mandar'
   ]
-},{
-  code : "men",
+}, {
+  code : 'men',
   language : [
-    "Mende","mendé"
+    'Mende', 'mendé'
   ]
-},{
-  code : "mga",
+}, {
+  code : 'mga',
   language : [
-    "Irish, Middle (900-1200)","irlandais moyen (900-1200)"
+    'Irish, Middle (900-1200)', 'irlandais moyen (900-1200)'
   ]
-},{
-  code : "mic",
+}, {
+  code : 'mic',
   language : [
-    "Mi'kmaq; Micmac","mi'kmaq; micmac"
+    'Mi\'kmaq; Micmac', 'mi\'kmaq; micmac'
   ]
-},{
-  code : "min",
+}, {
+  code : 'min',
   language : [
-    "Minangkabau","minangkabau"
+    'Minangkabau', 'minangkabau'
   ]
-},{
-  code : "mis",
+}, {
+  code : 'mis',
   language : [
-    "Uncoded languages","langues non codées"
+    'Uncoded languages', 'langues non codées'
   ]
-},{
-  code : "mkh",
+}, {
+  code : 'mkh',
   language : [
-    "Mon-Khmer languages","môn-khmer, langues"
+    'Mon-Khmer languages', 'môn-khmer, langues'
   ]
-},{
-  code : "mlg",
+}, {
+  code : 'mlg',
   language : [
-    "mg","Malagasy","malgache"
+    'mg', 'Malagasy', 'malgache'
   ]
-},{
-  code : "mlt",
+}, {
+  code : 'mlt',
   language : [
-    "mt","Maltese","maltais"
+    'mt', 'Maltese', 'maltais'
   ]
-},{
-  code : "mnc",
+}, {
+  code : 'mnc',
   language : [
-    "Manchu","mandchou"
+    'Manchu', 'mandchou'
   ]
-},{
-  code : "mni",
+}, {
+  code : 'mni',
   language : [
-    "Manipuri","manipuri"
+    'Manipuri', 'manipuri'
   ]
-},{
-  code : "mno",
+}, {
+  code : 'mno',
   language : [
-    "Manobo languages","manobo, langues"
+    'Manobo languages', 'manobo, langues'
   ]
-},{
-  code : "moh",
+}, {
+  code : 'moh',
   language : [
-    "Mohawk","mohawk"
+    'Mohawk', 'mohawk'
   ]
-},{
-  code : "mon",
+}, {
+  code : 'mon',
   language : [
-    "mn","Mongolian","mongol"
+    'mn', 'Mongolian', 'mongol'
   ]
-},{
-  code : "mos",
+}, {
+  code : 'mos',
   language : [
-    "Mossi","moré"
+    'Mossi', 'moré'
   ]
-},{
-  code : "mul",
+}, {
+  code : 'mul',
   language : [
-    "Multiple languages","multilingue"
+    'Multiple languages', 'multilingue'
   ]
-},{
-  code : "mun",
+}, {
+  code : 'mun',
   language : [
-    "Munda languages","mounda, langues"
+    'Munda languages', 'mounda, langues'
   ]
-},{
-  code : "mus",
+}, {
+  code : 'mus',
   language : [
-    "Creek","muskogee"
+    'Creek', 'muskogee'
   ]
-},{
-  code : "mwl",
+}, {
+  code : 'mwl',
   language : [
-    "Mirandese","mirandais"
+    'Mirandese', 'mirandais'
   ]
-},{
-  code : "mwr",
+}, {
+  code : 'mwr',
   language : [
-    "Marwari","marvari"
+    'Marwari', 'marvari'
   ]
-},{
-  code : "myn",
+}, {
+  code : 'myn',
   language : [
-    "Mayan languages","maya, langues"
+    'Mayan languages', 'maya, langues'
   ]
-},{
-  code : "myv",
+}, {
+  code : 'myv',
   language : [
-    "Erzya","erza"
+    'Erzya', 'erza'
   ]
-},{
-  code : "nah",
+}, {
+  code : 'nah',
   language : [
-    "Nahuatl languages","nahuatl, langues"
+    'Nahuatl languages', 'nahuatl, langues'
   ]
-},{
-  code : "nai",
+}, {
+  code : 'nai',
   language : [
-    "North American Indian languages","nord-amérindiennes, langues"
+    'North American Indian languages', 'nord-amérindiennes, langues'
   ]
-},{
-  code : "nap",
+}, {
+  code : 'nap',
   language : [
-    "Neapolitan","napolitain"
+    'Neapolitan', 'napolitain'
   ]
-},{
-  code : "nau",
+}, {
+  code : 'nau',
   language : [
-    "na","Nauru","nauruan"
+    'na', 'Nauru', 'nauruan'
   ]
-},{
-  code : "nav",
+}, {
+  code : 'nav',
   language : [
-    "nv","Navajo; Navaho","navaho"
+    'nv', 'Navajo; Navaho', 'navaho'
   ]
-},{
-  code : "nbl",
+}, {
+  code : 'nbl',
   language : [
-    "nr","Ndebele, South; South Ndebele","ndébélé du Sud"
+    'nr', 'Ndebele, South; South Ndebele', 'ndébélé du Sud'
   ]
-},{
-  code : "nde",
+}, {
+  code : 'nde',
   language : [
-    "nd","Ndebele, North; North Ndebele","ndébélé du Nord"
+    'nd', 'Ndebele, North; North Ndebele', 'ndébélé du Nord'
   ]
-},{
-  code : "ndo",
+}, {
+  code : 'ndo',
   language : [
-    "ng","Ndonga","ndonga"
+    'ng', 'Ndonga', 'ndonga'
   ]
-},{
-  code : "nds",
+}, {
+  code : 'nds',
   language : [
-    "Low German; Low Saxon; German, Low; Saxon, Low","bas allemand; bas saxon; allemand, bas; saxon, bas"
+    'Low German; Low Saxon; German, Low; Saxon, Low', 'bas allemand; bas saxon; allemand, bas; saxon, bas'
   ]
-},{
-  code : "nep",
+}, {
+  code : 'nep',
   language : [
-    "ne","Nepali","népalais"
+    'ne', 'Nepali', 'népalais'
   ]
-},{
-  code : "new",
+}, {
+  code : 'new',
   language : [
-    "Nepal Bhasa; Newari","nepal bhasa; newari"
+    'Nepal Bhasa; Newari', 'nepal bhasa; newari'
   ]
-},{
-  code : "nia",
+}, {
+  code : 'nia',
   language : [
-    "Nias","nias"
+    'Nias', 'nias'
   ]
-},{
-  code : "nic",
+}, {
+  code : 'nic',
   language : [
-    "Niger-Kordofanian languages","nigéro-kordofaniennes, langues"
+    'Niger-Kordofanian languages', 'nigéro-kordofaniennes, langues'
   ]
-},{
-  code : "niu",
+}, {
+  code : 'niu',
   language : [
-    "Niuean","niué"
+    'Niuean', 'niué'
   ]
-},{
-  code : "nno",
+}, {
+  code : 'nno',
   language : [
-    "nn","Norwegian Nynorsk; Nynorsk, Norwegian","norvégien nynorsk; nynorsk, norvégien"
+    'nn', 'Norwegian Nynorsk; Nynorsk, Norwegian', 'norvégien nynorsk; nynorsk, norvégien'
   ]
-},{
-  code : "nob",
+}, {
+  code : 'nob',
   language : [
-    "nb","Bokmål, Norwegian; Norwegian Bokmål","norvégien bokmål"
+    'nb', 'Bokmål, Norwegian; Norwegian Bokmål', 'norvégien bokmål'
   ]
-},{
-  code : "nog",
+}, {
+  code : 'nog',
   language : [
-    "Nogai","nogaï; nogay"
+    'Nogai', 'nogaï; nogay'
   ]
-},{
-  code : "non",
+}, {
+  code : 'non',
   language : [
-    "Norse, Old","norrois, vieux"
+    'Norse, Old', 'norrois, vieux'
   ]
-},{
-  code : "nor",
+}, {
+  code : 'nor',
   language : [
-    "no","Norwegian","norvégien"
+    'no', 'Norwegian', 'norvégien'
   ]
-},{
-  code : "nqo",
+}, {
+  code : 'nqo',
   language : [
-    "N'Ko","n'ko"
+    'N\'Ko', 'n\'ko'
   ]
-},{
-  code : "nso",
+}, {
+  code : 'nso',
   language : [
-    "Pedi; Sepedi; Northern Sotho","pedi; sepedi; sotho du Nord"
+    'Pedi; Sepedi; Northern Sotho', 'pedi; sepedi; sotho du Nord'
   ]
-},{
-  code : "nub",
+}, {
+  code : 'nub',
   language : [
-    "Nubian languages","nubiennes, langues"
+    'Nubian languages', 'nubiennes, langues'
   ]
-},{
-  code : "nwc",
+}, {
+  code : 'nwc',
   language : [
-    "Classical Newari; Old Newari; Classical Nepal Bhasa","newari classique"
+    'Classical Newari; Old Newari; Classical Nepal Bhasa', 'newari classique'
   ]
-},{
-  code : "nya",
+}, {
+  code : 'nya',
   language : [
-    "ny","Chichewa; Chewa; Nyanja","chichewa; chewa; nyanja"
+    'ny', 'Chichewa; Chewa; Nyanja', 'chichewa; chewa; nyanja'
   ]
-},{
-  code : "nym",
+}, {
+  code : 'nym',
   language : [
-    "Nyamwezi","nyamwezi"
+    'Nyamwezi', 'nyamwezi'
   ]
-},{
-  code : "nyn",
+}, {
+  code : 'nyn',
   language : [
-    "Nyankole","nyankolé"
+    'Nyankole', 'nyankolé'
   ]
-},{
-  code : "nyo",
+}, {
+  code : 'nyo',
   language : [
-    "Nyoro","nyoro"
+    'Nyoro', 'nyoro'
   ]
-},{
-  code : "nzi",
+}, {
+  code : 'nzi',
   language : [
-    "Nzima","nzema"
+    'Nzima', 'nzema'
   ]
-},{
-  code : "oci",
+}, {
+  code : 'oci',
   language : [
-    "oc","Occitan (post 1500)","occitan (après 1500)"
+    'oc', 'Occitan (post 1500)', 'occitan (après 1500)'
   ]
-},{
-  code : "oji",
+}, {
+  code : 'oji',
   language : [
-    "oj","Ojibwa","ojibwa"
+    'oj', 'Ojibwa', 'ojibwa'
   ]
-},{
-  code : "ori",
+}, {
+  code : 'ori',
   language : [
-    "or","Oriya","oriya"
+    'or', 'Oriya', 'oriya'
   ]
-},{
-  code : "orm",
+}, {
+  code : 'orm',
   language : [
-    "om","Oromo","galla"
+    'om', 'Oromo', 'galla'
   ]
-},{
-  code : "osa",
+}, {
+  code : 'osa',
   language : [
-    "Osage","osage"
+    'Osage', 'osage'
   ]
-},{
-  code : "oss",
+}, {
+  code : 'oss',
   language : [
-    "os","Ossetian; Ossetic","ossète"
+    'os', 'Ossetian; Ossetic', 'ossète'
   ]
-},{
-  code : "ota",
+}, {
+  code : 'ota',
   language : [
-    "Turkish, Ottoman (1500-1928)","turc ottoman (1500-1928)"
+    'Turkish, Ottoman (1500-1928)', 'turc ottoman (1500-1928)'
   ]
-},{
-  code : "oto",
+}, {
+  code : 'oto',
   language : [
-    "Otomian languages","otomi, langues"
+    'Otomian languages', 'otomi, langues'
   ]
-},{
-  code : "paa",
+}, {
+  code : 'paa',
   language : [
-    "Papuan languages","papoues, langues"
+    'Papuan languages', 'papoues, langues'
   ]
-},{
-  code : "pag",
+}, {
+  code : 'pag',
   language : [
-    "Pangasinan","pangasinan"
+    'Pangasinan', 'pangasinan'
   ]
-},{
-  code : "pal",
+}, {
+  code : 'pal',
   language : [
-    "Pahlavi","pahlavi"
+    'Pahlavi', 'pahlavi'
   ]
-},{
-  code : "pam",
+}, {
+  code : 'pam',
   language : [
-    "Pampanga; Kapampangan","pampangan"
+    'Pampanga; Kapampangan', 'pampangan'
   ]
-},{
-  code : "pan",
+}, {
+  code : 'pan',
   language : [
-    "pa","Panjabi; Punjabi","pendjabi"
+    'pa', 'Panjabi; Punjabi', 'pendjabi'
   ]
-},{
-  code : "pap",
+}, {
+  code : 'pap',
   language : [
-    "Papiamento","papiamento"
+    'Papiamento', 'papiamento'
   ]
-},{
-  code : "pau",
+}, {
+  code : 'pau',
   language : [
-    "Palauan","palau"
+    'Palauan', 'palau'
   ]
-},{
-  code : "peo",
+}, {
+  code : 'peo',
   language : [
-    "Persian, Old (ca.600-400 B.C.)","perse, vieux (ca. 600-400 av. J.-C.)"
+    'Persian, Old (ca.600-400 B.C.)', 'perse, vieux (ca. 600-400 av. J.-C.)'
   ]
-},{
-  code : "per",
+}, {
+  code : 'per',
   language : [
-    "fas","fa","Persian","persan"
+    'fas', 'fa', 'Persian', 'persan'
   ]
-},{
-  code : "phi",
+}, {
+  code : 'phi',
   language : [
-    "Philippine languages","philippines, langues"
+    'Philippine languages', 'philippines, langues'
   ]
-},{
-  code : "phn",
+}, {
+  code : 'phn',
   language : [
-    "Phoenician","phénicien"
+    'Phoenician', 'phénicien'
   ]
-},{
-  code : "pli",
+}, {
+  code : 'pli',
   language : [
-    "pi","Pali","pali"
+    'pi', 'Pali', 'pali'
   ]
-},{
-  code : "pol",
+}, {
+  code : 'pol',
   language : [
-    "pl","Polish","polonais"
+    'pl', 'Polish', 'polonais'
   ]
-},{
-  code : "pon",
+}, {
+  code : 'pon',
   language : [
-    "Pohnpeian","pohnpei"
+    'Pohnpeian', 'pohnpei'
   ]
-},{
-  code : "por",
+}, {
+  code : 'por',
   language : [
-    "pt","Portuguese","portugais"
+    'pt', 'Portuguese', 'portugais'
   ]
-},{
-  code : "pra",
+}, {
+  code : 'pra',
   language : [
-    "Prakrit languages","prâkrit, langues"
+    'Prakrit languages', 'prâkrit, langues'
   ]
-},{
-  code : "pro",
+}, {
+  code : 'pro',
   language : [
-    "Provençal, Old (to 1500); Occitan, Old (to 1500)","provençal ancien (jusqu'à 1500); occitan ancien (jusqu'à 1500)"
+    'Provençal, Old (to 1500); Occitan, Old (to 1500)', 'provençal ancien (jusqu\'à 1500); occitan ancien (jusqu\'à 1500)'
   ]
-},{
-  code : "pus",
+}, {
+  code : 'pus',
   language : [
-    "ps","Pushto; Pashto","pachto"
+    'ps', 'Pushto; Pashto', 'pachto'
   ]
-},{
-  code : "qaa-qtz",
+}, {
+  code : 'qaa-qtz',
   language : [
-    "Reserved for local use","réservée à l'usage local"
+    'Reserved for local use', 'réservée à l\'usage local'
   ]
-},{
-  code : "que",
+}, {
+  code : 'que',
   language : [
-    "qu","Quechua","quechua"
+    'qu', 'Quechua', 'quechua'
   ]
-},{
-  code : "raj",
+}, {
+  code : 'raj',
   language : [
-    "Rajasthani","rajasthani"
+    'Rajasthani', 'rajasthani'
   ]
-},{
-  code : "rap",
+}, {
+  code : 'rap',
   language : [
-    "Rapanui","rapanui"
+    'Rapanui', 'rapanui'
   ]
-},{
-  code : "rar",
+}, {
+  code : 'rar',
   language : [
-    "Rarotongan; Cook Islands Maori","rarotonga; maori des îles Cook"
+    'Rarotongan; Cook Islands Maori', 'rarotonga; maori des îles Cook'
   ]
-},{
-  code : "roa",
+}, {
+  code : 'roa',
   language : [
-    "Romance languages","romanes, langues"
+    'Romance languages', 'romanes, langues'
   ]
-},{
-  code : "roh",
+}, {
+  code : 'roh',
   language : [
-    "rm","Romansh","romanche"
+    'rm', 'Romansh', 'romanche'
   ]
-},{
-  code : "rom",
+}, {
+  code : 'rom',
   language : [
-    "Romany","tsigane"
+    'Romany', 'tsigane'
   ]
-},{
-  code : "rum",
+}, {
+  code : 'rum',
   language : [
-    "ron","ro","Romanian","roumain"
+    'ron', 'ro', 'Romanian', 'roumain'
   ]
-},{
-  code : "run",
+}, {
+  code : 'run',
   language : [
-    "rn","Rundi","rundi"
+    'rn', 'Rundi', 'rundi'
   ]
-},{
-  code : "rup",
+}, {
+  code : 'rup',
   language : [
-    "Aromanian; Arumanian; Macedo-Romanian","aroumain; macédo-roumain"
+    'Aromanian; Arumanian; Macedo-Romanian', 'aroumain; macédo-roumain'
   ]
-},{
-  code : "rus",
+}, {
+  code : 'rus',
   language : [
-    "ru","Russian","russe"
+    'ru', 'Russian', 'russe'
   ]
-},{
-  code : "sad",
+}, {
+  code : 'sad',
   language : [
-    "Sandawe","sandawe"
+    'Sandawe', 'sandawe'
   ]
-},{
-  code : "sag",
+}, {
+  code : 'sag',
   language : [
-    "sg","Sango","sango"
+    'sg', 'Sango', 'sango'
   ]
-},{
-  code : "sah",
+}, {
+  code : 'sah',
   language : [
-    "Yakut","iakoute"
+    'Yakut', 'iakoute'
   ]
-},{
-  code : "sai",
+}, {
+  code : 'sai',
   language : [
-    "South American Indian languages","sud-amérindiennes, langues"
+    'South American Indian languages', 'sud-amérindiennes, langues'
   ]
-},{
-  code : "sal",
+}, {
+  code : 'sal',
   language : [
-    "Salishan languages","salishennes, langues"
+    'Salishan languages', 'salishennes, langues'
   ]
-},{
-  code : "sam",
+}, {
+  code : 'sam',
   language : [
-    "Samaritan Aramaic","samaritain"
+    'Samaritan Aramaic', 'samaritain'
   ]
-},{
-  code : "san",
+}, {
+  code : 'san',
   language : [
-    "sa","Sanskrit","sanskrit"
+    'sa', 'Sanskrit', 'sanskrit'
   ]
-},{
-  code : "sas",
+}, {
+  code : 'sas',
   language : [
-    "Sasak","sasak"
+    'Sasak', 'sasak'
   ]
-},{
-  code : "sat",
+}, {
+  code : 'sat',
   language : [
-    "Santali","santal"
+    'Santali', 'santal'
   ]
-},{
-  code : "scn",
+}, {
+  code : 'scn',
   language : [
-    "Sicilian","sicilien"
+    'Sicilian', 'sicilien'
   ]
-},{
-  code : "sco",
+}, {
+  code : 'sco',
   language : [
-    "Scots","écossais"
+    'Scots', 'écossais'
   ]
-},{
-  code : "sel",
+}, {
+  code : 'sel',
   language : [
-    "Selkup","selkoupe"
+    'Selkup', 'selkoupe'
   ]
-},{
-  code : "sem",
+}, {
+  code : 'sem',
   language : [
-    "Semitic languages","sémitiques, langues"
+    'Semitic languages', 'sémitiques, langues'
   ]
-},{
-  code : "sga",
+}, {
+  code : 'sga',
   language : [
-    "Irish, Old (to 900)","irlandais ancien (jusqu'à 900)"
+    'Irish, Old (to 900)', 'irlandais ancien (jusqu\'à 900)'
   ]
-},{
-  code : "sgn",
+}, {
+  code : 'sgn',
   language : [
-    "Sign Languages","langues des signes"
+    'Sign Languages', 'langues des signes'
   ]
-},{
-  code : "shn",
+}, {
+  code : 'shn',
   language : [
-    "Shan","chan"
+    'Shan', 'chan'
   ]
-},{
-  code : "sid",
+}, {
+  code : 'sid',
   language : [
-    "Sidamo","sidamo"
+    'Sidamo', 'sidamo'
   ]
-},{
-  code : "sin",
+}, {
+  code : 'sin',
   language : [
-    "si","Sinhala; Sinhalese","singhalais"
+    'si', 'Sinhala; Sinhalese', 'singhalais'
   ]
-},{
-  code : "sio",
+}, {
+  code : 'sio',
   language : [
-    "Siouan languages","sioux, langues"
+    'Siouan languages', 'sioux, langues'
   ]
-},{
-  code : "sit",
+}, {
+  code : 'sit',
   language : [
-    "Sino-Tibetan languages","sino-tibétaines, langues"
+    'Sino-Tibetan languages', 'sino-tibétaines, langues'
   ]
-},{
-  code : "sla",
+}, {
+  code : 'sla',
   language : [
-    "Slavic languages","slaves, langues"
+    'Slavic languages', 'slaves, langues'
   ]
-},{
-  code : "slo",
+}, {
+  code : 'slo',
   language : [
-    "slk","sk","Slovak","slovaque"
+    'slk', 'sk', 'Slovak', 'slovaque'
   ]
-},{
-  code : "slv",
+}, {
+  code : 'slv',
   language : [
-    "sl","Slovenian","slovène"
+    'sl', 'Slovenian', 'slovène'
   ]
-},{
-  code : "sma",
+}, {
+  code : 'sma',
   language : [
-    "Southern Sami","sami du Sud"
+    'Southern Sami', 'sami du Sud'
   ]
-},{
-  code : "sme",
+}, {
+  code : 'sme',
   language : [
-    "se","Northern Sami","sami du Nord"
+    'se', 'Northern Sami', 'sami du Nord'
   ]
-},{
-  code : "smi",
+}, {
+  code : 'smi',
   language : [
-    "Sami languages","sames, langues"
+    'Sami languages', 'sames, langues'
   ]
-},{
-  code : "smj",
+}, {
+  code : 'smj',
   language : [
-    "Lule Sami","sami de Lule"
+    'Lule Sami', 'sami de Lule'
   ]
-},{
-  code : "smn",
+}, {
+  code : 'smn',
   language : [
-    "Inari Sami","sami d'Inari"
+    'Inari Sami', 'sami d\'Inari'
   ]
-},{
-  code : "smo",
+}, {
+  code : 'smo',
   language : [
-    "sm","Samoan","samoan"
+    'sm', 'Samoan', 'samoan'
   ]
-},{
-  code : "sms",
+}, {
+  code : 'sms',
   language : [
-    "Skolt Sami","sami skolt"
+    'Skolt Sami', 'sami skolt'
   ]
-},{
-  code : "sna",
+}, {
+  code : 'sna',
   language : [
-    "sn","Shona","shona"
+    'sn', 'Shona', 'shona'
   ]
-},{
-  code : "snd",
+}, {
+  code : 'snd',
   language : [
-    "sd","Sindhi","sindhi"
+    'sd', 'Sindhi', 'sindhi'
   ]
-},{
-  code : "snk",
+}, {
+  code : 'snk',
   language : [
-    "Soninke","soninké"
+    'Soninke', 'soninké'
   ]
-},{
-  code : "sog",
+}, {
+  code : 'sog',
   language : [
-    "Sogdian","sogdien"
+    'Sogdian', 'sogdien'
   ]
-},{
-  code : "som",
+}, {
+  code : 'som',
   language : [
-    "so","Somali","somali"
+    'so', 'Somali', 'somali'
   ]
-},{
-  code : "son",
+}, {
+  code : 'son',
   language : [
-    "Songhai languages","songhai, langues"
+    'Songhai languages', 'songhai, langues'
   ]
-},{
-  code : "sot",
+}, {
+  code : 'sot',
   language : [
-    "st","Sotho, Southern","sotho du Sud"
+    'st', 'Sotho, Southern', 'sotho du Sud'
   ]
-},{
-  code : "spa",
+}, {
+  code : 'spa',
   language : [
-    "es","Spanish; Castilian","espagnol; castillan"
+    'es', 'Spanish; Castilian', 'espagnol; castillan'
   ]
-},{
-  code : "srd",
+}, {
+  code : 'srd',
   language : [
-    "sc","Sardinian","sarde"
+    'sc', 'Sardinian', 'sarde'
   ]
-},{
-  code : "srn",
+}, {
+  code : 'srn',
   language : [
-    "Sranan Tongo","sranan tongo"
+    'Sranan Tongo', 'sranan tongo'
   ]
-},{
-  code : "srp",
+}, {
+  code : 'srp',
   language : [
-    "sr","Serbian","serbe"
+    'sr', 'Serbian', 'serbe'
   ]
-},{
-  code : "srr",
+}, {
+  code : 'srr',
   language : [
-    "Serer","sérère"
+    'Serer', 'sérère'
   ]
-},{
-  code : "ssa",
+}, {
+  code : 'ssa',
   language : [
-    "Nilo-Saharan languages","nilo-sahariennes, langues"
+    'Nilo-Saharan languages', 'nilo-sahariennes, langues'
   ]
-},{
-  code : "ssw",
+}, {
+  code : 'ssw',
   language : [
-    "ss","Swati","swati"
+    'ss', 'Swati', 'swati'
   ]
-},{
-  code : "suk",
+}, {
+  code : 'suk',
   language : [
-    "Sukuma","sukuma"
+    'Sukuma', 'sukuma'
   ]
-},{
-  code : "sun",
+}, {
+  code : 'sun',
   language : [
-    "su","Sundanese","soundanais"
+    'su', 'Sundanese', 'soundanais'
   ]
-},{
-  code : "sus",
+}, {
+  code : 'sus',
   language : [
-    "Susu","soussou"
+    'Susu', 'soussou'
   ]
-},{
-  code : "sux",
+}, {
+  code : 'sux',
   language : [
-    "Sumerian","sumérien"
+    'Sumerian', 'sumérien'
   ]
-},{
-  code : "swa",
+}, {
+  code : 'swa',
   language : [
-    "sw","Swahili","swahili"
+    'sw', 'Swahili', 'swahili'
   ]
-},{
-  code : "swe",
+}, {
+  code : 'swe',
   language : [
-    "sv","Swedish","suédois"
+    'sv', 'Swedish', 'suédois'
   ]
-},{
-  code : "syc",
+}, {
+  code : 'syc',
   language : [
-    "Classical Syriac","syriaque classique"
+    'Classical Syriac', 'syriaque classique'
   ]
-},{
-  code : "syr",
+}, {
+  code : 'syr',
   language : [
-    "Syriac","syriaque"
+    'Syriac', 'syriaque'
   ]
-},{
-  code : "tah",
+}, {
+  code : 'tah',
   language : [
-    "ty","Tahitian","tahitien"
+    'ty', 'Tahitian', 'tahitien'
   ]
-},{
-  code : "tai",
+}, {
+  code : 'tai',
   language : [
-    "Tai languages","tai, langues"
+    'Tai languages', 'tai, langues'
   ]
-},{
-  code : "tam",
+}, {
+  code : 'tam',
   language : [
-    "ta","Tamil","tamoul"
+    'ta', 'Tamil', 'tamoul'
   ]
-},{
-  code : "tat",
+}, {
+  code : 'tat',
   language : [
-    "tt","Tatar","tatar"
+    'tt', 'Tatar', 'tatar'
   ]
-},{
-  code : "tel",
+}, {
+  code : 'tel',
   language : [
-    "te","Telugu","télougou"
+    'te', 'Telugu', 'télougou'
   ]
-},{
-  code : "tem",
+}, {
+  code : 'tem',
   language : [
-    "Timne","temne"
+    'Timne', 'temne'
   ]
-},{
-  code : "ter",
+}, {
+  code : 'ter',
   language : [
-    "Tereno","tereno"
+    'Tereno', 'tereno'
   ]
-},{
-  code : "tet",
+}, {
+  code : 'tet',
   language : [
-    "Tetum","tetum"
+    'Tetum', 'tetum'
   ]
-},{
-  code : "tgk",
+}, {
+  code : 'tgk',
   language : [
-    "tg","Tajik","tadjik"
+    'tg', 'Tajik', 'tadjik'
   ]
-},{
-  code : "tgl",
+}, {
+  code : 'tgl',
   language : [
-    "tl","Tagalog","tagalog"
+    'tl', 'Tagalog', 'tagalog'
   ]
-},{
-  code : "tha",
+}, {
+  code : 'tha',
   language : [
-    "th","Thai","thaï"
+    'th', 'Thai', 'thaï'
   ]
-},{
-  code : "tib",
+}, {
+  code : 'tib',
   language : [
-    "bod","bo","Tibetan","tibétain"
+    'bod', 'bo', 'Tibetan', 'tibétain'
   ]
-},{
-  code : "tig",
+}, {
+  code : 'tig',
   language : [
-    "Tigre","tigré"
+    'Tigre', 'tigré'
   ]
-},{
-  code : "tir",
+}, {
+  code : 'tir',
   language : [
-    "ti","Tigrinya","tigrigna"
+    'ti', 'Tigrinya', 'tigrigna'
   ]
-},{
-  code : "tiv",
+}, {
+  code : 'tiv',
   language : [
-    "Tiv","tiv"
+    'Tiv', 'tiv'
   ]
-},{
-  code : "tkl",
+}, {
+  code : 'tkl',
   language : [
-    "Tokelau","tokelau"
+    'Tokelau', 'tokelau'
   ]
-},{
-  code : "tlh",
+}, {
+  code : 'tlh',
   language : [
-    "Klingon; tlhIngan-Hol","klingon"
+    'Klingon; tlhIngan-Hol', 'klingon'
   ]
-},{
-  code : "tli",
+}, {
+  code : 'tli',
   language : [
-    "Tlingit","tlingit"
+    'Tlingit', 'tlingit'
   ]
-},{
-  code : "tmh",
+}, {
+  code : 'tmh',
   language : [
-    "Tamashek","tamacheq"
+    'Tamashek', 'tamacheq'
   ]
-},{
-  code : "tog",
+}, {
+  code : 'tog',
   language : [
-    "Tonga (Nyasa)","tonga (Nyasa)"
+    'Tonga (Nyasa)', 'tonga (Nyasa)'
   ]
-},{
-  code : "ton",
+}, {
+  code : 'ton',
   language : [
-    "to","Tonga (Tonga Islands)","tongan (Îles Tonga)"
+    'to', 'Tonga (Tonga Islands)', 'tongan (Îles Tonga)'
   ]
-},{
-  code : "tpi",
+}, {
+  code : 'tpi',
   language : [
-    "Tok Pisin","tok pisin"
+    'Tok Pisin', 'tok pisin'
   ]
-},{
-  code : "tsi",
+}, {
+  code : 'tsi',
   language : [
-    "Tsimshian","tsimshian"
+    'Tsimshian', 'tsimshian'
   ]
-},{
-  code : "tsn",
+}, {
+  code : 'tsn',
   language : [
-    "tn","Tswana","tswana"
+    'tn', 'Tswana', 'tswana'
   ]
-},{
-  code : "tso",
+}, {
+  code : 'tso',
   language : [
-    "ts","Tsonga","tsonga"
+    'ts', 'Tsonga', 'tsonga'
   ]
-},{
-  code : "tuk",
+}, {
+  code : 'tuk',
   language : [
-    "tk","Turkmen","turkmène"
+    'tk', 'Turkmen', 'turkmène'
   ]
-},{
-  code : "tum",
+}, {
+  code : 'tum',
   language : [
-    "Tumbuka","tumbuka"
+    'Tumbuka', 'tumbuka'
   ]
-},{
-  code : "tup",
+}, {
+  code : 'tup',
   language : [
-    "Tupi languages","tupi, langues"
+    'Tupi languages', 'tupi, langues'
   ]
-},{
-  code : "tur",
+}, {
+  code : 'tur',
   language : [
-    "tr","Turkish","turc"
+    'tr', 'Turkish', 'turc'
   ]
-},{
-  code : "tut",
+}, {
+  code : 'tut',
   language : [
-    "Altaic languages","altaïques, langues"
+    'Altaic languages', 'altaïques, langues'
   ]
-},{
-  code : "tvl",
+}, {
+  code : 'tvl',
   language : [
-    "Tuvalu","tuvalu"
+    'Tuvalu', 'tuvalu'
   ]
-},{
-  code : "twi",
+}, {
+  code : 'twi',
   language : [
-    "tw","Twi","twi"
+    'tw', 'Twi', 'twi'
   ]
-},{
-  code : "tyv",
+}, {
+  code : 'tyv',
   language : [
-    "Tuvinian","touva"
+    'Tuvinian', 'touva'
   ]
-},{
-  code : "udm",
+}, {
+  code : 'udm',
   language : [
-    "Udmurt","oudmourte"
+    'Udmurt', 'oudmourte'
   ]
-},{
-  code : "uga",
+}, {
+  code : 'uga',
   language : [
-    "Ugaritic","ougaritique"
+    'Ugaritic', 'ougaritique'
   ]
-},{
-  code : "uig",
+}, {
+  code : 'uig',
   language : [
-    "ug","Uighur; Uyghur","ouïgour"
+    'ug', 'Uighur; Uyghur', 'ouïgour'
   ]
-},{
-  code : "ukr",
+}, {
+  code : 'ukr',
   language : [
-    "uk","Ukrainian","ukrainien"
+    'uk', 'Ukrainian', 'ukrainien'
   ]
-},{
-  code : "umb",
+}, {
+  code : 'umb',
   language : [
-    "Umbundu","umbundu"
+    'Umbundu', 'umbundu'
   ]
-},{
-  code : "und",
+}, {
+  code : 'und',
   language : [
-    "Undetermined","indéterminée"
+    'Undetermined', 'indéterminée'
   ]
-},{
-  code : "urd",
+}, {
+  code : 'urd',
   language : [
-    "ur","Urdu","ourdou"
+    'ur', 'Urdu', 'ourdou'
   ]
-},{
-  code : "uzb",
+}, {
+  code : 'uzb',
   language : [
-    "uz","Uzbek","ouszbek"
+    'uz', 'Uzbek', 'ouszbek'
   ]
-},{
-  code : "vai",
+}, {
+  code : 'vai',
   language : [
-    "Vai","vaï"
+    'Vai', 'vaï'
   ]
-},{
-  code : "ven",
+}, {
+  code : 'ven',
   language : [
-    "ve","Venda","venda"
+    've', 'Venda', 'venda'
   ]
-},{
-  code : "vie",
+}, {
+  code : 'vie',
   language : [
-    "vi","Vietnamese","vietnamien"
+    'vi', 'Vietnamese', 'vietnamien'
   ]
-},{
-  code : "vol",
+}, {
+  code : 'vol',
   language : [
-    "vo","Volapük","volapük"
+    'vo', 'Volapük', 'volapük'
   ]
-},{
-  code : "vot",
+}, {
+  code : 'vot',
   language : [
-    "Votic","vote"
+    'Votic', 'vote'
   ]
-},{
-  code : "wak",
+}, {
+  code : 'wak',
   language : [
-    "Wakashan languages","wakashanes, langues"
+    'Wakashan languages', 'wakashanes, langues'
   ]
-},{
-  code : "wal",
+}, {
+  code : 'wal',
   language : [
-    "Wolaitta; Wolaytta","wolaitta; wolaytta"
+    'Wolaitta; Wolaytta', 'wolaitta; wolaytta'
   ]
-},{
-  code : "war",
+}, {
+  code : 'war',
   language : [
-    "Waray","waray"
+    'Waray', 'waray'
   ]
-},{
-  code : "was",
+}, {
+  code : 'was',
   language : [
-    "Washo","washo"
+    'Washo', 'washo'
   ]
-},{
-  code : "wel",
+}, {
+  code : 'wel',
   language : [
-    "cym","cy","Welsh","gallois"
+    'cym', 'cy', 'Welsh', 'gallois'
   ]
-},{
-  code : "wen",
+}, {
+  code : 'wen',
   language : [
-    "Sorbian languages","sorabes, langues"
+    'Sorbian languages', 'sorabes, langues'
   ]
-},{
-  code : "wln",
+}, {
+  code : 'wln',
   language : [
-    "wa","Walloon","wallon"
+    'wa', 'Walloon', 'wallon'
   ]
-},{
-  code : "wol",
+}, {
+  code : 'wol',
   language : [
-    "wo","Wolof","wolof"
+    'wo', 'Wolof', 'wolof'
   ]
-},{
-  code : "xal",
+}, {
+  code : 'xal',
   language : [
-    "Kalmyk; Oirat","kalmouk; oïrat"
+    'Kalmyk; Oirat', 'kalmouk; oïrat'
   ]
-},{
-  code : "xho",
+}, {
+  code : 'xho',
   language : [
-    "xh","Xhosa","xhosa"
+    'xh', 'Xhosa', 'xhosa'
   ]
-},{
-  code : "yao",
+}, {
+  code : 'yao',
   language : [
-    "Yao","yao"
+    'Yao', 'yao'
   ]
-},{
-  code : "yap",
+}, {
+  code : 'yap',
   language : [
-    "Yapese","yapois"
+    'Yapese', 'yapois'
   ]
-},{
-  code : "yid",
+}, {
+  code : 'yid',
   language : [
-    "yi","Yiddish","yiddish"
+    'yi', 'Yiddish', 'yiddish'
   ]
-},{
-  code : "yor",
+}, {
+  code : 'yor',
   language : [
-    "yo","Yoruba","yoruba"
+    'yo', 'Yoruba', 'yoruba'
   ]
-},{
-  code : "ypk",
+}, {
+  code : 'ypk',
   language : [
-    "Yupik languages","yupik, langues"
+    'Yupik languages', 'yupik, langues'
   ]
-},{
-  code : "zap",
+}, {
+  code : 'zap',
   language : [
-    "Zapotec","zapotèque"
+    'Zapotec', 'zapotèque'
   ]
-},{
-  code : "zbl",
+}, {
+  code : 'zbl',
   language : [
-    "Blissymbols; Blissymbolics; Bliss","symboles Bliss; Bliss"
+    'Blissymbols; Blissymbolics; Bliss', 'symboles Bliss; Bliss'
   ]
-},{
-  code : "zen",
+}, {
+  code : 'zen',
   language : [
-    "Zenaga","zenaga"
+    'Zenaga', 'zenaga'
   ]
-},{
-  code : "zgh",
+}, {
+  code : 'zgh',
   language : [
-    "Standard Moroccan Tamazight","amazighe standard marocain"
+    'Standard Moroccan Tamazight', 'amazighe standard marocain'
   ]
-},{
-  code : "zha",
+}, {
+  code : 'zha',
   language : [
-    "za","Zhuang; Chuang","zhuang; chuang"
+    'za', 'Zhuang; Chuang', 'zhuang; chuang'
   ]
-},{
-  code : "znd",
+}, {
+  code : 'znd',
   language : [
-    "Zande languages","zandé, langues"
+    'Zande languages', 'zandé, langues'
   ]
-},{
-  code : "zul",
+}, {
+  code : 'zul',
   language : [
-    "zu","Zulu","zoulou"
+    'zu', 'Zulu', 'zoulou'
   ]
-},{
-  code : "zun",
+}, {
+  code : 'zun',
   language : [
-    "Zuni","zuni"
+    'Zuni', 'zuni'
   ]
-},{
-  code : "zxx",
+}, {
+  code : 'zxx',
   language : [
-    "No linguistic content; Not applicable","pas de contenu linguistique; non applicable"
+    'No linguistic content; Not applicable', 'pas de contenu linguistique; non applicable'
   ]
-},{
-  code : "zza",
+}, {
+  code : 'zza',
   language : [
-    "Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki","zaza; dimili; dimli; kirdki; kirmanjki; zazaki"
+    'Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki', 'zaza; dimili; dimli; kirdki; kirmanjki; zazaki'
   ]
-}];
+} ];
